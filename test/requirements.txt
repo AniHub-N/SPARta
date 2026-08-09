@@ -1,0 +1,12 @@
+# The three extractors under test, pinned to what we actually ran.
+pymupdf==1.26.5
+pdfplumber==0.11.8
+camelot-py==1.0.9
+opencv-python-headless>=4.8      # camelot needs cv2
+
+# Optional — only needed if you want the OCR row.
+# macOS (no system install required):
+#   pip install ocrmac
+# Cross-platform:
+#   brew install tesseract   (or apt install tesseract-ocr)
+#   pip install pytesseract

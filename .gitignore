@@ -1,0 +1,11 @@
+# generated output — re-run the script to regenerate
+test/results/
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# os
+.DS_Store
