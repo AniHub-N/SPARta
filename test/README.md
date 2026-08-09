@@ -33,9 +33,17 @@ Six configurations across three libraries:
 | `camelot_stream` | camelot, whitespace mode |
 | `camelot_lattice` | camelot, ruled-line mode |
 
-OCR is a seventh row that turns itself on if you install an engine — see the OCR section
-in `compare_extractors.py`. It's off by default because these are digital PDFs, not scans,
-so OCR should lose to direct extraction. Worth confirming rather than assuming.
+OCR is a seventh row that turns itself on if you install an engine:
+
+```bash
+pip install paddlepaddle paddleocr      # PaddleOCR — what we use
+```
+
+It's off by default because these are digital PDFs, not scans. OCR renders the page to an
+image and re-guesses the characters from pixels, throwing away text that's already sitting
+in the file — so it should lose to direct extraction. Worth confirming rather than
+assuming, which is why the row exists. The script also accepts `ocrmac` (macOS) or
+`pytesseract` if you'd rather; first one installed wins.
 
 ## The 5 PDFs in `pdfs/`
 
@@ -53,13 +61,58 @@ Swap in your own with `--docs a.pdf b.pdf` or by dropping files into `pdfs/`.
 
 ## How to read the output
 
-Character counts are the boring half. The `fields` column is the real test — did a money
-figure, a date, a grading word and a project code survive? An extractor can return a
-respectable amount of text and still have dropped every value you need.
+There are two different measurements. Don't mix them.
 
-The trap to watch for: on the table-style certificates some extractors return the row
-**labels** ("Contract Value (Original)", "Completion Date") and drop the **values** next
-to them. You get clean-looking output, no error, no warning, and no data.
+**`chars` / `% of best`** — how much text came out, compared with whichever extractor did
+best on that same document. Volume only. It tells you nothing about whether the *useful*
+text survived.
+
+**`fields`** — whether the extracted text contained the things we need. Five probes: a
+money figure, grouped figures, a date, a grading word, a project code. Each shows as:
+
+| | |
+|---|---|
+| `Y` | found it |
+| `.` | missed it — and another extractor on this same document *did* find it |
+| `-` | not in this document at all, so nobody could find it |
+
+Only `Y` vs `.` counts against an extractor. The `-` cases are a property of the document:
+a ledger page has no grading word in it, so no extractor can be blamed for not finding
+one. That's why the script prints a `not in this document:` line per document.
+
+**`fields kept`** is therefore `found / findable`, where *findable* means some extractor
+proved the thing was in there. `15/15` means an extractor recovered every field that was
+recoverable across all 5 documents. This is the number to judge on.
+
+The trap it's designed to catch: on the table-style certificates some extractors return the
+row **labels** ("Contract Value (Original)", "Completion Date") and drop the **values**
+beside them. Clean-looking output, no error, no warning, no data.
+
+## Result from our run
+
+Committed in [results/summary.md](results/summary.md), regenerate any time.
+
+| extractor | text recovered | fields kept | avg secs |
+|---|---:|---:|---:|
+| `pymupdf` | 100% | **15/15** | 0.03 |
+| `ocr` (PaddleOCR) | 92% | **15/15** | 107.41 |
+| `pdfplumber` | 65% | 8/15 | 0.15 |
+| `pdfplumber_layout` | 65% | 8/15 | 0.09 |
+| `pymupdf_tables` | 20% | 6/15 | 0.13 |
+| `camelot_stream` | 34% | 5/15 | 0.17 |
+| `camelot_lattice` | 0% | 0/15 | 1.00 |
+
+**PyMuPDF wins outright** — everything, instantly.
+
+**PaddleOCR also recovers every field**, which is the interesting result: OCR works from
+pixels, so the broken font that defeats pdfminer doesn't affect it at all. But it takes
+~107 seconds per document against PyMuPDF's 0.03 — roughly 3,500× slower. Across 155
+certificates that's about 5 hours versus 5 seconds. Useful as a second opinion when you
+suspect an extraction bug; not usable as the main path.
+
+**pdfplumber and camelot lose half the fields**, all of it on the two table-style
+certificates — the documents carrying the contract value, the completion date and the
+client's grading.
 
 ## Why the libraries disagree
 

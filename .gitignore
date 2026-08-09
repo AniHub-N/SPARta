@@ -1,6 +1,3 @@
-# generated output — re-run the script to regenerate
-test/results/
-
 # python
 .venv/
 venv/

@@ -4,9 +4,11 @@ pdfplumber==0.11.8
 camelot-py==1.0.9
 opencv-python-headless>=4.8      # camelot needs cv2
 
-# Optional — only needed if you want the OCR row.
-# macOS (no system install required):
+# Optional — only needed if you want the OCR row. First one installed wins.
+# PaddleOCR (what we used; ~400 MB of wheels, downloads its models on first run):
+#   pip install paddlepaddle==3.3.1 paddleocr==3.7.0
+# macOS, no system install required:
 #   pip install ocrmac
-# Cross-platform:
+# tesseract:
 #   brew install tesseract   (or apt install tesseract-ocr)
 #   pip install pytesseract

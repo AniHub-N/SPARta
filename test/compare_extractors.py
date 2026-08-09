@@ -26,18 +26,34 @@ Extractors
     ocr                optional, off unless an engine is installed — see OCR below
 
 OCR
-    Not required. To include the OCR row, install ONE of:
+    Not required. To include the OCR row, install ONE of these (first one found wins):
+        pip install paddlepaddle paddleocr                  # PaddleOCR, cross-platform
         pip install ocrmac                                  # macOS, built-in Vision engine
         brew install tesseract && pip install pytesseract   # cross-platform
-    The script auto-detects and skips the row if neither is present. Expect OCR to be
-    worse than direct extraction here — these are digital PDFs, not scans. It's included
-    so you can prove that rather than assume it.
+    The script auto-detects and skips the row if none is present. Expect OCR to lose to
+    direct extraction here — these are digital PDFs, not scans, so OCR throws away
+    perfectly good characters and re-guesses them from pixels. It's included so you can
+    prove that rather than assume it.
 
 Reading the output
-    'fields' shows Y/. for money, date, grading, project — in that order. An extractor
-    that returns plenty of characters but misses those fields is useless to us. Watch for
-    the case where an extractor returns the table's LABELS and drops the VALUES: high
-    confidence, no data, no error.
+    Two different measurements, don't mix them up:
+
+    'chars' / '% of best' — how much TEXT came out, compared with whichever extractor did
+        best on that same document. Purely about volume.
+
+    'fields' — whether the text contained the things we need: a money figure, grouped
+        figures, a date, a grading word, a project code. Shown as Y / . / -
+            Y   found it
+            .   MISSED it, and another extractor on this same document did find it
+            -   not present in this document at all, so nobody could find it
+        Only Y-vs-. counts against an extractor. The '-' cases are the document's
+        content, not the extractor's fault — a ledger page has no grading word in it.
+
+    'fields kept' in the summary is therefore found / findable, where findable means
+        "some extractor proved it was in there".
+
+    The failure to watch for: an extractor returns the table's row LABELS and drops the
+    VALUES beside them. Plausible-looking output, no data, no error, no warning.
 """
 import argparse, csv, glob, os, re, statistics, sys, time, warnings
 
@@ -47,6 +63,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PROBES = {
     "money":   re.compile(r"(?:INR|Rs\.?|₹)\s*[\d,]+(?:\.\d+)?\s*(?:Cr|Crore|Lakh)?"
                           r"|\b\d{1,2},\d\d,\d\d,\d{3}\b"),
+    "figures": re.compile(r"\b\d{1,3}(?:,\d{3})+\b"),
     "date":    re.compile(r"\d{4}-\d\d-\d\d|\d\d/\d\d/\d{4}"
                           r"|\b\d{1,2}\s+[A-Z][a-z]{2,8}\s+\d{4}\b"
                           r"|\b[A-Z][a-z]{2,8}\s+\d{1,2},\s*\d{4}\b"),
@@ -104,25 +121,63 @@ def x_camelot(path, pages, flavor):
     return "\n".join("\n".join("\t".join(r) for r in t.df.values.tolist()) for t in tables)
 
 
+def _build_paddle():
+    import io
+    import numpy as np
+    from PIL import Image
+    from paddleocr import PaddleOCR
+    engine = PaddleOCR(lang="en")
+
+    def run(png):
+        img = np.array(Image.open(io.BytesIO(png)).convert("RGB"))
+        out = engine.predict(img) if hasattr(engine, "predict") else engine.ocr(img)
+        lines = []
+        for page in (out or []):
+            if isinstance(page, dict):                          # PaddleOCR 3.x
+                lines += list(page.get("rec_texts") or [])
+            else:                                               # PaddleOCR 2.x
+                for det in (page or []):
+                    if det and len(det) > 1:
+                        lines.append(det[1][0] if isinstance(det[1], (list, tuple)) else str(det[1]))
+        return "\n".join(lines)
+    return run
+
+
+def _build_ocrmac():
+    import io
+    from PIL import Image
+    from ocrmac import ocrmac
+    return lambda png: "\n".join(t[0] for t in ocrmac.OCR(Image.open(io.BytesIO(png))).recognize())
+
+
+def _build_tesseract():
+    import io, shutil
+    import pytesseract
+    from PIL import Image
+    if not shutil.which("tesseract"):
+        raise RuntimeError("pytesseract is installed but the tesseract binary is not on PATH")
+    return lambda png: pytesseract.image_to_string(Image.open(io.BytesIO(png)))
+
+
 def ocr_engine():
-    """Return (callable(png_bytes)->str, engine_name) or (None, None)."""
-    try:
-        import io
-        from PIL import Image
-        from ocrmac import ocrmac
-        return (lambda png: "\n".join(t[0] for t in ocrmac.OCR(Image.open(io.BytesIO(png))).recognize()),
-                "ocrmac (Apple Vision)")
-    except Exception:
-        pass
-    try:
-        import io, shutil
-        import pytesseract
-        from PIL import Image
-        if shutil.which("tesseract"):
-            return (lambda png: pytesseract.image_to_string(Image.open(io.BytesIO(png))), "tesseract")
-    except Exception:
-        pass
-    return None, None
+    """Return (callable(png_bytes)->str, engine_name, problems).
+
+    Tries PaddleOCR, then macOS Vision, then tesseract, and returns the first that builds.
+    `problems` explains what went wrong with the ones that didn't, because a silent skip is
+    indistinguishable from "OCR is not installed" — PaddleOCR downloads its models on first
+    use, and a half-finished download looks exactly like a missing library otherwise.
+    """
+    problems = []
+    for name, build in [("PaddleOCR", _build_paddle),
+                        ("ocrmac (Apple Vision)", _build_ocrmac),
+                        ("tesseract", _build_tesseract)]:
+        try:
+            return build(), name, problems
+        except ImportError:
+            problems.append(f"{name}: not installed")
+        except Exception as e:
+            problems.append(f"{name}: installed but failed to start — {type(e).__name__}: {str(e)[:120]}")
+    return None, None, problems
 
 
 def x_ocr(path, pages, engine):
@@ -167,7 +222,7 @@ def main():
     if not docs:
         sys.exit("No PDFs found. Put some in ./pdfs or pass --docs.")
 
-    run_ocr, ocr_name = ocr_engine()
+    run_ocr, ocr_name, ocr_problems = ocr_engine()
     runners = [
         ("pymupdf",           lambda p: x_pymupdf(p, pages)),
         ("pymupdf_tables",    lambda p: x_pymupdf_tables(p, pages)),
@@ -183,7 +238,10 @@ def main():
     os.makedirs(dumpdir, exist_ok=True)
 
     print(f"{len(docs)} documents · pages {a.pages} · {len(runners)} extractors")
-    print(f"OCR: {ocr_name if run_ocr else 'skipped, no engine installed (see OCR in this file)'}\n")
+    print(f"OCR: {ocr_name if run_ocr else 'skipped (see OCR in this file to enable)'}")
+    for p in ocr_problems:
+        print(f"     {p}")
+    print()
 
     rows = []
     for path in docs:
@@ -204,14 +262,25 @@ def main():
                                   **{k: bool(rx.search(text)) for k, rx in PROBES.items()})
 
         best = max((r["chars"] for r in results.values()), default=0) or 1
+        # A field only counts against an extractor if some other extractor proved it was
+        # in the document. Otherwise the field simply isn't there and nobody could find it.
+        findable = {k: any(r[k] for r in results.values()) for k in PROBES}
+        n_findable = sum(findable.values())
+        absent = [k for k, v in findable.items() if not v]
+        if absent:
+            print(f"    not in this document: {', '.join(absent)}")
+
         for label, r in results.items():
             pct = r["chars"] / best
-            marks = "".join("Y" if r[k] else "." for k in PROBES)
+            marks = "".join(("Y" if r[k] else ".") if findable[k] else "-" for k in PROBES)
+            kept = sum(1 for k in PROBES if findable[k] and r[k])
             note = "  <-- crashed" if r["err"] else ("  <-- lost text" if pct < 0.9 else "")
-            print(f"    {label:19s} {r['chars']:6d} chars {pct:6.0%}  fields[{marks}] {r['secs']:5.2f}s{note}")
+            print(f"    {label:19s} {r['chars']:6d} chars {pct:6.0%}  fields[{marks}] "
+                  f"{kept}/{n_findable} kept {r['secs']:5.2f}s{note}")
             rows.append(dict(document=name, extractor=label, nonspace_chars=r["chars"],
-                             pct_of_best=round(pct, 3), seconds=round(r["secs"], 2),
-                             error=r["err"], **{k: r[k] for k in PROBES}))
+                             pct_of_best=round(pct, 3), fields_kept=kept, fields_findable=n_findable,
+                             seconds=round(r["secs"], 2), error=r["err"],
+                             **{k: ("yes" if r[k] else "no") if findable[k] else "n/a" for k in PROBES}))
         print()
 
     os.makedirs(a.out, exist_ok=True)
@@ -228,28 +297,36 @@ def main():
         f.write("# PDF extractor comparison\n\n")
         f.write(f"{len(docs)} documents, pages `{a.pages}`. "
                 f"OCR: {ocr_name if run_ocr else '_no engine installed, row skipped_'}\n\n")
-        f.write("`% of best` compares each extractor against the best one **on that same document**. "
-                "Character counts exclude whitespace. The field columns are what matter: an extractor "
-                "can return plenty of text and still drop every value we need.\n\n")
-        f.write("## Overall\n\n| extractor | avg % of best | money survived | avg secs |\n|---|---:|---:|---:|\n")
-        for label, rs in sorted(by_x.items(), key=lambda kv: -statistics.mean(r["pct_of_best"] for r in kv[1])):
+        f.write("Two separate measurements — don't average them together:\n\n"
+                "- **text recovered** — `% of best` compares an extractor against whichever one did "
+                "best **on that same document**. Volume only. Whitespace excluded.\n"
+                "- **fields kept** — of the things we actually need (a money figure, grouped figures, "
+                "a date, a grading word, a project code), how many survived. Written as "
+                "`found / findable`, where *findable* means some extractor proved it was in the "
+                "document. A field no extractor found is marked `n/a` and counts against nobody — "
+                "a ledger page contains no grading word, and that isn't the extractor's fault.\n\n")
+        f.write("## Overall\n\n| extractor | text recovered | fields kept | avg secs |\n|---|---:|---:|---:|\n")
+        for label, rs in sorted(by_x.items(), key=lambda kv: (
+                -sum(r["fields_kept"] for r in kv[1]),
+                -statistics.mean(r["pct_of_best"] for r in kv[1]))):
+            kept, findable = sum(r["fields_kept"] for r in rs), sum(r["fields_findable"] for r in rs)
             f.write(f"| `{label}` | {statistics.mean(r['pct_of_best'] for r in rs):.0%} | "
-                    f"{sum(1 for r in rs if r['money'])}/{len(rs)} | "
+                    f"{kept}/{findable} ({kept / max(findable, 1):.0%}) | "
                     f"{statistics.mean(r['seconds'] for r in rs):.2f} |\n")
         f.write("\n## Per document\n\n")
+        cols = list(PROBES)
         for path in docs:
             name = os.path.basename(path)[:-4]
             drows = [r for r in rows if r["document"] == name]
             if not drows:
                 continue
             f.write(f"### {name}\n\n_{font_diagnosis(path)}_\n\n")
-            f.write("| extractor | chars | % of best | money | date | grading | project | secs |\n"
-                    "|---|---:|---:|:-:|:-:|:-:|:-:|---:|\n")
+            f.write("| extractor | chars | % of best | " + " | ".join(cols) + " | kept | secs |\n"
+                    "|---|---:|---:|" + ":-:|" * len(cols) + "---:|---:|\n")
             for r in drows:
-                yn = lambda b: "yes" if b else "**no**"
+                cells = " | ".join("**no**" if r[c] == "no" else r[c] for c in cols)
                 f.write(f"| `{r['extractor']}` | {r['nonspace_chars']} | {r['pct_of_best']:.0%} | "
-                        f"{yn(r['money'])} | {yn(r['date'])} | {yn(r['grading'])} | "
-                        f"{yn(r['project'])} | {r['seconds']:.2f} |\n")
+                        f"{cells} | {r['fields_kept']}/{r['fields_findable']} | {r['seconds']:.2f} |\n")
             f.write("\n")
 
     print(f"wrote {a.out}/summary.md and summary.csv · {len(rows)} text dumps in {dumpdir}/")

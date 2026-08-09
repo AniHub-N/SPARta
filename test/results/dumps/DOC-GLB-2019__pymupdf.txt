@@ -1,0 +1,82 @@
+       NATIONAL INFRASTRUCTURE CORP. LTD.
+                  Books of Account · General Ledger · FY 2019–20
+
+
+          GENERAL LEDGER — FISCAL YEAR 2019–20
+
+ Volume: GL/2019                                            154 posted lines · system-generated
+
+ Grouped  by  account  per  the  chart  of  accounts.  Amounts  in  INR.  Balances  are  running  account
+ balances (Dr positive). Narrations reference the originating voucher.
+
+
+
+
+
+DOC-GLB-2019                                                                            Page 1 of 27
+ ACCOUNT 1010 — BANK (ASSET)
+
+
+  DATE        VOUCHER / NARRATION            DEBIT        CREDIT       BALANCE
+
+  2019-04-01  Opening capital & plant        400,000,000               400,000,000
+              brought in                                                Dr
+
+  2019-04-02  Working-capital facility       20,000,000                420,000,000
+              drawdown                                                  Dr
+
+  2019-04-28  Monthly salaries & site                     802,761      419,197,239
+              overheads (201904)                                        Dr
+
+  2019-05-28  Monthly salaries & site                     802,761      418,394,478
+              overheads (201905)                                        Dr
+
+  2019-06-28  Monthly salaries & site                     802,761      417,591,717
+              overheads (201906)                                        Dr
+
+  2019-07-28  Monthly salaries & site                     802,761      416,788,956
+              overheads (201907)                                        Dr
+
+  2019-08-06  Receipt against invoice (rcpt  22,320,149                439,109,105
+              #6)                                                       Dr
+
+  2019-08-28  Monthly salaries & site                     802,761      438,306,344
+              overheads (201908)                                        Dr
+
+  2019-09-11  Vendor payment #8                           35,115,513   403,190,831
+                                                                        Dr
+
+  2019-09-28  Monthly salaries & site                     802,761      402,388,070
+              overheads (201909)                                        Dr
+
+  2019-10-07  TDS deposited (201909)                      605,439      401,782,631
+                                                                        Dr
+
+  2019-10-23  Receipt against invoice (rcpt  22,320,149                424,102,780
+              #7)                                                       Dr
+
+  2019-10-28  Monthly salaries & site                     802,761      423,300,019
+              overheads (201910)                                        Dr
+
+  2019-11-28  Monthly salaries & site                     802,761      422,497,258
+              overheads (201911)                                        Dr
+
+  2019-12-28  Monthly salaries & site                     802,761      421,694,497
+              overheads (201912)                                        Dr
+
+  2020-01-07  Vendor payment #29                          2,172,038    419,522,459
+                                                                        Dr
+
+  2020-01-20  Receipt against invoice (rcpt  40,808,246                460,330,705
+              #17)                                                      Dr
+
+  2020-01-24  Receipt against invoice (rcpt  49,005,060                509,335,765
+              #10)                                                      Dr
+
+  2020-01-28                                               802,761
+
+
+
+
+
+DOC-GLB-2019                                                                            Page 2 of 27

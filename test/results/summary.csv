@@ -1,0 +1,36 @@
+document,extractor,nonspace_chars,pct_of_best,fields_kept,fields_findable,seconds,error,money,figures,date,grading,project
+DOC-CC-001,pymupdf,3390,1.0,4,4,0.04,,yes,n/a,yes,yes,yes
+DOC-CC-001,pymupdf_tables,804,0.237,4,4,0.26,,yes,n/a,yes,yes,yes
+DOC-CC-001,pdfplumber,420,0.124,1,4,0.18,,no,n/a,no,yes,no
+DOC-CC-001,pdfplumber_layout,420,0.124,1,4,0.1,,no,n/a,no,yes,no
+DOC-CC-001,camelot_stream,305,0.09,1,4,0.17,,no,n/a,no,yes,no
+DOC-CC-001,camelot_lattice,0,0.0,0,4,1.12,,no,n/a,no,no,no
+DOC-CC-001,ocr,3274,0.966,4,4,130.49,,yes,n/a,yes,yes,yes
+DOC-CC-050,pymupdf,3515,1.0,5,5,0.06,,yes,yes,yes,yes,yes
+DOC-CC-050,pymupdf_tables,0,0.0,0,5,0.17,,no,no,no,no,no
+DOC-CC-050,pdfplumber,422,0.12,1,5,0.27,,no,no,no,yes,no
+DOC-CC-050,pdfplumber_layout,422,0.12,1,5,0.09,,no,no,no,yes,no
+DOC-CC-050,camelot_stream,305,0.087,1,5,0.11,,no,no,no,yes,no
+DOC-CC-050,camelot_lattice,0,0.0,0,5,1.13,,no,no,no,no,no
+DOC-CC-050,ocr,3218,0.916,5,5,135.55,,yes,yes,yes,yes,yes
+DOC-CC-120,pymupdf,802,1.0,3,3,0.02,,yes,n/a,yes,n/a,yes
+DOC-CC-120,pymupdf_tables,0,0.0,0,3,0.04,,no,n/a,no,n/a,no
+DOC-CC-120,pdfplumber,802,1.0,3,3,0.06,,yes,n/a,yes,n/a,yes
+DOC-CC-120,pdfplumber_layout,802,1.0,3,3,0.05,,yes,n/a,yes,n/a,yes
+DOC-CC-120,camelot_stream,0,0.0,0,3,0.05,IndexError: sequence index out of range,no,n/a,no,n/a,no
+DOC-CC-120,camelot_lattice,0,0.0,0,3,0.6,IndexError: sequence index out of range,no,n/a,no,n/a,no
+DOC-CC-120,ocr,711,0.887,3,3,51.54,,yes,n/a,yes,n/a,yes
+DOC-FS-2019,pymupdf,1238,1.0,1,1,0.02,,n/a,yes,n/a,n/a,n/a
+DOC-FS-2019,pymupdf_tables,0,0.0,0,1,0.06,,n/a,no,n/a,n/a,n/a
+DOC-FS-2019,pdfplumber,1238,1.0,1,1,0.09,,n/a,yes,n/a,n/a,n/a
+DOC-FS-2019,pdfplumber_layout,1238,1.0,1,1,0.08,,n/a,yes,n/a,n/a,n/a
+DOC-FS-2019,camelot_stream,691,0.558,1,1,0.1,,n/a,yes,n/a,n/a,n/a
+DOC-FS-2019,camelot_lattice,0,0.0,0,1,1.02,,n/a,no,n/a,n/a,n/a
+DOC-FS-2019,ocr,1200,0.969,1,1,102.26,,n/a,yes,n/a,n/a,n/a
+DOC-GLB-2019,pymupdf,1530,1.0,2,2,0.02,,n/a,yes,yes,n/a,n/a
+DOC-GLB-2019,pymupdf_tables,1165,0.761,2,2,0.13,,n/a,yes,yes,n/a,n/a
+DOC-GLB-2019,pdfplumber,1530,1.0,2,2,0.14,,n/a,yes,yes,n/a,n/a
+DOC-GLB-2019,pdfplumber_layout,1530,1.0,2,2,0.14,,n/a,yes,yes,n/a,n/a
+DOC-GLB-2019,camelot_stream,1509,0.986,2,2,0.44,,n/a,yes,yes,n/a,n/a
+DOC-GLB-2019,camelot_lattice,0,0.0,0,2,1.14,,n/a,no,no,n/a,n/a
+DOC-GLB-2019,ocr,1355,0.886,2,2,117.2,,n/a,yes,yes,n/a,n/a

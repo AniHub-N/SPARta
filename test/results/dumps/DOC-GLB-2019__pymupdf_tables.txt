@@ -1,0 +1,52 @@
+DATE	VOUCHER / NARRATION	DEBIT	CREDIT	BALANCE
+2019-04-01	Opening capital & plant
+brought in	400,000,000		400,000,000
+Dr
+2019-04-02	Working-capital facility
+drawdown	20,000,000		420,000,000
+Dr
+2019-04-28	Monthly salaries & site
+overheads (201904)		802,761	419,197,239
+Dr
+2019-05-28	Monthly salaries & site
+overheads (201905)		802,761	418,394,478
+Dr
+2019-06-28	Monthly salaries & site
+overheads (201906)		802,761	417,591,717
+Dr
+2019-07-28	Monthly salaries & site
+overheads (201907)		802,761	416,788,956
+Dr
+2019-08-06	Receipt against invoice (rcpt
+#6)	22,320,149		439,109,105
+Dr
+2019-08-28	Monthly salaries & site
+overheads (201908)		802,761	438,306,344
+Dr
+2019-09-11	Vendor payment #8		35,115,513	403,190,831
+Dr
+2019-09-28	Monthly salaries & site
+overheads (201909)		802,761	402,388,070
+Dr
+2019-10-07	TDS deposited (201909)		605,439	401,782,631
+Dr
+2019-10-23	Receipt against invoice (rcpt
+#7)	22,320,149		424,102,780
+Dr
+2019-10-28	Monthly salaries & site
+overheads (201910)		802,761	423,300,019
+Dr
+2019-11-28	Monthly salaries & site
+overheads (201911)		802,761	422,497,258
+Dr
+2019-12-28	Monthly salaries & site
+overheads (201912)		802,761	421,694,497
+Dr
+2020-01-07	Vendor payment #29		2,172,038	419,522,459
+Dr
+2020-01-20	Receipt against invoice (rcpt
+#17)	40,808,246		460,330,705
+Dr
+2020-01-24	Receipt against invoice (rcpt
+#10)	49,005,060		509,335,765
+Dr
