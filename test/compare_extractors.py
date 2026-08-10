@@ -74,11 +74,23 @@ PROBES = {
 nonspace = lambda s: len(re.sub(r"\s", "", s or ""))
 
 
-def parse_pages(spec):
+def parse_pages(spec, npages=None):
+    """'all' -> every page. Defaults to all, because a page limit silently truncates every
+    dump and then looks like the extractor lost the tail of the document."""
+    if spec in (None, "all"):
+        return list(range(1, (npages or 1) + 1))
     if "-" in spec:
         a, b = spec.split("-")
         return list(range(int(a), int(b) + 1))
     return [int(spec)]
+
+
+def page_count(path):
+    import fitz
+    d = fitz.open(path)
+    n = len(d)
+    d.close()
+    return n
 
 
 # ---------------------------------------------------------------- extractors
@@ -213,26 +225,30 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--docs", nargs="*", help="PDF paths (default: every PDF in ./pdfs)")
-    ap.add_argument("--pages", default="1-2", help="page range per document (default: %(default)s)")
+    ap.add_argument("--pages", default="all",
+                    help="page range per document, e.g. 1-2 (default: all pages)")
+    ap.add_argument("--ocr-pages", type=int, default=2, metavar="N",
+                    help="cap OCR at the first N pages; it runs ~100s per page, so a 27-page "
+                         "ledger would take most of an hour (default: %(default)s, 0 = no cap)")
     ap.add_argument("--out", default=os.path.join(HERE, "results"), help="output directory")
     a = ap.parse_args()
 
-    pages = parse_pages(a.pages)
     docs = a.docs or sorted(glob.glob(os.path.join(HERE, "pdfs", "*.pdf")))
     if not docs:
         sys.exit("No PDFs found. Put some in ./pdfs or pass --docs.")
 
     run_ocr, ocr_name, ocr_problems = ocr_engine()
     runners = [
-        ("pymupdf",           lambda p: x_pymupdf(p, pages)),
-        ("pymupdf_tables",    lambda p: x_pymupdf_tables(p, pages)),
-        ("pdfplumber",        lambda p: x_pdfplumber(p, pages)),
-        ("pdfplumber_layout", lambda p: x_pdfplumber(p, pages, layout=True)),
-        ("camelot_stream",    lambda p: x_camelot(p, pages, "stream")),
-        ("camelot_lattice",   lambda p: x_camelot(p, pages, "lattice")),
+        ("pymupdf",           lambda p, pg: x_pymupdf(p, pg)),
+        ("pymupdf_tables",    lambda p, pg: x_pymupdf_tables(p, pg)),
+        ("pdfplumber",        lambda p, pg: x_pdfplumber(p, pg)),
+        ("pdfplumber_layout", lambda p, pg: x_pdfplumber(p, pg, layout=True)),
+        ("camelot_stream",    lambda p, pg: x_camelot(p, pg, "stream")),
+        ("camelot_lattice",   lambda p, pg: x_camelot(p, pg, "lattice")),
     ]
     if run_ocr:
-        runners.append(("ocr", lambda p: x_ocr(p, pages, run_ocr)))
+        cap = a.ocr_pages or None
+        runners.append(("ocr", lambda p, pg: x_ocr(p, pg[:cap] if cap else pg, run_ocr)))
 
     dumpdir = os.path.join(a.out, "dumps")
     os.makedirs(dumpdir, exist_ok=True)
@@ -246,13 +262,19 @@ def main():
     rows = []
     for path in docs:
         name = os.path.basename(path)[:-4]
-        print(f"=== {name}")
+        npages = page_count(path)
+        pages = parse_pages(a.pages, npages)
+        cap = a.ocr_pages or None
+        print(f"=== {name}  ({len(pages)} of {npages} pages)")
         print(f"    {font_diagnosis(path)}")
-        results = {}
+
+        results, rpages = {}, {}
         for label, fn in runners:
+            pg = pages[:cap] if (label == "ocr" and cap) else pages
+            rpages[label] = pg
             t0 = time.time()
             try:
-                text, err = fn(path), ""
+                text, err = fn(path, pg), ""
             except Exception as e:
                 text, err = "", f"{type(e).__name__}: {e}"[:90]
             secs = time.time() - t0
@@ -261,24 +283,38 @@ def main():
             results[label] = dict(chars=nonspace(text), secs=secs, err=err,
                                   **{k: bool(rx.search(text)) for k, rx in PROBES.items()})
 
-        best = max((r["chars"] for r in results.values()), default=0) or 1
-        # A field only counts against an extractor if some other extractor proved it was
-        # in the document. Otherwise the field simply isn't there and nobody could find it.
-        findable = {k: any(r[k] for r in results.values()) for k in PROBES}
-        n_findable = sum(findable.values())
-        absent = [k for k, v in findable.items() if not v]
+        # Rows that read fewer pages cannot be compared against rows that read the whole
+        # document — that would score a 1-page OCR run against 27 pages of text and call it
+        # a 99% loss. Each short row is scored against PyMuPDF on exactly its own pages.
+        full = [l for l in results if len(rpages[l]) == len(pages)]
+        best_full = max((results[l]["chars"] for l in full), default=0) or 1
+        findable_full = {k: any(results[l][k] for l in full) for k in PROBES}
+        baseline = {}
+        for label in results:
+            if label in full:
+                baseline[label] = (best_full, findable_full, "")
+            else:
+                ref = x_pymupdf(path, rpages[label])
+                baseline[label] = (nonspace(ref) or 1,
+                                   {k: bool(rx.search(ref)) for k, rx in PROBES.items()},
+                                   f" (pages 1-{len(rpages[label])} only)")
+
+        absent = [k for k, v in findable_full.items() if not v]
         if absent:
             print(f"    not in this document: {', '.join(absent)}")
 
         for label, r in results.items():
-            pct = r["chars"] / best
+            ref_chars, findable, scope = baseline[label]
+            pct = r["chars"] / ref_chars
             marks = "".join(("Y" if r[k] else ".") if findable[k] else "-" for k in PROBES)
+            n_findable = sum(findable.values())
             kept = sum(1 for k in PROBES if findable[k] and r[k])
             note = "  <-- crashed" if r["err"] else ("  <-- lost text" if pct < 0.9 else "")
             print(f"    {label:19s} {r['chars']:6d} chars {pct:6.0%}  fields[{marks}] "
-                  f"{kept}/{n_findable} kept {r['secs']:5.2f}s{note}")
-            rows.append(dict(document=name, extractor=label, nonspace_chars=r["chars"],
-                             pct_of_best=round(pct, 3), fields_kept=kept, fields_findable=n_findable,
+                  f"{kept}/{n_findable} kept {r['secs']:5.2f}s{note}{scope}")
+            rows.append(dict(document=name, extractor=label, pages_read=len(rpages[label]),
+                             nonspace_chars=r["chars"], pct_of_best=round(pct, 3),
+                             fields_kept=kept, fields_findable=n_findable,
                              seconds=round(r["secs"], 2), error=r["err"],
                              **{k: ("yes" if r[k] else "no") if findable[k] else "n/a" for k in PROBES}))
         print()
@@ -296,7 +332,10 @@ def main():
     with open(os.path.join(a.out, "summary.md"), "w") as f:
         f.write("# PDF extractor comparison\n\n")
         f.write(f"{len(docs)} documents, pages `{a.pages}`. "
-                f"OCR: {ocr_name if run_ocr else '_no engine installed, row skipped_'}\n\n")
+                f"OCR: {ocr_name if run_ocr else '_no engine installed, row skipped_'}"
+                + (f", capped at the first {a.ocr_pages} page(s) per document and therefore "
+                   f"scored against PyMuPDF on those same pages, not against the whole document"
+                   if run_ocr and a.ocr_pages else "") + "\n\n")
         f.write("Two separate measurements — don't average them together:\n\n"
                 "- **text recovered** — `% of best` compares an extractor against whichever one did "
                 "best **on that same document**. Volume only. Whitespace excluded.\n"

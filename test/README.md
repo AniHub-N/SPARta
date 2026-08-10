@@ -87,6 +87,43 @@ Three lines, entirely offline. "Dropping a PDF in" means copying the file into `
 `compare_extractors.py` looks in that folder and processes whatever it finds. Point it
 somewhere else with `--docs /any/path/*.pdf`.
 
+## Audit the whole corpus, not 5 documents
+
+A bake-off on 5 files says nothing about whether something is being dropped in the other
+682. This sweeps every page and flags anything suspicious, with no reference to any answer
+key:
+
+```bash
+python coverage_audit.py --root ../../BITS-Hackathon-Dataset/documents
+python coverage_audit.py --root ... --ocr-check 4      # also OCR a few image pages
+```
+
+Our run over all 678 PDFs — 1,965 pages, 328,738 words:
+
+| check | pages | verdict |
+|---|---:|---|
+| thin or empty (<15 words) | 20 | all genuine — bond page 2 and ledger continuation pages are nearly blank |
+| contains images | 1,224 | seals, signatures, letterheads. **No data locked in them** — see below |
+| documents with un-decodable fonts | 79 | pdfminer-based libraries lose these; PyMuPDF doesn't |
+| letter-spaced text | 199 | extracts fine, breaks keyword search |
+| wrapped-looking values | 745 | a value continued on the next line splits in plain text |
+
+The images matter most, so we measured them rather than assuming: `--ocr-check` OCRs a page
+and reports words OCR found that the text layer does *not* contain.
+
+```
+DOC-AR-2024 p1: 0 words OCR found that the text layer does not
+DOC-CC-060  p1: 0 words
+DOC-FS-2019 p3: 5 - audit, authorised, confidential, only, use
+DOC-REF-116 p2: 1 - office
+```
+
+Nothing of value. `office` is seal engraving; the five on FS-2019 are the letter-spaced
+`C O N F I D E N T I A L — F O R A U T H O R I S E D U S E O N L Y` banner, which **is** in
+the text layer — the comparison just tokenises single letters differently. So the 1,224
+image-bearing pages are decoration, and no contract value, date, name or grading is trapped
+in a picture.
+
 ## What's being tested
 
 Six configurations across three libraries:
@@ -159,27 +196,52 @@ beside them. Clean-looking output, no error, no warning, no data.
 
 Committed in [results/summary.md](results/summary.md), regenerate any time.
 
+All pages of all 5 documents (37 pages total). OCR is capped at 1 page per document and is
+therefore scored against PyMuPDF **on that same page**, not against the whole document —
+otherwise a 1-page OCR run would be compared with 27 pages of ledger and look like a 99%
+failure.
+
 | extractor | text recovered | fields kept | avg secs |
 |---|---:|---:|---:|
-| `pymupdf` | 100% | **15/15** | 0.03 |
-| `ocr` (PaddleOCR) | 92% | **15/15** | 107.41 |
-| `pdfplumber` | 65% | 8/15 | 0.15 |
-| `pdfplumber_layout` | 65% | 8/15 | 0.09 |
-| `pymupdf_tables` | 20% | 6/15 | 0.13 |
-| `camelot_stream` | 34% | 5/15 | 0.17 |
-| `camelot_lattice` | 0% | 0/15 | 1.00 |
+| `pymupdf` | 100% | **16/16** | 0.05 |
+| `ocr` (PaddleOCR, 1 page) | 84% | 11/11 | 54.79 |
+| `pdfplumber` | 65% | 9/16 | 0.37 |
+| `pdfplumber_layout` | 65% | 9/16 | 0.37 |
+| `camelot_stream` | 55% | 8/16 | 0.48 |
+| `pymupdf_tables` | 21% | 6/16 | 0.33 |
+| `camelot_lattice` | 0% | 0/16 | 4.14 |
 
-**PyMuPDF wins outright** — everything, instantly.
+**PyMuPDF wins outright** — every field on every page, in hundredths of a second.
 
-**PaddleOCR also recovers every field**, which is the interesting result: OCR works from
-pixels, so the broken font that defeats pdfminer doesn't affect it at all. But it takes
-~107 seconds per document against PyMuPDF's 0.03 — roughly 3,500× slower. Across 155
-certificates that's about 5 hours versus 5 seconds. Useful as a second opinion when you
-suspect an extraction bug; not usable as the main path.
+**PaddleOCR keeps every field on the page it read**, which is the interesting part: OCR
+works from pixels, so the broken font that defeats pdfminer never affects it. But at ~55
+seconds a page against PyMuPDF's 0.05 it is roughly a thousand times slower, and it still
+drops 16% of the characters. A second opinion when you suspect a bug; not a main path.
 
-**pdfplumber and camelot lose half the fields**, all of it on the two table-style
-certificates — the documents carrying the contract value, the completion date and the
-client's grading.
+**pdfplumber and camelot lose 7 of 16 fields**, all on the two table-style certificates —
+the documents carrying the contract value, the completion date and the client's grading.
+
+**`camelot_lattice` is still untested, not failed** — it needs Ghostscript, which isn't
+installed here, and returns 0 tables rather than erroring.
+
+## What PyMuPDF can and cannot do
+
+Stated plainly, from the audit rather than from the sample answers.
+
+**Can:** every character in the text layer, on every page, in all 20 document types —
+including the value column that pdfminer drops. 678 PDFs, 1,965 pages, no page failed.
+
+**Cannot:**
+
+| limitation | consequence |
+|---|---|
+| Text drawn inside a raster image | Unreachable by *any* text extractor. Here that's only seal engraving (`OFFICE SEAL`, abbreviated org names already present in the body), so nothing is lost — but if a future corpus has scanned inserts, you need OCR for them |
+| Reconstruct table structure reliably | Its `find_tables` mis-splits columns and even scrambled `Quality` into `Qaulity`. Use plain text and find values by their label instead — that scored 15/15 against `find_tables`' 6/15 |
+| Un-space letter-spaced text | `C O N F I D E N T I A L` comes out exactly as drawn, on 199 pages. Extraction is correct; your search for `CONFIDENTIAL` still fails |
+| Rejoin a value wrapped onto two lines | 745 pages have candidates. `(JV\nPartner)` cost us the role on 1 of 155 projects until handled |
+
+The last two are parsing problems, not extraction problems — the characters are all there.
+They are also the two that will actually cost you answers.
 
 ## Why the libraries disagree
 

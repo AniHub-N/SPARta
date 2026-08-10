@@ -1,0 +1,30 @@
+[
+ {
+  "document": "DOC-AR-2024",
+  "page": 1,
+  "words_only_ocr_found": []
+ },
+ {
+  "document": "DOC-CC-060",
+  "page": 1,
+  "words_only_ocr_found": []
+ },
+ {
+  "document": "DOC-FS-2019",
+  "page": 3,
+  "words_only_ocr_found": [
+   "audit",
+   "authorised",
+   "confidential",
+   "only",
+   "use"
+  ]
+ },
+ {
+  "document": "DOC-REF-116",
+  "page": 2,
+  "words_only_ocr_found": [
+   "office"
+  ]
+ }
+]
