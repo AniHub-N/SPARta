@@ -20,6 +20,29 @@ Takes about 15 seconds. Results land in `results/`:
 - `results/dumps/<DOC>__<extractor>.txt` — the actual text each library produced, so you
   can open two side by side and see what went missing
 
+## Run one PDF and look at the output
+
+```bash
+python extract.py pdfs/DOC-CC-001.pdf                    # all pages, PyMuPDF
+python extract.py pdfs/DOC-CC-001.pdf --pages 1          # one page
+python extract.py file.pdf --with pdfplumber             # a different library
+python extract.py file.pdf --with all                    # every library in turn
+python extract.py file.pdf --grep "Contract Value"       # only matching lines
+python extract.py file.pdf --save out.txt
+```
+
+`--grep` is the quickest way to see the failure. Same file, same line, two libraries:
+
+```
+$ python extract.py pdfs/DOC-CC-001.pdf --grep "Contract Value"
+Contract Value (Original)           INR 33.38 Cr
+
+$ python extract.py pdfs/DOC-CC-001.pdf --grep "Contract Value" --with pdfplumber
+Contract Value (Original)
+```
+
+The value is simply gone. No error, no warning.
+
 ## See it for yourself
 
 Character counts prove nothing on their own. To check extraction against the document you
