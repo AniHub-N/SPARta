@@ -1,0 +1,30 @@
+Account,Debit (INR),Credit (INR),Balance (INR)
+Accounts Payable,1442014220,1827172284,-385158064
+Accounts Receivable,2756051261,2305213090,450838171
+Accumulated Depreciation,0,763810000,-763810000
+Bank,2170415660,2035755544,134660116
+Contract Revenue — Bridges & Flyovers,4264424,114509215,-110244791
+Contract Revenue — Buildings,4595141,172207727,-167612586
+Contract Revenue — Industrial EPC,1536116,205751317,-204215201
+Contract Revenue — Irrigation,0,424861362,-424861362
+Contract Revenue — Large Bridges,1868348,684015350,-682147002
+Contract Revenue — Roads & Highways,0,396699986,-396699986
+Contract Revenue — Roads Maintenance,0,25734569,-25734569
+Contract Revenue — Sewerage & Drainage,0,87614059,-87614059
+Contract Revenue — Small Buildings,125762,4625763,-4500001
+Contract Revenue — Water Supply,0,3128510,-3128510
+Contract Revenue — Water Treatment,3619393,216488834,-212869441
+Depreciation Expense,763810000,0,763810000
+Equipment Hire Charges,353417344,0,353417344
+GST Input Credit,278721167,0,278721167
+Materials Consumed,308102240,0,308102240
+Output GST Payable,465922527,420414569,45507958
+Plant & Machinery,85500000,0,85500000
+Retention Money Receivable,77155404,0,77155404
+Salaries & Site Overheads,46392550,0,46392550
+Site Services,452285288,0,452285288
+Specialist Works,282556828,0,282556828
+Subcontracting Charges,152089417,0,152089417
+TDS Payable,23248791,24440894,-1192103
+TDS Receivable,38751192,0,38751192
+TOTAL,=SUM(B2:B29),=SUM(C2:C29),=SUM(D2:D29)

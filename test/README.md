@@ -92,10 +92,17 @@ somewhere else with `--docs /any/path/*.pdf`.
 9 workbooks, 136 KB total, in `xlsx/`. Read them with **openpyxl**:
 
 ```bash
-python read_excel.py xlsx/Receivables_Ageing.xlsx
+python compare_excel.py                               # benchmark -> results/excel/
+python read_excel.py xlsx/Receivables_Ageing.xlsx     # inspect one workbook
 python read_excel.py "xlsx/*.xlsx" --inventory        # summary of all 9
-python read_excel.py xlsx/Receivables_Ageing.xlsx --csv out/
 ```
+
+Results are committed, same as the PDF side:
+
+- [results/excel/summary.md](results/excel/summary.md) — the comparison table
+- [results/excel/summary.csv](results/excel/summary.csv) — per workbook, per reader
+- `results/excel/sheets/` — **all 30 sheets as CSV**, so you can read the data on GitHub
+  without opening Excel
 
 All three candidate libraries read these files correctly. openpyxl wins on one point that
 decides it: **it is the only one that tells you a cell holds a formula rather than a value.**
@@ -109,8 +116,8 @@ Same cell, four ways:
 | `calamine` | `''` |
 
 These workbooks were written by a script, never opened in Excel, so **no formula result was
-ever cached in the file** — 34 formula cells across the 9 workbooks, none with a value. That
-has two consequences:
+ever cached in the file** — 37 formula cells across the 9 workbooks, none with a value. Every
+other reader sees 0 of those 37. That has two consequences:
 
 - `data_only=True` returns `None` for every total. `None` becomes `0` in your arithmetic and
   you get a silently wrong answer.
