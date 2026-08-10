@@ -20,6 +20,45 @@ Takes about 15 seconds. Results land in `results/`:
 - `results/dumps/<DOC>__<extractor>.txt` — the actual text each library produced, so you
   can open two side by side and see what went missing
 
+## See it for yourself
+
+Character counts prove nothing on their own. To check extraction against the document you
+need to look at the document:
+
+```bash
+python render_pages.py --html
+open results/compare.html          # Windows: start results\compare.html
+```
+
+That draws each page as an image and puts it beside every extractor's output in one view.
+The page picture shows `Contract Value (Original)   INR 33.38 Cr`; the `pymupdf` column has
+both halves; the `pdfplumber` column has the label and nothing after it. No statistics
+needed — you can just see it.
+
+`render_pages.py` on its own writes `results/pages/*.png` if you'd rather open the image
+next to a text dump in your editor.
+
+One caveat, stated plainly: rendering uses the same library as the winning extractor
+(PyMuPDF), so it is not an independent referee — it's the same engine in its other mode.
+The independent check is the OCR row, which reads the rendered pixels with a completely
+different program and never touches the fonts. It agrees.
+
+## How the PDF actually gets in
+
+There's no upload and no service. The PDF is a file on your disk, and the library opens it
+by path — the same way any program opens any file:
+
+```python
+import fitz                                   # this is PyMuPDF
+doc  = fitz.open("pdfs/DOC-CC-001.pdf")       # read the file
+text = doc[0].get_text("text", sort=True)     # page 1 as a string
+print(text)
+```
+
+Three lines, entirely offline. "Dropping a PDF in" means copying the file into `pdfs/` —
+`compare_extractors.py` looks in that folder and processes whatever it finds. Point it
+somewhere else with `--docs /any/path/*.pdf`.
+
 ## What's being tested
 
 Six configurations across three libraries:
