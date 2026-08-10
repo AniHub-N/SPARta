@@ -6,14 +6,19 @@ don't take anyone's word for it.
 ## Run
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python3 -m venv .venv               # macOS/Linux have python3, not python
+source .venv/bin/activate           # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-python compare_extractors.py
+python compare_extractors.py        # 'python' works now that the venv is active
 ```
 
 Takes about 15 seconds. Results land in `results/`:
+
+**If you get `command not found: python`** you skipped the activate step, or you're in a new
+terminal — every new terminal needs `source .venv/bin/activate` again. **If you get
+`ModuleNotFoundError: No module named 'fitz'`** you're running your system Python instead of
+the venv's; activate it, or call it by path: `.venv/bin/python compare_extractors.py`.
 
 - `summary.md` — the table, paste it anywhere
 - `summary.csv` — same numbers for a spreadsheet
