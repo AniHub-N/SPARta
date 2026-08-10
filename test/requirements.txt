@@ -12,3 +12,7 @@ opencv-python-headless>=4.8      # camelot needs cv2
 # tesseract:
 #   brew install tesseract   (or apt install tesseract-ocr)
 #   pip install pytesseract
+
+# Excel. openpyxl is the only reader that distinguishes a formula cell from a value,
+# which is what stops you reading an uncomputed TOTAL row as data. See read_excel.py.
+openpyxl==3.1.5

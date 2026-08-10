@@ -87,6 +87,50 @@ Three lines, entirely offline. "Dropping a PDF in" means copying the file into `
 `compare_extractors.py` looks in that folder and processes whatever it finds. Point it
 somewhere else with `--docs /any/path/*.pdf`.
 
+## The Excel files
+
+9 workbooks, 136 KB total, in `xlsx/`. Read them with **openpyxl**:
+
+```bash
+python read_excel.py xlsx/Receivables_Ageing.xlsx
+python read_excel.py "xlsx/*.xlsx" --inventory        # summary of all 9
+python read_excel.py xlsx/Receivables_Ageing.xlsx --csv out/
+```
+
+All three candidate libraries read these files correctly. openpyxl wins on one point that
+decides it: **it is the only one that tells you a cell holds a formula rather than a value.**
+Same cell, four ways:
+
+| reader | `D520` |
+|---|---|
+| `openpyxl` | `'=SUM(D2:D519)'` |
+| `openpyxl(data_only=True)` | `None` |
+| `pandas` | `NaN` |
+| `calamine` | `''` |
+
+These workbooks were written by a script, never opened in Excel, so **no formula result was
+ever cached in the file** — 34 formula cells across the 9 workbooks, none with a value. That
+has two consequences:
+
+- `data_only=True` returns `None` for every total. `None` becomes `0` in your arithmetic and
+  you get a silently wrong answer.
+- pandas and calamine return a blank, which is indistinguishable from an empty cell. You
+  cannot tell a totals row from a data row — so you might sum a column that already contains
+  its own total, or drop rows you needed.
+
+With openpyxl the `=` prefix makes those rows identifiable, so you drop them and compute the
+totals yourself. `read_excel.py` does exactly that and prints both:
+
+```
+FORMULA D520: =SUM(D2:D519)   <- no cached result; compute it yourself
+NOTE 1 row(s) contain formulas (a totals row). Excluded from the 518 data rows below.
+sum of 'Invoiced (INR)' over 518 data rows = 17,499,999,732
+```
+
+Speed is irrelevant — all 9 load in 0.14s with openpyxl. calamine is ~100× faster and it
+buys you nothing at this size. Two other things worth knowing: dates are **strings**
+(`'2019-07-06'`), not datetimes; and pandas coerces the integer money columns to floats.
+
 ## Audit the whole corpus, not 5 documents
 
 A bake-off on 5 files says nothing about whether something is being dropped in the other
