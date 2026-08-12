@@ -1,8 +1,0 @@
-Item No,Description,Unit,Quantity,Rate (INR),Amount (INR)
-1,Earthwork in excavation & embankment,cum,425225.025,203,86320680
-2,Granular sub-base (GSB),cum,79399.42,1504,119416727
-3,Wet mix macadam (WMM),cum,43037.244,1534,66019133
-4,Dense bituminous macadam (DBM),MT,18308.476,6673,122172462
-5,Bituminous concrete (BC),MT,16503.504,6491,107124245
-6,RCC M30 for structures,cum,24424.27,8197,200205745
-TOTAL,,,,,=SUM(F2:F7)

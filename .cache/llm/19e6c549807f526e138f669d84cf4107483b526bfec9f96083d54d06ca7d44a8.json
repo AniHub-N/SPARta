@@ -1,0 +1,215 @@
+{
+  "entities": [
+    {
+      "mention_text": "1",
+      "entity_type": "Line Item",
+      "confidence": 1,
+      "source_ref": "E7"
+    },
+    {
+      "mention_text": "Earthwork in excavation & embankment",
+      "entity_type": "Work Description",
+      "confidence": 1,
+      "source_ref": "E8"
+    },
+    {
+      "mention_text": "2",
+      "entity_type": "Line Item",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "Granular sub-base (GSB)",
+      "entity_type": "Work Description",
+      "confidence": 1,
+      "source_ref": "E14"
+    },
+    {
+      "mention_text": "3",
+      "entity_type": "Line Item",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "mention_text": "Wet mix macadam (WMM)",
+      "entity_type": "Work Description",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "mention_text": "4",
+      "entity_type": "Line Item",
+      "confidence": 1,
+      "source_ref": "E25"
+    },
+    {
+      "mention_text": "Dense bituminous macadam (DBM)",
+      "entity_type": "Work Description",
+      "confidence": 1,
+      "source_ref": "E26"
+    }
+  ],
+  "relationships": [],
+  "attributes": [
+    {
+      "subject_mention_text": "1",
+      "predicate": "has_description",
+      "value": "Earthwork in excavation & embankment",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E8"
+    },
+    {
+      "subject_mention_text": "1",
+      "predicate": "has_unit",
+      "value": "cum",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "1",
+      "predicate": "has_quantity",
+      "value": 486052.512,
+      "value_type": "float",
+      "confidence": 1,
+      "source_ref": "E10"
+    },
+    {
+      "subject_mention_text": "1",
+      "predicate": "has_rate_INR",
+      "value": 217,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "1",
+      "predicate": "has_amount_INR",
+      "value": 105473395,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "2",
+      "predicate": "has_description",
+      "value": "Granular sub-base (GSB)",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E14"
+    },
+    {
+      "subject_mention_text": "2",
+      "predicate": "has_unit",
+      "value": "cum",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "2",
+      "predicate": "has_quantity",
+      "value": 50146.905,
+      "value_type": "float",
+      "confidence": 1,
+      "source_ref": "E16"
+    },
+    {
+      "subject_mention_text": "2",
+      "predicate": "has_rate_INR",
+      "value": 1163,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E17"
+    },
+    {
+      "subject_mention_text": "2",
+      "predicate": "has_amount_INR",
+      "value": 58320851,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "3",
+      "predicate": "has_description",
+      "value": "Wet mix macadam (WMM)",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "3",
+      "predicate": "has_unit",
+      "value": "cum",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E21"
+    },
+    {
+      "subject_mention_text": "3",
+      "predicate": "has_quantity",
+      "value": 81824.929,
+      "value_type": "float",
+      "confidence": 1,
+      "source_ref": "E22"
+    },
+    {
+      "subject_mention_text": "3",
+      "predicate": "has_rate_INR",
+      "value": 1489,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E23"
+    },
+    {
+      "subject_mention_text": "3",
+      "predicate": "has_amount_INR",
+      "value": 121837320,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E24"
+    },
+    {
+      "subject_mention_text": "4",
+      "predicate": "has_description",
+      "value": "Dense bituminous macadam (DBM)",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "4",
+      "predicate": "has_unit",
+      "value": "MT",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "4",
+      "predicate": "has_quantity",
+      "value": 27439.21,
+      "value_type": "float",
+      "confidence": 1,
+      "source_ref": "E28"
+    },
+    {
+      "subject_mention_text": "4",
+      "predicate": "has_rate_INR",
+      "value": 6233,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E29"
+    },
+    {
+      "subject_mention_text": "4",
+      "predicate": "has_amount_INR",
+      "value": 171028599,
+      "value_type": "integer",
+      "confidence": 1,
+      "source_ref": "E30"
+    }
+  ]
+}

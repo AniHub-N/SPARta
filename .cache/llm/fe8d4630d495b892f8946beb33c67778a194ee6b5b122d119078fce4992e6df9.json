@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {
+      "mention_text": "Granular sub-base",
+      "entity_type": "Material",
+      "confidence": 1
+    },
+    {
+      "mention_text": "GSB",
+      "entity_type": "Abbreviation",
+      "confidence": 1
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "Granular sub-base",
+      "predicate": "is_abbreviated_as",
+      "object_mention_text": "GSB",
+      "confidence": 1
+    }
+  ],
+  "attributes": []
+}

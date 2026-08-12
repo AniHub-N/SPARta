@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "mention_text": "Granular sub-base (GSB)",
+      "entity_type": "BOQ_Item",
+      "confidence": 1.0,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "Dense bituminous macadam (DBM)",
+      "entity_type": "BOQ_Item",
+      "confidence": 1.0,
+      "source_ref": "E10"
+    },
+    {
+      "mention_text": "Bituminous concrete (BC)",
+      "entity_type": "BOQ_Item",
+      "confidence": 1.0,
+      "source_ref": "E16"
+    },
+    {
+      "mention_text": "RCC M30 for structures",
+      "entity_type": "BOQ_Item",
+      "confidence": 1.0,
+      "source_ref": "E22"
+    },
+    {
+      "mention_text": "Reinforcement steel Fe500",
+      "entity_type": "BOQ_Item",
+      "confidence": 1.0,
+      "source_ref": "E28"
+    }
+  ],
+  "relationships": [],
+  "attributes": [
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "boq_id",
+      "value": 7,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E1"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "date",
+      "value": "2022-01-20",
+      "value_type": "date",
+      "confidence": 1.0,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "item_number",
+      "value": 2,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "quantity",
+      "value": 5860.27,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E5"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "total_amount",
+      "value": 8210238,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E6"
+    },
+    {
+      "subject_mention_text": "Dense bituminous macadam (DBM)",
+      "predicate": "boq_id",
+      "value": 7,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E7"
+    },
+    {
+      "subject_mention_text": "Dense bituminous macadam (DBM)",
+      "predicate": "date",
+      "value": "2022-01-20",
+      "value_type": "date",
+      "confidence": 1.0,
+      "source_ref": "E8"
+    },
+    {
+      "subject_mention_text": "Dense bituminous macadam (DBM)",
+      "predicate": "item_number",
+      "value": 4,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "Dense bituminous macadam (DBM)",
+      "predicate": "quantity",
+      "value": 1767.617,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "Dense bituminous macadam (DBM)",
+      "predicate": "total_amount",
+      "value": 9267616,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "Bituminous concrete (BC)",
+      "predicate": "boq_id",
+      "value": 7,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Bituminous concrete (BC)",
+      "predicate": "date",
+      "value": "2022-01-20",
+      "value_type": "date",
+      "confidence": 1.0,
+      "source_ref": "E14"
+    },
+    {
+      "subject_mention_text": "Bituminous concrete (BC)",
+      "predicate": "item_number",
+      "value": 5,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "Bituminous concrete (BC)",
+      "predicate": "quantity",
+      "value": 2163.994,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E17"
+    },
+    {
+      "subject_mention_text": "Bituminous concrete (BC)",
+      "predicate": "total_amount",
+      "value": 13520637,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "boq_id",
+      "value": 7,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E19"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "date",
+      "value": "2022-01-20",
+      "value_type": "date",
+      "confidence": 1.0,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "item_number",
+      "value": 6,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E21"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "quantity",
+      "value": 1816.341,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E23"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "total_amount",
+      "value": 13464533,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E24"
+    },
+    {
+      "subject_mention_text": "Reinforcement steel Fe500",
+      "predicate": "boq_id",
+      "value": 7,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E25"
+    },
+    {
+      "subject_mention_text": "Reinforcement steel Fe500",
+      "predicate": "date",
+      "value": "2022-01-20",
+      "value_type": "date",
+      "confidence": 1.0,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "Reinforcement steel Fe500",
+      "predicate": "item_number",
+      "value": 7,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "Reinforcement steel Fe500",
+      "predicate": "quantity",
+      "value": 197.547,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E29"
+    },
+    {
+      "subject_mention_text": "Reinforcement steel Fe500",
+      "predicate": "total_amount",
+      "value": 13465594,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E30"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "BOQ_and_Measurements_Contract_79": {
+    "checksum": "265c0a83a1584f44a2877c5de0fd4bff0065757643459dea38355fcfaa52132d",
+    "source_path": "C:\\Users\\aniru\\SPARta\\test\\BOQ_and_Measurements_Contract_79.xlsx",
+    "extraction_version": "1.0",
+    "evidence_count": 406,
+    "facts_count": 267
+  },
+  "DOC-CC-120": {
+    "checksum": "dfdde9dd981f9d7266a55bbeb2475bf55894e71e24f7fa9a22be05c832ea9c6f",
+    "source_path": "C:\\Users\\aniru\\SPARta\\test\\DOC-CC-120.pdf",
+    "extraction_version": "1.0",
+    "evidence_count": 17,
+    "facts_count": 1
+  },
+  "DOC-GLB-2019": {
+    "checksum": "95de653620e4f2760a4cdf140a2ac8eb225214ae1b20a7be4f4468f20d137e90",
+    "source_path": "C:\\Users\\aniru\\SPARta\\test\\DOC-GLB-2019.pdf",
+    "extraction_version": "1.0",
+    "evidence_count": 399,
+    "facts_count": 0
+  }
+}

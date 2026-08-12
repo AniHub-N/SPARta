@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "mention_text": "Item 5",
+      "entity_type": "Work Item",
+      "confidence": 1.0,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "Item 6",
+      "entity_type": "Work Item",
+      "confidence": 1.0,
+      "source_ref": "E7"
+    },
+    {
+      "mention_text": "Total Summary",
+      "entity_type": "Summary",
+      "confidence": 1.0,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "RA No 1",
+      "entity_type": "Running Account Bill",
+      "confidence": 1.0,
+      "source_ref": "E25"
+    },
+    {
+      "mention_text": "Item 2",
+      "entity_type": "Work Item",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "RA No 1",
+      "predicate": "includes_work_item",
+      "object_mention_text": "Item 2",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    }
+  ],
+  "attributes": [
+    {
+      "subject_mention_text": "Item 5",
+      "predicate": "item_number",
+      "value": 5,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E1"
+    },
+    {
+      "subject_mention_text": "Item 5",
+      "predicate": "description",
+      "value": "Bituminous concrete (BC)",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "Item 5",
+      "predicate": "unit",
+      "value": "MT",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "Item 5",
+      "predicate": "quantity_measured",
+      "value": 16503.504,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E4"
+    },
+    {
+      "subject_mention_text": "Item 5",
+      "predicate": "unit_rate",
+      "value": 6491,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E5"
+    },
+    {
+      "subject_mention_text": "Item 5",
+      "predicate": "total_amount_inr",
+      "value": 107124245,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E6"
+    },
+    {
+      "subject_mention_text": "Item 6",
+      "predicate": "item_number",
+      "value": 6,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E7"
+    },
+    {
+      "subject_mention_text": "Item 6",
+      "predicate": "description",
+      "value": "RCC M30 for structures",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E8"
+    },
+    {
+      "subject_mention_text": "Item 6",
+      "predicate": "unit",
+      "value": "cum",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "Item 6",
+      "predicate": "quantity_measured",
+      "value": 24424.27,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E10"
+    },
+    {
+      "subject_mention_text": "Item 6",
+      "predicate": "unit_rate",
+      "value": 8197,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "Item 6",
+      "predicate": "total_amount_inr",
+      "value": 200205745,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "Total Summary",
+      "predicate": "summary_type",
+      "value": "TOTAL",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Total Summary",
+      "predicate": "calculation_formula",
+      "value": "=SUM(F2:F7)",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "RA No 1",
+      "predicate": "ra_number",
+      "value": 1,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E25"
+    },
+    {
+      "subject_mention_text": "RA No 1",
+      "predicate": "measured_on_date",
+      "value": "2023-12-13",
+      "value_type": "DATE",
+      "confidence": 1.0,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "Item 2",
+      "predicate": "item_number",
+      "value": 2,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "Item 2",
+      "predicate": "description",
+      "value": "Granular sub-base (GSB)",
+      "value_type": "STRING",
+      "confidence": 1.0,
+      "source_ref": "E28"
+    },
+    {
+      "subject_mention_text": "Item 2",
+      "predicate": "quantity_measured",
+      "value": 8299.819,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E29"
+    },
+    {
+      "subject_mention_text": "Item 2",
+      "predicate": "total_amount_inr",
+      "value": 12482928,
+      "value_type": "NUMBER",
+      "confidence": 1.0,
+      "source_ref": "E30"
+    }
+  ]
+}

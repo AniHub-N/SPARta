@@ -1,0 +1,16 @@
+{
+  "documents_processed": 3,
+  "evidence_created": 822,
+  "facts_created": 268,
+  "normalization_successes": 195,
+  "normalization_ambiguities": 0,
+  "normalization_failures": 0,
+  "conflicting_facts": 0,
+  "unsupported_values": 73,
+  "skipped_documents": 0,
+  "extraction_version": "1.0",
+  "evidence_schema_version": "1.0",
+  "normalization_version": "1.0",
+  "input_checksum": "50b45e922b2a46aed70bfc6321327ac1d469702a64da6129408b9ef28cfa88bc",
+  "metadata": {}
+}

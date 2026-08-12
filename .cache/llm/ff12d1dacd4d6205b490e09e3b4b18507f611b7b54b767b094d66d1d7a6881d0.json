@@ -1,0 +1,611 @@
+{
+  "entities": [
+    {
+      "mention_text": "CLIENT CONCENTRATION",
+      "entity_type": "Section Title",
+      "confidence": 1,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "The Board",
+      "entity_type": "Organization",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "client concentration",
+      "entity_type": "Topic",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "billings",
+      "entity_type": "Financial Metric",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "public-sector authorities",
+      "entity_type": "Organization Type",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "sector",
+      "entity_type": "Industry",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "tendering process",
+      "entity_type": "Process",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "work",
+      "entity_type": "Activity",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "credit risk",
+      "entity_type": "Risk",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "DOC-AR-2025",
+      "entity_type": "Document",
+      "confidence": 1,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "position",
+      "entity_type": "Status",
+      "confidence": 0.8,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "authorities",
+      "entity_type": "Organization Type",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "geographies",
+      "entity_type": "Location Type",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "PRINCIPAL CLIENTS (BY BILLINGS)",
+      "entity_type": "Section Title",
+      "confidence": 1,
+      "source_ref": "E5"
+    },
+    {
+      "mention_text": "clients",
+      "entity_type": "Customer Group",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "mention_text": "billings",
+      "entity_type": "Financial Metric",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "mention_text": "table",
+      "entity_type": "Data Structure",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "mention_text": "measurement and billing records",
+      "entity_type": "Record Type",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "mention_text": "CONTRACT",
+      "entity_type": "Document",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "mention_text": "Public Works Department, Govt of West Bengal",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E8"
+    },
+    {
+      "mention_text": "Public Works Department, Govt of Gujarat",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E9"
+    },
+    {
+      "mention_text": "Trishakti Power Generation Corporation",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E10"
+    },
+    {
+      "mention_text": "Peninsular Petroleum Corporation",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E11"
+    },
+    {
+      "mention_text": "Mahanadi Steel Corporation",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E12"
+    },
+    {
+      "mention_text": "Meridian Constructors & Co.",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "Jal Nigam, Jharkhand",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E14"
+    },
+    {
+      "mention_text": "Jal Nigam, Gujarat",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E15"
+    },
+    {
+      "mention_text": "Suvarna Projects Limited",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E16"
+    },
+    {
+      "mention_text": "Lakshya Engineering & Construction",
+      "entity_type": "Client",
+      "confidence": 1,
+      "source_ref": "E17"
+    },
+    {
+      "mention_text": "Order inflow",
+      "entity_type": "Financial Metric",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "roads",
+      "entity_type": "Segment",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "water",
+      "entity_type": "Segment",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "building segments",
+      "entity_type": "Segment",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "Margins",
+      "entity_type": "Financial Metric",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "procurement discipline",
+      "entity_type": "Strategy",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "recovery-focused billing",
+      "entity_type": "Strategy",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "DOC-AR-2025",
+      "entity_type": "Document",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "mention_text": "BALANCE SHEET",
+      "entity_type": "Financial Statement",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "mention_text": "EQUITY AND LIABILITIES",
+      "entity_type": "Section Title",
+      "confidence": 1,
+      "source_ref": "E21"
+    },
+    {
+      "mention_text": "Share capital and reserves",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E22"
+    },
+    {
+      "mention_text": "Retained earnings",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E23"
+    },
+    {
+      "mention_text": "Term loans (secured)",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E24"
+    },
+    {
+      "mention_text": "Working capital borrowings",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E25"
+    },
+    {
+      "mention_text": "Trade payables",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E26"
+    },
+    {
+      "mention_text": "Output GST payable",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E27"
+    },
+    {
+      "mention_text": "TDS payable",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E28"
+    },
+    {
+      "mention_text": "Total",
+      "entity_type": "Financial Item",
+      "confidence": 1,
+      "source_ref": "E29"
+    },
+    {
+      "mention_text": "ASSETS",
+      "entity_type": "Section Title",
+      "confidence": 1,
+      "source_ref": "E30"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "billings",
+      "predicate": "arises from",
+      "object_mention_text": "public-sector authorities",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "work",
+      "predicate": "secured through",
+      "object_mention_text": "tendering process",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "clients",
+      "predicate": "account for",
+      "object_mention_text": "billings",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "subject_mention_text": "table",
+      "predicate": "drawn from",
+      "object_mention_text": "measurement and billing records",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "subject_mention_text": "measurement and billing records",
+      "predicate": "for",
+      "object_mention_text": "CONTRACT",
+      "confidence": 1,
+      "source_ref": "E6"
+    }
+  ],
+  "attributes": [
+    {
+      "subject_mention_text": "The Board",
+      "predicate": "reviews",
+      "value": "client concentration",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "billings",
+      "predicate": "share from public-sector authorities",
+      "value": "significant",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "client concentration",
+      "predicate": "characteristic of",
+      "value": "sector",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "client concentration",
+      "predicate": "characteristic of",
+      "value": "tendering process",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "The Board",
+      "predicate": "does not consider concentration of",
+      "value": "credit risk",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "DOC-AR-2025",
+      "predicate": "page_number",
+      "value": 3,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "DOC-AR-2025",
+      "predicate": "total_pages",
+      "value": 18,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "position",
+      "predicate": "kept under review",
+      "value": true,
+      "value_type": "boolean",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "subject_mention_text": "Public Works Department, Govt of West Bengal",
+      "predicate": "billings_gross",
+      "value": 347767752,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E8"
+    },
+    {
+      "subject_mention_text": "Public Works Department, Govt of Gujarat",
+      "predicate": "billings_gross",
+      "value": 333786361,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "Trishakti Power Generation Corporation",
+      "predicate": "billings_gross",
+      "value": 219268542,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E10"
+    },
+    {
+      "subject_mention_text": "Peninsular Petroleum Corporation",
+      "predicate": "billings_gross",
+      "value": 210168020,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "Mahanadi Steel Corporation",
+      "predicate": "billings_gross",
+      "value": 202351108,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "Meridian Constructors & Co.",
+      "predicate": "billings_gross",
+      "value": 187822452,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Jal Nigam, Jharkhand",
+      "predicate": "billings_gross",
+      "value": 157297572,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E14"
+    },
+    {
+      "subject_mention_text": "Jal Nigam, Gujarat",
+      "predicate": "billings_gross",
+      "value": 136493859,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "Suvarna Projects Limited",
+      "predicate": "billings_gross",
+      "value": 118122948,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E16"
+    },
+    {
+      "subject_mention_text": "Lakshya Engineering & Construction",
+      "predicate": "billings_gross",
+      "value": 108324892,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E17"
+    },
+    {
+      "subject_mention_text": "Order inflow",
+      "predicate": "status",
+      "value": "healthy",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Order inflow",
+      "predicate": "across_segment",
+      "value": "roads",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Order inflow",
+      "predicate": "across_segment",
+      "value": "water",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Order inflow",
+      "predicate": "across_segment",
+      "value": "building segments",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Margins",
+      "predicate": "protected through",
+      "value": "procurement discipline",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Margins",
+      "predicate": "protected through",
+      "value": "recovery-focused billing",
+      "value_type": "string",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "DOC-AR-2025",
+      "predicate": "page_number",
+      "value": 4,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "subject_mention_text": "DOC-AR-2025",
+      "predicate": "total_pages",
+      "value": 18,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "subject_mention_text": "BALANCE SHEET",
+      "predicate": "as_at_date",
+      "value": "2026-03-31",
+      "value_type": "date",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "Share capital and reserves",
+      "predicate": "value",
+      "value": 5283900000,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E22"
+    },
+    {
+      "subject_mention_text": "Retained earnings",
+      "predicate": "value",
+      "value": -567584477,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E23"
+    },
+    {
+      "subject_mention_text": "Term loans (secured)",
+      "predicate": "value",
+      "value": 2198000000,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E24"
+    },
+    {
+      "subject_mention_text": "Working capital borrowings",
+      "predicate": "value",
+      "value": 20000000,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E25"
+    },
+    {
+      "subject_mention_text": "Trade payables",
+      "predicate": "value",
+      "value": 3088596731,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "Output GST payable",
+      "predicate": "value",
+      "value": 141132183,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "TDS payable",
+      "predicate": "value",
+      "value": 5856438,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E28"
+    },
+    {
+      "subject_mention_text": "Total",
+      "predicate": "value",
+      "value": 10169900875,
+      "value_type": "number",
+      "confidence": 1,
+      "source_ref": "E29"
+    }
+  ]
+}

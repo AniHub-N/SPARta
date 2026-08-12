@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "mention_text": "Wet mix macadam (WMM)",
+      "entity_type": "BOQ Item",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "RCC M30 for structures",
+      "entity_type": "BOQ Item",
+      "confidence": 1,
+      "source_ref": "E10"
+    },
+    {
+      "mention_text": "Earthwork in excavation & embankment",
+      "entity_type": "BOQ Item",
+      "confidence": 1,
+      "source_ref": "E16"
+    },
+    {
+      "mention_text": "Granular sub-base (GSB)",
+      "entity_type": "BOQ Item",
+      "confidence": 1,
+      "source_ref": "E22"
+    },
+    {
+      "mention_text": "Wet mix macadam (WMM)",
+      "entity_type": "BOQ Item",
+      "confidence": 1,
+      "source_ref": "E28"
+    }
+  ],
+  "relationships": [],
+  "attributes": [
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "entry_id",
+      "value": 13,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E1"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "measurement_date",
+      "value": "2024-11-25T00:00:00",
+      "value_type": "Date",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "item_number",
+      "value": 3,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "quantity",
+      "value": 9138.735,
+      "value_type": "Float",
+      "confidence": 1,
+      "source_ref": "E5"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "amount",
+      "value": 14018820,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E6"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "entry_id",
+      "value": 13,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E7"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "measurement_date",
+      "value": "2024-11-25T00:00:00",
+      "value_type": "Date",
+      "confidence": 1,
+      "source_ref": "E8"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "item_number",
+      "value": 6,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "quantity",
+      "value": 1520.813,
+      "value_type": "Float",
+      "confidence": 1,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "RCC M30 for structures",
+      "predicate": "amount",
+      "value": 12466102,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "Earthwork in excavation & embankment",
+      "predicate": "entry_id",
+      "value": 14,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Earthwork in excavation & embankment",
+      "predicate": "measurement_date",
+      "value": "2024-12-24T00:00:00",
+      "value_type": "Date",
+      "confidence": 1,
+      "source_ref": "E14"
+    },
+    {
+      "subject_mention_text": "Earthwork in excavation & embankment",
+      "predicate": "item_number",
+      "value": 1,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "Earthwork in excavation & embankment",
+      "predicate": "quantity",
+      "value": 46183.064,
+      "value_type": "Float",
+      "confidence": 1,
+      "source_ref": "E17"
+    },
+    {
+      "subject_mention_text": "Earthwork in excavation & embankment",
+      "predicate": "amount",
+      "value": 9375162,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "entry_id",
+      "value": 14,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "measurement_date",
+      "value": "2024-12-24T00:00:00",
+      "value_type": "Date",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "item_number",
+      "value": 2,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E21"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "quantity",
+      "value": 13084.51,
+      "value_type": "Float",
+      "confidence": 1,
+      "source_ref": "E23"
+    },
+    {
+      "subject_mention_text": "Granular sub-base (GSB)",
+      "predicate": "amount",
+      "value": 19679103,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E24"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "entry_id",
+      "value": 14,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E25"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "measurement_date",
+      "value": "2024-12-24T00:00:00",
+      "value_type": "Date",
+      "confidence": 1,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "item_number",
+      "value": 3,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "quantity",
+      "value": 9786.445,
+      "value_type": "Float",
+      "confidence": 1,
+      "source_ref": "E29"
+    },
+    {
+      "subject_mention_text": "Wet mix macadam (WMM)",
+      "predicate": "amount",
+      "value": 15012407,
+      "value_type": "Integer",
+      "confidence": 1,
+      "source_ref": "E30"
+    }
+  ]
+}

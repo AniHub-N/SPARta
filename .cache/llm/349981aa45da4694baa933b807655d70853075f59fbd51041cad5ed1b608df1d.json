@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "mention_text": "Bill of Quantities and measurement register",
+      "entity_type": "Document",
+      "confidence": 0.95,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "contract 75",
+      "entity_type": "Contract",
+      "confidence": 0.95,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "National Infrastructure Corp. Ltd.",
+      "entity_type": "Organization",
+      "confidence": 0.95,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "Quantities",
+      "entity_type": "Data",
+      "confidence": 0.9,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "measurement book",
+      "entity_type": "Document",
+      "confidence": 0.95,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "measurement total",
+      "entity_type": "Data",
+      "confidence": 0.9,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "running-account bills",
+      "entity_type": "Financial Document",
+      "confidence": 0.95,
+      "source_ref": "E4"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "Bill of Quantities and measurement register",
+      "predicate": "pertains_to",
+      "object_mention_text": "contract 75",
+      "confidence": 0.9,
+      "source_ref": "E1"
+    },
+    {
+      "subject_mention_text": "Quantities",
+      "predicate": "are_recorded_in",
+      "object_mention_text": "measurement book",
+      "confidence": 0.9,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "measurement total",
+      "predicate": "reconciles_to",
+      "object_mention_text": "running-account bills",
+      "confidence": 0.9,
+      "source_ref": "E4"
+    }
+  ],
+  "attributes": [
+    {
+      "subject_mention_text": "National Infrastructure Corp. Ltd.",
+      "predicate": "role",
+      "value": "Agency",
+      "value_type": "string",
+      "confidence": 0.95,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "Quantities",
+      "predicate": "measurement_status",
+      "value": "measured jointly",
+      "value_type": "string",
+      "confidence": 0.9,
+      "source_ref": "E3"
+    }
+  ]
+}

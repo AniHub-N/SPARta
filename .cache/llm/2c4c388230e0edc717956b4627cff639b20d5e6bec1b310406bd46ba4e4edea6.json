@@ -1,0 +1,319 @@
+{
+  "entities": [
+    {
+      "mention_text": "BOQ Document",
+      "entity_type": "Bill of Quantities",
+      "confidence": 1.0,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "Line Item 2",
+      "entity_type": "Line Item",
+      "confidence": 1.0,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "Line Item 3",
+      "entity_type": "Line Item",
+      "confidence": 1.0,
+      "source_ref": "E9"
+    },
+    {
+      "mention_text": "Line Item 4",
+      "entity_type": "Line Item",
+      "confidence": 1.0,
+      "source_ref": "E15"
+    },
+    {
+      "mention_text": "Line Item 5",
+      "entity_type": "Line Item",
+      "confidence": 1.0,
+      "source_ref": "E21"
+    },
+    {
+      "mention_text": "Line Item 7",
+      "entity_type": "Line Item",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "contains_item",
+      "object_mention_text": "Line Item 2",
+      "confidence": 1.0,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "contains_item",
+      "object_mention_text": "Line Item 3",
+      "confidence": 1.0,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "contains_item",
+      "object_mention_text": "Line Item 4",
+      "confidence": 1.0,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "contains_item",
+      "object_mention_text": "Line Item 5",
+      "confidence": 1.0,
+      "source_ref": "E21"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "contains_item",
+      "object_mention_text": "Line Item 7",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    }
+  ],
+  "attributes": [
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "document_id",
+      "value": "14",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E1"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "date",
+      "value": "2023-03-28T00:00:00",
+      "value_type": "datetime",
+      "confidence": 1.0,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "Line Item 2",
+      "predicate": "item_number",
+      "value": 2,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "Line Item 2",
+      "predicate": "description",
+      "value": "Granular sub-base (GSB)",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E4"
+    },
+    {
+      "subject_mention_text": "Line Item 2",
+      "predicate": "quantity",
+      "value": 7620.929,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E5"
+    },
+    {
+      "subject_mention_text": "Line Item 2",
+      "predicate": "total_value",
+      "value": 10676922,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E6"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "document_id",
+      "value": "14",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E7"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "date",
+      "value": "2023-03-28T00:00:00",
+      "value_type": "datetime",
+      "confidence": 1.0,
+      "source_ref": "E8"
+    },
+    {
+      "subject_mention_text": "Line Item 3",
+      "predicate": "item_number",
+      "value": 3,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "Line Item 3",
+      "predicate": "description",
+      "value": "Wet mix macadam (WMM)",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E10"
+    },
+    {
+      "subject_mention_text": "Line Item 3",
+      "predicate": "quantity",
+      "value": 5272.289,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "Line Item 3",
+      "predicate": "total_value",
+      "value": 9627200,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "document_id",
+      "value": "14",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "date",
+      "value": "2023-03-28T00:00:00",
+      "value_type": "datetime",
+      "confidence": 1.0,
+      "source_ref": "E14"
+    },
+    {
+      "subject_mention_text": "Line Item 4",
+      "predicate": "item_number",
+      "value": 4,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "Line Item 4",
+      "predicate": "description",
+      "value": "Dense bituminous macadam (DBM)",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E16"
+    },
+    {
+      "subject_mention_text": "Line Item 4",
+      "predicate": "quantity",
+      "value": 2219.67,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E17"
+    },
+    {
+      "subject_mention_text": "Line Item 4",
+      "predicate": "total_value",
+      "value": 11637730,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "document_id",
+      "value": "14",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E19"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "date",
+      "value": "2023-03-28T00:00:00",
+      "value_type": "datetime",
+      "confidence": 1.0,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "Line Item 5",
+      "predicate": "item_number",
+      "value": 5,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E21"
+    },
+    {
+      "subject_mention_text": "Line Item 5",
+      "predicate": "description",
+      "value": "Bituminous concrete (BC)",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E22"
+    },
+    {
+      "subject_mention_text": "Line Item 5",
+      "predicate": "quantity",
+      "value": 2065.799,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E23"
+    },
+    {
+      "subject_mention_text": "Line Item 5",
+      "predicate": "total_value",
+      "value": 12907110,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E24"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "document_id",
+      "value": "14",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E25"
+    },
+    {
+      "subject_mention_text": "BOQ Document",
+      "predicate": "date",
+      "value": "2023-03-28T00:00:00",
+      "value_type": "datetime",
+      "confidence": 1.0,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "Line Item 7",
+      "predicate": "item_number",
+      "value": 7,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "Line Item 7",
+      "predicate": "description",
+      "value": "Reinforcement steel Fe500",
+      "value_type": "text",
+      "confidence": 1.0,
+      "source_ref": "E28"
+    },
+    {
+      "subject_mention_text": "Line Item 7",
+      "predicate": "quantity",
+      "value": 71.829,
+      "value_type": "number",
+      "confidence": 1.0,
+      "source_ref": "E29"
+    },
+    {
+      "subject_mention_text": "Line Item 7",
+      "predicate": "total_value",
+      "value": 4896149,
+      "value_type": "integer",
+      "confidence": 1.0,
+      "source_ref": "E30"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {
+      "mention_text": "Earthwork",
+      "entity_type": "Work",
+      "confidence": 0.8
+    },
+    {
+      "mention_text": "excavation",
+      "entity_type": "Process",
+      "confidence": 0.8
+    },
+    {
+      "mention_text": "embankment",
+      "entity_type": "Process",
+      "confidence": 0.8
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "Earthwork",
+      "predicate": "in",
+      "object_mention_text": "excavation & embankment",
+      "confidence": 0.8
+    }
+  ],
+  "attributes": []
+}

@@ -1,0 +1,5815 @@
+{
+  "document_id": "DOC-GLB-2019",
+  "filename": "DOC-GLB-2019.pdf",
+  "document_type": "pdf",
+  "source_path": "C:\\Users\\aniru\\SPARta\\test\\DOC-GLB-2019.pdf",
+  "metadata": {
+    "filename": "DOC-GLB-2019.pdf",
+    "document_type": "pdf",
+    "size_bytes": 62934
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NATIONAL INFRASTRUCTURE CORP. LTD.\nBooks of Account · General Ledger · FY 2019–20\nGENERAL LEDGER — FISCAL YEAR 2019–20\nVolume: GL/2019\n154 posted lines · system-generated\nGrouped  by  account  per  the  chart  of  accounts.  Amounts  in  INR.  Balances  are  running  account\nbalances (Dr positive). Narrations reference the originating voucher.\nDOC-GLB-2019\nPage 1 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p1-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "NATIONAL INFRASTRUCTURE CORP. LTD.",
+          "coordinates": {
+            "x0": 129.32284545898438,
+            "y0": 76.59536743164062,
+            "x1": 464.2939453125,
+            "y1": 92.4568099975586
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p1-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "Books of Account · General Ledger · FY 2019–20",
+          "coordinates": {
+            "x0": 163.07431030273438,
+            "y0": 96.5964126586914,
+            "x1": 431.4791564941406,
+            "y1": 106.2181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p1-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "GENERAL LEDGER — FISCAL YEAR 2019–20",
+          "coordinates": {
+            "x0": 145.99981689453125,
+            "y0": 130.328125,
+            "x1": 448.3387451171875,
+            "y1": 144.53570556640625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p1-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "Volume: GL/2019\n154 posted lines · system-generated",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 152.83804321289062,
+            "x1": 526.8975219726562,
+            "y1": 162.09402465820312
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p1-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "Grouped  by  account  per  the  chart  of  accounts.  Amounts  in  INR.  Balances  are  running  account",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 174.0310516357422,
+            "x1": 526.7973022460938,
+            "y1": 182.84854125976562
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p1-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "balances (Dr positive). Narrations reference the originating voucher.",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 185.71604919433594,
+            "x1": 390.83953857421875,
+            "y1": 194.53353881835938
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p1-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 1,
+          "text": "DOC-GLB-2019\nPage 1 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 2,
+      "text": "ACCOUNT 1010 — BANK (ASSET)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-04-01\nOpening capital & plant\nbrought in\n400,000,000\n400,000,000\nDr\n2019-04-02\nWorking-capital facility\ndrawdown\n20,000,000\n420,000,000\nDr\n2019-04-28\nMonthly salaries & site\noverheads (201904)\n802,761\n419,197,239\nDr\n2019-05-28\nMonthly salaries & site\noverheads (201905)\n802,761\n418,394,478\nDr\n2019-06-28\nMonthly salaries & site\noverheads (201906)\n802,761\n417,591,717\nDr\n2019-07-28\nMonthly salaries & site\noverheads (201907)\n802,761\n416,788,956\nDr\n2019-08-06\nReceipt against invoice (rcpt\n#6)\n22,320,149\n439,109,105\nDr\n2019-08-28\nMonthly salaries & site\noverheads (201908)\n802,761\n438,306,344\nDr\n2019-09-11\nVendor payment #8\n35,115,513\n403,190,831\nDr\n2019-09-28\nMonthly salaries & site\noverheads (201909)\n802,761\n402,388,070\nDr\n2019-10-07\nTDS deposited (201909)\n605,439\n401,782,631\nDr\n2019-10-23\nReceipt against invoice (rcpt\n#7)\n22,320,149\n424,102,780\nDr\n2019-10-28\nMonthly salaries & site\noverheads (201910)\n802,761\n423,300,019\nDr\n2019-11-28\nMonthly salaries & site\noverheads (201911)\n802,761\n422,497,258\nDr\n2019-12-28\nMonthly salaries & site\noverheads (201912)\n802,761\n421,694,497\nDr\n2020-01-07\nVendor payment #29\n2,172,038\n419,522,459\nDr\n2020-01-20\nReceipt against invoice (rcpt\n#17)\n40,808,246\n460,330,705\nDr\n2020-01-24\nReceipt against invoice (rcpt\n#10)\n49,005,060\n509,335,765\nDr\n2020-01-28\n802,761\nDOC-GLB-2019\nPage 2 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p2-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "ACCOUNT 1010 — BANK (ASSET)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 253.34925842285156,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 489.2518310546875,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-04-01\nOpening capital & plant",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 264.31103515625,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "brought in",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 143.2306365966797,
+            "x1": 193.91693115234375,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "400,000,000\n400,000,000",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 129.69314575195312,
+            "x1": 510.91156005859375,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 143.2306365966797,
+            "x1": 462.1771545410156,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-04-02\nWorking-capital facility",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 163.5181427001953,
+            "x1": 269.7259826660156,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "drawdown",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 177.05564880371094,
+            "x1": 183.0870361328125,
+            "y1": 187.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "20,000,000\n420,000,000",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 163.5181427001953,
+            "x1": 510.91156005859375,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 177.05564880371094,
+            "x1": 462.1771545410156,
+            "y1": 187.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-04-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 197.3431396484375,
+            "x1": 264.31103515625,
+            "y1": 207.559326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201904)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 210.8806610107422,
+            "x1": 237.23638916015625,
+            "y1": 221.0968475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n419,197,239",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 197.3431396484375,
+            "x1": 510.91156005859375,
+            "y1": 207.559326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 210.8806610107422,
+            "x1": 462.1771545410156,
+            "y1": 221.0968475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-05-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1681365966797,
+            "x1": 264.31103515625,
+            "y1": 241.3843231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b16",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201905)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 244.7056427001953,
+            "x1": 237.23638916015625,
+            "y1": 254.9218292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b17",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n418,394,478",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 231.1681365966797,
+            "x1": 510.91156005859375,
+            "y1": 241.3843231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b18",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 244.7056427001953,
+            "x1": 462.1771545410156,
+            "y1": 254.9218292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b19",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-06-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 264.9931335449219,
+            "x1": 264.31103515625,
+            "y1": 275.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b20",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201906)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 278.5306396484375,
+            "x1": 237.23638916015625,
+            "y1": 288.746826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b21",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n417,591,717",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 264.9931335449219,
+            "x1": 510.91156005859375,
+            "y1": 275.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b22",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 278.5306396484375,
+            "x1": 462.1771545410156,
+            "y1": 288.746826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b23",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-07-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 298.8181457519531,
+            "x1": 264.31103515625,
+            "y1": 309.0343322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b24",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201907)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 312.3556213378906,
+            "x1": 237.23638916015625,
+            "y1": 322.5718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b25",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n416,788,956",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 298.8181457519531,
+            "x1": 510.91156005859375,
+            "y1": 309.0343322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b26",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 312.3556213378906,
+            "x1": 462.1771545410156,
+            "y1": 322.5718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b27",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-08-06\nReceipt against invoice (rcpt",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 332.64312744140625,
+            "x1": 296.8006286621094,
+            "y1": 342.85931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b28",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "#6)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 346.1806335449219,
+            "x1": 156.01231384277344,
+            "y1": 356.3968200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b29",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "22,320,149\n439,109,105",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 332.64312744140625,
+            "x1": 510.91156005859375,
+            "y1": 342.85931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b30",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 346.1806335449219,
+            "x1": 462.1771545410156,
+            "y1": 356.3968200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b31",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-08-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 366.4681396484375,
+            "x1": 264.31103515625,
+            "y1": 376.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b32",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201908)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 380.005615234375,
+            "x1": 237.23638916015625,
+            "y1": 390.2218017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b33",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n438,306,344",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 366.4681396484375,
+            "x1": 510.91156005859375,
+            "y1": 376.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b34",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 380.005615234375,
+            "x1": 462.1771545410156,
+            "y1": 390.2218017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b35",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-09-11\nVendor payment #8\n35,115,513\n403,190,831",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 400.29315185546875,
+            "x1": 510.91156005859375,
+            "y1": 410.50933837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b36",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 413.83062744140625,
+            "x1": 462.1771545410156,
+            "y1": 424.04681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b37",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-09-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 434.1181335449219,
+            "x1": 264.31103515625,
+            "y1": 444.3343200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b38",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201909)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 447.6556396484375,
+            "x1": 237.23638916015625,
+            "y1": 457.871826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b39",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n402,388,070",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 434.1181335449219,
+            "x1": 510.91156005859375,
+            "y1": 444.3343200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b40",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 447.6556396484375,
+            "x1": 462.1771545410156,
+            "y1": 457.871826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b41",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-10-07\nTDS deposited (201909)\n605,439\n401,782,631",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 467.943115234375,
+            "x1": 510.91156005859375,
+            "y1": 478.1593017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b42",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 481.48065185546875,
+            "x1": 462.1771545410156,
+            "y1": 491.69683837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b43",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-10-23\nReceipt against invoice (rcpt",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 501.76812744140625,
+            "x1": 296.8006286621094,
+            "y1": 511.98431396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b44",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "#7)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 515.3056030273438,
+            "x1": 156.01231384277344,
+            "y1": 525.5217895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b45",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "22,320,149\n424,102,780",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 501.76812744140625,
+            "x1": 510.91156005859375,
+            "y1": 511.98431396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b46",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 515.3056030273438,
+            "x1": 462.1771545410156,
+            "y1": 525.5217895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b47",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-10-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 535.5931396484375,
+            "x1": 264.31103515625,
+            "y1": 545.809326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b48",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201910)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 549.130615234375,
+            "x1": 237.23638916015625,
+            "y1": 559.3468017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b49",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n423,300,019",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 535.5931396484375,
+            "x1": 510.91156005859375,
+            "y1": 545.809326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b50",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 549.130615234375,
+            "x1": 462.1771545410156,
+            "y1": 559.3468017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b51",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-11-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 569.4181518554688,
+            "x1": 264.31103515625,
+            "y1": 579.6343383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b52",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201911)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 582.9556274414062,
+            "x1": 237.23638916015625,
+            "y1": 593.1718139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b53",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n422,497,258",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 569.4181518554688,
+            "x1": 510.91156005859375,
+            "y1": 579.6343383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b54",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 582.9556274414062,
+            "x1": 462.1771545410156,
+            "y1": 593.1718139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b55",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2019-12-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 603.2431030273438,
+            "x1": 264.31103515625,
+            "y1": 613.4592895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b56",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "overheads (201912)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 616.7806396484375,
+            "x1": 237.23638916015625,
+            "y1": 626.996826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b57",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "802,761\n421,694,497",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 603.2431030273438,
+            "x1": 510.91156005859375,
+            "y1": 613.4592895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b58",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 616.7806396484375,
+            "x1": 462.1771545410156,
+            "y1": 626.996826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b59",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2020-01-07\nVendor payment #29\n2,172,038\n419,522,459",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 637.068115234375,
+            "x1": 510.91156005859375,
+            "y1": 647.2843017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b60",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 650.6056518554688,
+            "x1": 462.1771545410156,
+            "y1": 660.8218383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b61",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2020-01-20\nReceipt against invoice (rcpt",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 670.8931274414062,
+            "x1": 296.8006286621094,
+            "y1": 681.1093139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b62",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "#17)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 684.4306030273438,
+            "x1": 161.42726135253906,
+            "y1": 694.6467895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b63",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "40,808,246\n460,330,705",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 670.8931274414062,
+            "x1": 510.91156005859375,
+            "y1": 681.1093139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b64",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 684.4306030273438,
+            "x1": 462.1771545410156,
+            "y1": 694.6467895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b65",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2020-01-24\nReceipt against invoice (rcpt",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 704.7181396484375,
+            "x1": 296.8006286621094,
+            "y1": 714.934326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b66",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "#10)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 718.255615234375,
+            "x1": 161.42726135253906,
+            "y1": 728.4718017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b67",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "49,005,060\n509,335,765",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 704.7181396484375,
+            "x1": 510.91156005859375,
+            "y1": 714.934326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b68",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 718.255615234375,
+            "x1": 462.1771545410156,
+            "y1": 728.4718017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b69",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "2020-01-28\n802,761",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 738.5431518554688,
+            "x1": 418.4310302734375,
+            "y1": 748.7593383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p2-b70",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 2,
+          "text": "DOC-GLB-2019\nPage 2 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 3,
+      "text": "Monthly salaries & site\noverheads (201901)\n508,533,004\nDr\n2020-02-06\nVendor payment #20\n19,545,006\n488,987,998\nDr\n2020-02-07\nTDS deposited (202001)\n37,448\n488,950,550\nDr\n2020-02-26\nVendor payment #5\n54,531,364\n434,419,186\nDr\n2020-02-28\nMonthly salaries & site\noverheads (201902)\n802,761\n433,616,425\nDr\n2020-03-07\nTDS deposited (202002)\n1,277,177\n432,339,248\nDr\n2020-03-14\nVendor payment #33\n32,237,568\n400,101,680\nDr\n2020-03-28\nReceipt against invoice (rcpt\n#11)\n49,005,060\n449,106,740\nDr\n2020-03-28\nMonthly salaries & site\noverheads (201903)\n802,772\n448,303,968\nDr\nTOTALS\n603,458,664\n155,154,696\n448,303,968\nDR\nDOC-GLB-2019\nPage 3 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p3-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Monthly salaries & site",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 69.6931381225586,
+            "x1": 264.31103515625,
+            "y1": 79.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "overheads (201901)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 83.23063659667969,
+            "x1": 237.23638916015625,
+            "y1": 93.44683074951172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "508,533,004",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 69.6931381225586,
+            "x1": 510.91156005859375,
+            "y1": 79.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 83.23063659667969,
+            "x1": 462.1771545410156,
+            "y1": 93.44683074951172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-02-06\nVendor payment #20\n19,545,006\n488,987,998",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 103.51813507080078,
+            "x1": 510.91156005859375,
+            "y1": 113.73432922363281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 117.0556411743164,
+            "x1": 462.1771545410156,
+            "y1": 127.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-02-07\nTDS deposited (202001)\n37,448\n488,950,550",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 137.3431396484375,
+            "x1": 510.91156005859375,
+            "y1": 147.559326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 150.88064575195312,
+            "x1": 462.1771545410156,
+            "y1": 161.09683227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-02-26\nVendor payment #5\n54,531,364\n434,419,186",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 171.1681365966797,
+            "x1": 510.91156005859375,
+            "y1": 181.3843231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 184.7056427001953,
+            "x1": 462.1771545410156,
+            "y1": 194.9218292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-02-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 204.99314880371094,
+            "x1": 264.31103515625,
+            "y1": 215.20933532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "overheads (201902)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 218.5306396484375,
+            "x1": 237.23638916015625,
+            "y1": 228.746826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "802,761\n433,616,425",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 204.99314880371094,
+            "x1": 510.91156005859375,
+            "y1": 215.20933532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 218.5306396484375,
+            "x1": 462.1771545410156,
+            "y1": 228.746826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-03-07\nTDS deposited (202002)\n1,277,177\n432,339,248",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 238.8181610107422,
+            "x1": 510.91156005859375,
+            "y1": 249.0343475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b16",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 252.3556365966797,
+            "x1": 462.1771545410156,
+            "y1": 262.5718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b17",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-03-14\nVendor payment #33\n32,237,568\n400,101,680",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 272.64312744140625,
+            "x1": 510.91156005859375,
+            "y1": 282.85931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b18",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 286.1806335449219,
+            "x1": 462.1771545410156,
+            "y1": 296.3968200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b19",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-03-28\nReceipt against invoice (rcpt",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 306.4681396484375,
+            "x1": 296.8006286621094,
+            "y1": 316.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b20",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "#11)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 320.0056457519531,
+            "x1": 161.42726135253906,
+            "y1": 330.2218322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b21",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "49,005,060\n449,106,740",
+          "coordinates": {
+            "x0": 309.7056579589844,
+            "y0": 306.4681396484375,
+            "x1": 510.91156005859375,
+            "y1": 316.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b22",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 320.0056457519531,
+            "x1": 462.1771545410156,
+            "y1": 330.2218322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b23",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "2020-03-28\nMonthly salaries & site",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 340.2931213378906,
+            "x1": 264.31103515625,
+            "y1": 350.5093078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b24",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "overheads (201903)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 353.83062744140625,
+            "x1": 237.23638916015625,
+            "y1": 364.04681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b25",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "802,772\n448,303,968",
+          "coordinates": {
+            "x0": 380.5264587402344,
+            "y0": 340.2931213378906,
+            "x1": 510.91156005859375,
+            "y1": 350.5093078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b26",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 353.83062744140625,
+            "x1": 462.1771545410156,
+            "y1": 364.04681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b27",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "TOTALS\n603,458,664\n155,154,696\n448,303,968",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 374.109130859375,
+            "x1": 510.91156005859375,
+            "y1": 384.3343200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b28",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "DR",
+          "coordinates": {
+            "x0": 451.3472900390625,
+            "y0": 387.6466369628906,
+            "x1": 462.1771545410156,
+            "y1": 397.871826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p3-b29",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 3,
+          "text": "DOC-GLB-2019\nPage 3 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 4,
+      "text": "ACCOUNT 1100 — ACCOUNTS RECEIVABLE (ASSET)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-07-06\nClient invoice AR-2019-00007\n23,727,725\n23,727,725 Dr\n2019-08-06\nReceipt against invoice\n(rcpt #6)\n23,727,725\n0 Dr\n2019-09-17\nClient invoice AR-2019-00008\n23,727,725\n23,727,725 Dr\n2019-10-02\nClient invoice AR-2019-00017\n33,368,386\n57,096,111 Dr\n2019-10-11\nClient invoice AR-2019-00012\n52,095,469\n109,191,580\nDr\n2019-10-23\nReceipt against invoice\n(rcpt #7)\n23,727,725\n85,463,855 Dr\n2019-11-29\nClient invoice AR-2019-00009\n23,727,725\n109,191,580\nDr\n2019-12-01\nClient invoice AR-2019-00054\n37,191,494\n146,383,074\nDr\n2019-12-20\nClient invoice AR-2019-00022\n43,381,738\n189,764,812\nDr\n2020-01-01\nClient invoice AR-2020-00040\n30,034,088\n219,798,900\nDr\n2020-01-20\nReceipt against invoice\n(rcpt #17)\n43,381,738\n176,417,162\nDr\n2020-01-24\nReceipt against invoice\n(rcpt #10)\n52,095,469\n124,321,693\nDr\n2020-02-04\nClient invoice AR-2020-00013\n52,095,469\n176,417,162\nDr\n2020-02-10\nClient invoice AR-2020-00010\n23,727,725\n200,144,887\nDr\n2020-02-15\nClient invoice AR-2020-00046\n48,190,045\n248,334,932\nDr\n2020-02-20\nClient invoice AR-2020-00023\n43,381,738\n291,716,670\nDr\n2020-02-27\nClient invoice AR-2020-00055\n37,191,494\n328,908,164\nDr\n2020-03-11\nClient invoice AR-2020-00041\n30,034,088\n358,942,252\nDr\n2020-03-13\nClient invoice AR-2020-00001\n16,419,317\n375,361,569\nDr\n2020-03-26\nClient invoice AR-2020-00030\n16,692,852\n392,054,421\nDr\nDOC-GLB-2019\nPage 4 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p4-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "ACCOUNT 1100 — ACCOUNTS RECEIVABLE (ASSET)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 356.6142272949219,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 486.9619140625,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-07-06\nClient invoice AR-2019-00007\n23,727,725\n23,727,725 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 519.4514770507812,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-08-06\nReceipt against invoice",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 264.31103515625,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "(rcpt #6)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 163.5181427001953,
+            "x1": 188.50198364257812,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "23,727,725\n0 Dr",
+          "coordinates": {
+            "x0": 378.236572265625,
+            "y0": 149.9806365966797,
+            "x1": 470.7171325683594,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-09-17\nClient invoice AR-2019-00008\n23,727,725\n23,727,725 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 183.80564880371094,
+            "x1": 519.4514770507812,
+            "y1": 194.02183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-10-02\nClient invoice AR-2019-00017\n33,368,386\n57,096,111 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 204.0931396484375,
+            "x1": 519.4514770507812,
+            "y1": 214.309326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-10-11\nClient invoice AR-2019-00012\n52,095,469\n109,191,580",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 224.3806610107422,
+            "x1": 508.62164306640625,
+            "y1": 234.5968475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 237.9181365966797,
+            "x1": 459.8872375488281,
+            "y1": 248.1343231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-10-23\nReceipt against invoice",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 258.20562744140625,
+            "x1": 264.31103515625,
+            "y1": 268.42181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "(rcpt #7)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 271.7431335449219,
+            "x1": 188.50198364257812,
+            "y1": 281.9593200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "23,727,725\n85,463,855 Dr",
+          "coordinates": {
+            "x0": 378.236572265625,
+            "y0": 258.20562744140625,
+            "x1": 519.4514770507812,
+            "y1": 268.42181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-11-29\nClient invoice AR-2019-00009\n23,727,725\n109,191,580",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 292.0306396484375,
+            "x1": 508.62164306640625,
+            "y1": 302.246826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 305.5681457519531,
+            "x1": 459.8872375488281,
+            "y1": 315.7843322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b16",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-12-01\nClient invoice AR-2019-00054\n37,191,494\n146,383,074",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 325.8556213378906,
+            "x1": 508.62164306640625,
+            "y1": 336.0718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b17",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 339.39312744140625,
+            "x1": 459.8872375488281,
+            "y1": 349.60931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b18",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2019-12-20\nClient invoice AR-2019-00022\n43,381,738\n189,764,812",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 359.6806335449219,
+            "x1": 508.62164306640625,
+            "y1": 369.8968200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b19",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 373.2181396484375,
+            "x1": 459.8872375488281,
+            "y1": 383.434326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b20",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-01-01\nClient invoice AR-2020-00040\n30,034,088\n219,798,900",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 393.505615234375,
+            "x1": 508.62164306640625,
+            "y1": 403.7218017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b21",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 407.04315185546875,
+            "x1": 459.8872375488281,
+            "y1": 417.25933837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b22",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-01-20\nReceipt against invoice",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 427.33062744140625,
+            "x1": 264.31103515625,
+            "y1": 437.54681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b23",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "(rcpt #17)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 440.8681335449219,
+            "x1": 193.91693115234375,
+            "y1": 451.0843200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b24",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "43,381,738\n176,417,162",
+          "coordinates": {
+            "x0": 378.236572265625,
+            "y0": 427.33062744140625,
+            "x1": 508.62164306640625,
+            "y1": 437.54681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b25",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 440.8681335449219,
+            "x1": 459.8872375488281,
+            "y1": 451.0843200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b26",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-01-24\nReceipt against invoice",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 461.1556396484375,
+            "x1": 264.31103515625,
+            "y1": 471.371826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b27",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "(rcpt #10)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 474.693115234375,
+            "x1": 193.91693115234375,
+            "y1": 484.9093017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b28",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "52,095,469\n124,321,693",
+          "coordinates": {
+            "x0": 378.236572265625,
+            "y0": 461.1556396484375,
+            "x1": 508.62164306640625,
+            "y1": 471.371826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b29",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 474.693115234375,
+            "x1": 459.8872375488281,
+            "y1": 484.9093017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b30",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-02-04\nClient invoice AR-2020-00013\n52,095,469\n176,417,162",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 494.98065185546875,
+            "x1": 508.62164306640625,
+            "y1": 505.19683837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b31",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 508.51812744140625,
+            "x1": 459.8872375488281,
+            "y1": 518.7343139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b32",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-02-10\nClient invoice AR-2020-00010\n23,727,725\n200,144,887",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 528.8056030273438,
+            "x1": 508.62164306640625,
+            "y1": 539.0217895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b33",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 542.3431396484375,
+            "x1": 459.8872375488281,
+            "y1": 552.559326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b34",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-02-15\nClient invoice AR-2020-00046\n48,190,045\n248,334,932",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 562.630615234375,
+            "x1": 508.62164306640625,
+            "y1": 572.8468017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b35",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 576.1681518554688,
+            "x1": 459.8872375488281,
+            "y1": 586.3843383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b36",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-02-20\nClient invoice AR-2020-00023\n43,381,738\n291,716,670",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 596.4556274414062,
+            "x1": 508.62164306640625,
+            "y1": 606.6718139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b37",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 609.9931030273438,
+            "x1": 459.8872375488281,
+            "y1": 620.2092895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b38",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-02-27\nClient invoice AR-2020-00055\n37,191,494\n328,908,164",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 630.2806396484375,
+            "x1": 508.62164306640625,
+            "y1": 640.496826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b39",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 643.818115234375,
+            "x1": 459.8872375488281,
+            "y1": 654.0343017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b40",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-03-11\nClient invoice AR-2020-00041\n30,034,088\n358,942,252",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 664.1056518554688,
+            "x1": 508.62164306640625,
+            "y1": 674.3218383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b41",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 677.6431274414062,
+            "x1": 459.8872375488281,
+            "y1": 687.8593139648438
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b42",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-03-13\nClient invoice AR-2020-00001\n16,419,317\n375,361,569",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 697.9306030273438,
+            "x1": 508.62164306640625,
+            "y1": 708.1467895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b43",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 711.4681396484375,
+            "x1": 459.8872375488281,
+            "y1": 721.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b44",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "2020-03-26\nClient invoice AR-2020-00030\n16,692,852\n392,054,421",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 731.755615234375,
+            "x1": 508.62164306640625,
+            "y1": 741.9718017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b45",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 745.2931518554688,
+            "x1": 459.8872375488281,
+            "y1": 755.5093383789062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p4-b46",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 4,
+          "text": "DOC-GLB-2019\nPage 4 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 5,
+      "text": "2020-03-28\nReceipt against invoice\n(rcpt #11)\n52,095,469\n339,958,952\nDr\n2020-03-30\nClient invoice AR-2020-00018\n33,368,386\n373,327,338\nDr\nTOTALS\n568,355,464\n195,028,126\n373,327,338\nDR\nDOC-GLB-2019\nPage 5 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p5-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "2020-03-28\nReceipt against invoice",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 73.4431381225586,
+            "x1": 264.31103515625,
+            "y1": 83.65933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "(rcpt #11)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 86.98063659667969,
+            "x1": 193.91693115234375,
+            "y1": 97.19683074951172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "52,095,469\n339,958,952",
+          "coordinates": {
+            "x0": 378.236572265625,
+            "y0": 73.4431381225586,
+            "x1": 508.62164306640625,
+            "y1": 83.65933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 86.98063659667969,
+            "x1": 459.8872375488281,
+            "y1": 97.19683074951172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "2020-03-30\nClient invoice AR-2020-00018\n33,368,386\n373,327,338",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 107.26813507080078,
+            "x1": 508.62164306640625,
+            "y1": 117.48432922363281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 120.8056411743164,
+            "x1": 459.8872375488281,
+            "y1": 131.02183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "TOTALS\n568,355,464\n195,028,126\n373,327,338",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 141.0841064453125,
+            "x1": 508.62164306640625,
+            "y1": 151.309326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "DR",
+          "coordinates": {
+            "x0": 449.057373046875,
+            "y0": 154.62161254882812,
+            "x1": 459.8872375488281,
+            "y1": 164.84683227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p5-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 5,
+          "text": "DOC-GLB-2019\nPage 5 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 6,
+      "text": "ACCOUNT 1110 — RETENTION MONEY RECEIVABLE (ASSET)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-08-06\nReceipt against invoice (rcpt #6)\n1,005,412\n1,005,412 Dr\n2019-10-23\nReceipt against invoice (rcpt #7)\n1,005,412\n2,010,824 Dr\n2020-01-20\nReceipt against invoice (rcpt #17)\n1,838,209\n3,849,033 Dr\n2020-01-24\nReceipt against invoice (rcpt #10)\n2,207,435\n6,056,468 Dr\n2020-03-28\nReceipt against invoice (rcpt #11)\n2,207,435\n8,263,903 Dr\nTOTALS\n8,263,903\n0\n8,263,903 DR\nDOC-GLB-2019\nPage 6 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p6-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "ACCOUNT 1110 — RETENTION MONEY RECEIVABLE (ASSET)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 404.8044738769531,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 490.8827209472656,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "2019-08-06\nReceipt against invoice (rcpt #6)\n1,005,412\n1,005,412 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 517.9573364257812,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "2019-10-23\nReceipt against invoice (rcpt #7)\n1,005,412\n2,010,824 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 517.9573364257812,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "2020-01-20\nReceipt against invoice (rcpt #17)\n1,838,209\n3,849,033 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 517.9573364257812,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "2020-01-24\nReceipt against invoice (rcpt #10)\n2,207,435\n6,056,468 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 517.9573364257812,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "2020-03-28\nReceipt against invoice (rcpt #11)\n2,207,435\n8,263,903 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 517.9573364257812,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "TOTALS\n8,263,903\n0\n8,263,903 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1216278076172,
+            "x1": 517.9573364257812,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p6-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 6,
+          "text": "DOC-GLB-2019\nPage 6 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 7,
+      "text": "ACCOUNT 1120 — TDS RECEIVABLE (ASSET)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-08-06\nReceipt against invoice (rcpt #6)\n402,164\n402,164 Dr\n2019-10-23\nReceipt against invoice (rcpt #7)\n402,164\n804,328 Dr\n2020-01-20\nReceipt against invoice (rcpt #17)\n735,283\n1,539,611 Dr\n2020-01-24\nReceipt against invoice (rcpt #10)\n882,974\n2,422,585 Dr\n2020-03-28\nReceipt against invoice (rcpt #11)\n882,974\n3,305,559 Dr\nTOTALS\n3,305,559\n0\n3,305,559 DR\nDOC-GLB-2019\nPage 7 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p7-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "ACCOUNT 1120 — TDS RECEIVABLE (ASSET)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 322.19256591796875,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 490.8827209472656,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "2019-08-06\nReceipt against invoice (rcpt #6)\n402,164\n402,164 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 507.12750244140625,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "2019-10-23\nReceipt against invoice (rcpt #7)\n402,164\n804,328 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 507.12750244140625,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "2020-01-20\nReceipt against invoice (rcpt #17)\n735,283\n1,539,611 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 517.9573364257812,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "2020-01-24\nReceipt against invoice (rcpt #10)\n882,974\n2,422,585 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 517.9573364257812,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "2020-03-28\nReceipt against invoice (rcpt #11)\n882,974\n3,305,559 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 517.9573364257812,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "TOTALS\n3,305,559\n0\n3,305,559 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1216278076172,
+            "x1": 517.9573364257812,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p7-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 7,
+          "text": "DOC-GLB-2019\nPage 7 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 8,
+      "text": "ACCOUNT 1130 — GST INPUT CREDIT (ASSET)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-08-14\nVendor bill #11\n5,448,958\n5,448,958 Dr\n2019-10-20\nGST settlement (period 20192)\n7,238,966\n1,790,008 Cr\n2019-11-10\nVendor bill #34\n337,040\n1,452,968 Cr\n2019-12-10\nVendor bill #13\n8,935,052\n7,482,084 Dr\n2019-12-25\nVendor bill #24\n3,032,845\n10,514,929 Dr\n2020-01-08\nVendor bill #40\n5,002,381\n15,517,310 Dr\n2020-01-19\nGST settlement (period 20193)\n28,947,172\n13,429,862 Cr\n2020-01-22\nVendor bill #41\n1,576,540\n11,853,322 Cr\n2020-01-23\nVendor bill #6\n8,461,763\n3,391,559 Cr\n2020-02-05\nVendor bill #27\n2,712,949\n678,610 Cr\n2020-02-23\nVendor bill #44\n351,816\n326,794 Cr\nTOTALS\n35,859,344\n36,186,138\n326,794 CR\nDOC-GLB-2019\nPage 8 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p8-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "ACCOUNT 1130 — GST INPUT CREDIT (ASSET)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 335.96124267578125,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 486.2871398925781,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2019-08-14\nVendor bill #11\n5,448,958\n5,448,958 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 513.3617553710938,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2019-10-20\nGST settlement (period 20192)\n7,238,966\n1,790,008 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 513.3617553710938,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2019-11-10\nVendor bill #34\n337,040\n1,452,968 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 513.3617553710938,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2019-12-10\nVendor bill #13\n8,935,052\n7,482,084 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 513.3617553710938,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2019-12-25\nVendor bill #24\n3,032,845\n10,514,929 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 518.7766723632812,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2020-01-08\nVendor bill #40\n5,002,381\n15,517,310 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1306610107422,
+            "x1": 518.7766723632812,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2020-01-19\nGST settlement (period 20193)\n28,947,172\n13,429,862 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 251.4181365966797,
+            "x1": 518.7766723632812,
+            "y1": 261.6343078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2020-01-22\nVendor bill #41\n1,576,540\n11,853,322 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 271.70562744140625,
+            "x1": 518.7766723632812,
+            "y1": 281.92181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2020-01-23\nVendor bill #6\n8,461,763\n3,391,559 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 291.9931335449219,
+            "x1": 513.3617553710938,
+            "y1": 302.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2020-02-05\nVendor bill #27\n2,712,949\n678,610 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 312.2806396484375,
+            "x1": 502.53192138671875,
+            "y1": 322.496826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "2020-02-23\nVendor bill #44\n351,816\n326,794 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 332.5681457519531,
+            "x1": 502.53192138671875,
+            "y1": 342.7843322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "TOTALS\n35,859,344\n36,186,138\n326,794 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 352.84661865234375,
+            "x1": 502.53192138671875,
+            "y1": 363.0718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p8-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 8,
+          "text": "DOC-GLB-2019\nPage 8 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 9,
+      "text": "ACCOUNT 1200 — PLANT & MACHINERY (ASSET)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-04-01\nOpening capital & plant\nbrought in\n4,883,900,000\n4,883,900,000\nDr\nTOTALS\n4,883,900,000\n0\n4,883,900,000\nDR\nDOC-GLB-2019\nPage 9 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p9-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "ACCOUNT 1200 — PLANT & MACHINERY (ASSET)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 342.8455810546875,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 474.9847106933594,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "2019-04-01\nOpening capital & plant",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 264.31103515625,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "brought in",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 143.2306365966797,
+            "x1": 193.91693115234375,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "4,883,900,000\n4,883,900,000",
+          "coordinates": {
+            "x0": 311.6851501464844,
+            "y0": 129.69314575195312,
+            "x1": 507.47430419921875,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 437.0801696777344,
+            "y0": 143.2306365966797,
+            "x1": 447.9100646972656,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "TOTALS\n4,883,900,000\n0\n4,883,900,000",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 163.5091094970703,
+            "x1": 507.47430419921875,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "DR",
+          "coordinates": {
+            "x0": 437.0801696777344,
+            "y0": 177.04661560058594,
+            "x1": 447.9100646972656,
+            "y1": 187.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p9-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 9,
+          "text": "DOC-GLB-2019\nPage 9 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.90625,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 10,
+      "text": "ACCOUNT 1210 — ACCUMULATED DEPRECIATION (ASSET_CONTRA)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2020-03-31\nAnnual depreciation FY2019\n488,390,000\n488,390,000 Cr\nTOTALS\n0\n488,390,000\n488,390,000 CR\nDOC-GLB-2019\nPage 10 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p10-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 10,
+          "text": "ACCOUNT 1210 — ACCUMULATED DEPRECIATION (ASSET_CONTRA)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 439.22601318359375,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p10-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 10,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 473.713134765625,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p10-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 10,
+          "text": "2020-03-31\nAnnual depreciation FY2019\n488,390,000\n488,390,000 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 511.6176452636719,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p10-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 10,
+          "text": "TOTALS\n0\n488,390,000\n488,390,000 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9716033935547,
+            "x1": 511.6176452636719,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p10-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 10,
+          "text": "DOC-GLB-2019\nPage 10 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 11,
+      "text": "ACCOUNT 2100 — ACCOUNTS PAYABLE (LIABILITY)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-08-14\nVendor bill #11\n35,720,952\n35,720,952 Cr\n2019-09-11\nVendor payment #8\n35,720,952\n0 Dr\n2019-11-10\nVendor bill #34\n2,209,486\n2,209,486 Cr\n2019-12-10\nVendor bill #13\n58,574,230\n60,783,716 Cr\n2019-12-25\nVendor bill #24\n19,881,988\n80,665,704 Cr\n2020-01-07\nVendor payment #29\n2,209,486\n78,456,218 Cr\n2020-01-08\nVendor bill #40\n32,793,388\n111,249,606 Cr\n2020-01-22\nVendor bill #41\n10,335,096\n121,584,702 Cr\n2020-01-23\nVendor bill #6\n55,471,559\n177,056,261 Cr\n2020-02-05\nVendor bill #27\n17,784,893\n194,841,154 Cr\n2020-02-06\nVendor payment #20\n19,881,988\n174,959,166 Cr\n2020-02-23\nVendor bill #44\n2,306,351\n177,265,517 Cr\n2020-02-26\nVendor payment #5\n55,471,559\n121,793,958 Cr\n2020-03-14\nVendor payment #33\n32,793,388\n89,000,570 Cr\nTOTALS\n146,077,373\n235,077,943\n89,000,570 CR\nDOC-GLB-2019\nPage 11 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p11-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "ACCOUNT 2100 — ACCOUNTS PAYABLE (LIABILITY)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 363.4985656738281,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 472.4350280761719,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2019-08-14\nVendor bill #11\n35,720,952\n35,720,952 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 504.9245910644531,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2019-09-11\nVendor payment #8\n35,720,952\n0 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 456.1902160644531,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2019-11-10\nVendor bill #34\n2,209,486\n2,209,486 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 499.5096740722656,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2019-12-10\nVendor bill #13\n58,574,230\n60,783,716 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 504.9245910644531,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2019-12-25\nVendor bill #24\n19,881,988\n80,665,704 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 504.9245910644531,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-01-07\nVendor payment #29\n2,209,486\n78,456,218 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1306610107422,
+            "x1": 504.9245910644531,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-01-08\nVendor bill #40\n32,793,388\n111,249,606 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 251.4181365966797,
+            "x1": 510.33953857421875,
+            "y1": 261.6343078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-01-22\nVendor bill #41\n10,335,096\n121,584,702 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 271.70562744140625,
+            "x1": 510.33953857421875,
+            "y1": 281.92181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-01-23\nVendor bill #6\n55,471,559\n177,056,261 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 291.9931335449219,
+            "x1": 510.33953857421875,
+            "y1": 302.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-02-05\nVendor bill #27\n17,784,893\n194,841,154 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 312.2806396484375,
+            "x1": 510.33953857421875,
+            "y1": 322.496826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-02-06\nVendor payment #20\n19,881,988\n174,959,166 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 332.5681457519531,
+            "x1": 510.33953857421875,
+            "y1": 342.7843322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-02-23\nVendor bill #44\n2,306,351\n177,265,517 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 352.8556213378906,
+            "x1": 510.33953857421875,
+            "y1": 363.0718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-02-26\nVendor payment #5\n55,471,559\n121,793,958 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 373.14312744140625,
+            "x1": 510.33953857421875,
+            "y1": 383.35931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b16",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "2020-03-14\nVendor payment #33\n32,793,388\n89,000,570 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 393.4306335449219,
+            "x1": 504.9245910644531,
+            "y1": 403.6468200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b17",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "TOTALS\n146,077,373\n235,077,943\n89,000,570 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 413.7091369628906,
+            "x1": 504.9245910644531,
+            "y1": 423.934326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p11-b18",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 11,
+          "text": "DOC-GLB-2019\nPage 11 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 12,
+      "text": "ACCOUNT 2110 — OUTPUT GST PAYABLE (LIABILITY)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-07-06\nClient invoice AR-2019-00007\n3,619,483\n3,619,483 Cr\n2019-09-17\nClient invoice AR-2019-00008\n3,619,483\n7,238,966 Cr\n2019-10-02\nClient invoice AR-2019-00017\n5,090,092\n12,329,058 Cr\n2019-10-11\nClient invoice AR-2019-00012\n7,946,766\n20,275,824 Cr\n2019-10-20\nGST settlement (period 20192)\n7,238,966\n13,036,858 Cr\n2019-11-29\nClient invoice AR-2019-00009\n3,619,483\n16,656,341 Cr\n2019-12-01\nClient invoice AR-2019-00054\n5,673,278\n22,329,619 Cr\n2019-12-20\nClient invoice AR-2019-00022\n6,617,553\n28,947,172 Cr\n2020-01-01\nClient invoice AR-2020-00040\n4,581,471\n33,528,643 Cr\n2020-01-19\nGST settlement (period 20193)\n28,947,172\n4,581,471 Cr\n2020-02-04\nClient invoice AR-2020-00013\n7,946,766\n12,528,237 Cr\n2020-02-10\nClient invoice AR-2020-00010\n3,619,483\n16,147,720 Cr\n2020-02-15\nClient invoice AR-2020-00046\n7,351,023\n23,498,743 Cr\n2020-02-20\nClient invoice AR-2020-00023\n6,617,553\n30,116,296 Cr\n2020-02-27\nClient invoice AR-2020-00055\n5,673,278\n35,789,574 Cr\n2020-03-11\nClient invoice AR-2020-00041\n4,581,471\n40,371,045 Cr\n2020-03-13\nClient invoice AR-2020-00001\n2,504,641\n42,875,686 Cr\n2020-03-26\nClient invoice AR-2020-00030\n2,546,367\n45,422,053 Cr\n2020-03-30\nClient invoice AR-2020-00018\n5,090,092\n50,512,145 Cr\nTOTALS\n36,186,138\n86,698,283\n50,512,145 CR\nDOC-GLB-2019\nPage 12 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p12-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "ACCOUNT 2110 — OUTPUT GST PAYABLE (LIABILITY)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 377.2672119140625,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 486.2871398925781,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-07-06\nClient invoice AR-2019-00007\n3,619,483\n3,619,483 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 513.3617553710938,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-09-17\nClient invoice AR-2019-00008\n3,619,483\n7,238,966 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 513.3617553710938,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-10-02\nClient invoice AR-2019-00017\n5,090,092\n12,329,058 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 518.7766723632812,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-10-11\nClient invoice AR-2019-00012\n7,946,766\n20,275,824 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 518.7766723632812,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-10-20\nGST settlement (period 20192)\n7,238,966\n13,036,858 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 518.7766723632812,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-11-29\nClient invoice AR-2019-00009\n3,619,483\n16,656,341 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1306610107422,
+            "x1": 518.7766723632812,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-12-01\nClient invoice AR-2019-00054\n5,673,278\n22,329,619 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 251.4181365966797,
+            "x1": 518.7766723632812,
+            "y1": 261.6343078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2019-12-20\nClient invoice AR-2019-00022\n6,617,553\n28,947,172 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 271.70562744140625,
+            "x1": 518.7766723632812,
+            "y1": 281.92181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-01-01\nClient invoice AR-2020-00040\n4,581,471\n33,528,643 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 291.9931335449219,
+            "x1": 518.7766723632812,
+            "y1": 302.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-01-19\nGST settlement (period 20193)\n28,947,172\n4,581,471 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 312.2806396484375,
+            "x1": 513.3617553710938,
+            "y1": 322.496826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-02-04\nClient invoice AR-2020-00013\n7,946,766\n12,528,237 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 332.5681457519531,
+            "x1": 518.7766723632812,
+            "y1": 342.7843322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-02-10\nClient invoice AR-2020-00010\n3,619,483\n16,147,720 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 352.8556213378906,
+            "x1": 518.7766723632812,
+            "y1": 363.0718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-02-15\nClient invoice AR-2020-00046\n7,351,023\n23,498,743 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 373.14312744140625,
+            "x1": 518.7766723632812,
+            "y1": 383.35931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b16",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-02-20\nClient invoice AR-2020-00023\n6,617,553\n30,116,296 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 393.4306335449219,
+            "x1": 518.7766723632812,
+            "y1": 403.6468200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b17",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-02-27\nClient invoice AR-2020-00055\n5,673,278\n35,789,574 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 413.7181396484375,
+            "x1": 518.7766723632812,
+            "y1": 423.934326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b18",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-03-11\nClient invoice AR-2020-00041\n4,581,471\n40,371,045 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 434.005615234375,
+            "x1": 518.7766723632812,
+            "y1": 444.2218017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b19",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-03-13\nClient invoice AR-2020-00001\n2,504,641\n42,875,686 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 454.29315185546875,
+            "x1": 518.7766723632812,
+            "y1": 464.50933837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b20",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-03-26\nClient invoice AR-2020-00030\n2,546,367\n45,422,053 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 474.58062744140625,
+            "x1": 518.7766723632812,
+            "y1": 484.79681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b21",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "2020-03-30\nClient invoice AR-2020-00018\n5,090,092\n50,512,145 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 494.8681335449219,
+            "x1": 518.7766723632812,
+            "y1": 505.0843200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b22",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "TOTALS\n36,186,138\n86,698,283\n50,512,145 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 515.1466064453125,
+            "x1": 518.7766723632812,
+            "y1": 525.371826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p12-b23",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 12,
+          "text": "DOC-GLB-2019\nPage 12 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 13,
+      "text": "ACCOUNT 2120 — TDS PAYABLE (LIABILITY)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-09-11\nVendor payment #8\n605,439\n605,439 Cr\n2019-10-07\nTDS deposited (201909)\n605,439\n0 Dr\n2020-01-07\nVendor payment #29\n37,448\n37,448 Cr\n2020-02-06\nVendor payment #20\n336,982\n374,430 Cr\n2020-02-07\nTDS deposited (202001)\n37,448\n336,982 Cr\n2020-02-26\nVendor payment #5\n940,195\n1,277,177 Cr\n2020-03-07\nTDS deposited (202002)\n1,277,177\n0 Dr\n2020-03-14\nVendor payment #33\n555,820\n555,820 Cr\nTOTALS\n1,920,064\n2,475,884\n555,820 CR\nDOC-GLB-2019\nPage 13 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p13-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "ACCOUNT 2120 — TDS PAYABLE (LIABILITY)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 329.076904296875,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 481.0374450683594,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2019-09-11\nVendor payment #8\n605,439\n605,439 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 497.2822570800781,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2019-10-07\nTDS deposited (201909)\n605,439\n0 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 464.7926330566406,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2020-01-07\nVendor payment #29\n37,448\n37,448 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 491.8673095703125,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2020-02-06\nVendor payment #20\n336,982\n374,430 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 497.2822570800781,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2020-02-07\nTDS deposited (202001)\n37,448\n336,982 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 497.2822570800781,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2020-02-26\nVendor payment #5\n940,195\n1,277,177 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1306610107422,
+            "x1": 508.1120910644531,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2020-03-07\nTDS deposited (202002)\n1,277,177\n0 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 251.4181365966797,
+            "x1": 464.7926330566406,
+            "y1": 261.6343078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "2020-03-14\nVendor payment #33\n555,820\n555,820 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 271.70562744140625,
+            "x1": 497.2822570800781,
+            "y1": 281.92181396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "TOTALS\n1,920,064\n2,475,884\n555,820 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 291.984130859375,
+            "x1": 497.2822570800781,
+            "y1": 302.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p13-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 13,
+          "text": "DOC-GLB-2019\nPage 13 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 14,
+      "text": "ACCOUNT 2210 — WORKING CAPITAL BORROWINGS (LIABILITY)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-04-02\nWorking-capital facility drawdown\n20,000,000\n20,000,000 Cr\nTOTALS\n0\n20,000,000\n20,000,000 CR\nDOC-GLB-2019\nPage 14 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p14-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 14,
+          "text": "ACCOUNT 2210 — WORKING CAPITAL BORROWINGS (LIABILITY)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 432.3417053222656,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p14-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 14,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 485.2577209472656,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p14-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 14,
+          "text": "2019-04-02\nWorking-capital facility drawdown\n20,000,000\n20,000,000 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 517.7472534179688,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p14-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 14,
+          "text": "TOTALS\n0\n20,000,000\n20,000,000 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9716033935547,
+            "x1": 517.7472534179688,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p14-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 14,
+          "text": "DOC-GLB-2019\nPage 14 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 15,
+      "text": "ACCOUNT 3000 — SHARE CAPITAL & RESERVES (EQUITY)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-04-01\nOpening capital & plant\nbrought in\n5,283,900,000\n5,283,900,000\nCr\nTOTALS\n0\n5,283,900,000\n5,283,900,000\nCR\nDOC-GLB-2019\nPage 15 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p15-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "ACCOUNT 3000 — SHARE CAPITAL & RESERVES (EQUITY)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 397.920166015625,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 474.4045104980469,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "2019-04-01\nOpening capital & plant",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 264.31103515625,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "brought in",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 143.2306365966797,
+            "x1": 193.91693115234375,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "5,283,900,000\n5,283,900,000",
+          "coordinates": {
+            "x0": 354.84808349609375,
+            "y0": 129.69314575195312,
+            "x1": 506.8940734863281,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "Cr",
+          "coordinates": {
+            "x0": 436.49993896484375,
+            "y0": 143.2306365966797,
+            "x1": 447.329833984375,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "TOTALS\n0\n5,283,900,000\n5,283,900,000",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 163.5091094970703,
+            "x1": 506.8940734863281,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "CR",
+          "coordinates": {
+            "x0": 436.49993896484375,
+            "y0": 177.04661560058594,
+            "x1": 447.329833984375,
+            "y1": 187.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p15-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 15,
+          "text": "DOC-GLB-2019\nPage 15 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 16,
+      "text": "ACCOUNT 4002 — CONTRACT REVENUE — BRIDGES & FLYOVERS (REVENUE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-07-06\nClient invoice AR-2019-00007\n20,108,242\n20,108,242 Cr\n2019-09-17\nClient invoice AR-2019-00008\n20,108,242\n40,216,484 Cr\n2019-10-11\nClient invoice AR-2019-00012\n44,148,703\n84,365,187 Cr\n2019-11-29\nClient invoice AR-2019-00009\n20,108,242\n104,473,429 Cr\n2020-02-04\nClient invoice AR-2020-00013\n44,148,703\n148,622,132 Cr\n2020-02-10\nClient invoice AR-2020-00010\n20,108,242\n168,730,374 Cr\nTOTALS\n0\n168,730,374\n168,730,374 CR\nDOC-GLB-2019\nPage 16 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p16-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "ACCOUNT 4002 — CONTRACT REVENUE — BRIDGES & FLYOVERS (REVENUE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 494.30047607421875,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 476.1715393066406,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "2019-07-06\nClient invoice AR-2019-00007\n20,108,242\n20,108,242 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 508.6611633300781,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "2019-09-17\nClient invoice AR-2019-00008\n20,108,242\n40,216,484 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 508.6611633300781,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "2019-10-11\nClient invoice AR-2019-00012\n44,148,703\n84,365,187 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 508.6611633300781,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "2019-11-29\nClient invoice AR-2019-00009\n20,108,242\n104,473,429 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 514.0760498046875,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "2020-02-04\nClient invoice AR-2020-00013\n44,148,703\n148,622,132 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 514.0760498046875,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "2020-02-10\nClient invoice AR-2020-00010\n20,108,242\n168,730,374 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1306610107422,
+            "x1": 514.0760498046875,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "TOTALS\n0\n168,730,374\n168,730,374 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 251.4091033935547,
+            "x1": 514.0760498046875,
+            "y1": 261.6343078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p16-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 16,
+          "text": "DOC-GLB-2019\nPage 16 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 17,
+      "text": "ACCOUNT 4003 — CONTRACT REVENUE — WATER TREATMENT (REVENUE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-12-20\nClient invoice AR-2019-00022\n36,764,185\n36,764,185 Cr\n2020-01-01\nClient invoice AR-2020-00040\n25,452,617\n62,216,802 Cr\n2020-02-15\nClient invoice AR-2020-00046\n40,839,022\n103,055,824 Cr\n2020-02-20\nClient invoice AR-2020-00023\n36,764,185\n139,820,009 Cr\n2020-03-11\nClient invoice AR-2020-00041\n25,452,617\n165,272,626 Cr\nTOTALS\n0\n165,272,626\n165,272,626 CR\nDOC-GLB-2019\nPage 17 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p17-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "ACCOUNT 4003 — CONTRACT REVENUE — WATER TREATMENT (REVENUE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 473.6475524902344,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 476.1715393066406,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "2019-12-20\nClient invoice AR-2019-00022\n36,764,185\n36,764,185 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 508.6611633300781,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "2020-01-01\nClient invoice AR-2020-00040\n25,452,617\n62,216,802 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 508.6611633300781,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "2020-02-15\nClient invoice AR-2020-00046\n40,839,022\n103,055,824 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 514.0760498046875,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "2020-02-20\nClient invoice AR-2020-00023\n36,764,185\n139,820,009 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.55564880371094,
+            "x1": 514.0760498046875,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "2020-03-11\nClient invoice AR-2020-00041\n25,452,617\n165,272,626 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 210.8431396484375,
+            "x1": 514.0760498046875,
+            "y1": 221.059326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "TOTALS\n0\n165,272,626\n165,272,626 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1216278076172,
+            "x1": 514.0760498046875,
+            "y1": 241.3468475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p17-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 17,
+          "text": "DOC-GLB-2019\nPage 17 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 18,
+      "text": "ACCOUNT 4004 — CONTRACT REVENUE — SEWERAGE & DRAINAGE (REVENUE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-10-02\nClient invoice AR-2019-00017\n28,278,294\n28,278,294 Cr\n2020-03-13\nClient invoice AR-2020-00001\n13,914,676\n42,192,970 Cr\n2020-03-30\nClient invoice AR-2020-00018\n28,278,294\n70,471,264 Cr\nTOTALS\n0\n70,471,264\n70,471,264 CR\nDOC-GLB-2019\nPage 18 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p18-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "ACCOUNT 4004 — CONTRACT REVENUE — SEWERAGE & DRAINAGE (REVENUE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 501.1847839355469,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p18-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 479.7063293457031,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p18-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "2019-10-02\nClient invoice AR-2019-00017\n28,278,294\n28,278,294 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 512.1958618164062,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p18-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "2020-03-13\nClient invoice AR-2020-00001\n13,914,676\n42,192,970 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 512.1958618164062,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p18-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "2020-03-30\nClient invoice AR-2020-00018\n28,278,294\n70,471,264 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2681427001953,
+            "x1": 512.1958618164062,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p18-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "TOTALS\n0\n70,471,264\n70,471,264 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 190.54661560058594,
+            "x1": 512.1958618164062,
+            "y1": 200.77183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p18-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 18,
+          "text": "DOC-GLB-2019\nPage 18 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 19,
+      "text": "ACCOUNT 4005 — CONTRACT REVENUE — BUILDINGS (REVENUE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-12-01\nClient invoice AR-2019-00054\n31,518,216\n31,518,216 Cr\n2020-02-27\nClient invoice AR-2020-00055\n31,518,216\n63,036,432 Cr\nTOTALS\n0\n63,036,432\n63,036,432 CR\nDOC-GLB-2019\nPage 19 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p19-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 19,
+          "text": "ACCOUNT 4005 — CONTRACT REVENUE — BUILDINGS (REVENUE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 432.3417053222656,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p19-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 19,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 479.7063293457031,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p19-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 19,
+          "text": "2019-12-01\nClient invoice AR-2019-00054\n31,518,216\n31,518,216 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 512.1958618164062,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p19-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 19,
+          "text": "2020-02-27\nClient invoice AR-2020-00055\n31,518,216\n63,036,432 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 512.1958618164062,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p19-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 19,
+          "text": "TOTALS\n0\n63,036,432\n63,036,432 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2591094970703,
+            "x1": 512.1958618164062,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p19-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 19,
+          "text": "DOC-GLB-2019\nPage 19 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 20,
+      "text": "ACCOUNT 4006 — CONTRACT REVENUE — INDUSTRIAL EPC (REVENUE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2020-03-26\nClient invoice AR-2020-00030\n14,146,485\n14,146,485 Cr\nTOTALS\n0\n14,146,485\n14,146,485 CR\nDOC-GLB-2019\nPage 20 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p20-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 20,
+          "text": "ACCOUNT 4006 — CONTRACT REVENUE — INDUSTRIAL EPC (REVENUE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 466.76324462890625,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p20-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 20,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 479.7063293457031,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p20-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 20,
+          "text": "2020-03-26\nClient invoice AR-2020-00030\n14,146,485\n14,146,485 Cr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 512.1958618164062,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p20-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 20,
+          "text": "TOTALS\n0\n14,146,485\n14,146,485 CR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9716033935547,
+            "x1": 512.1958618164062,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p20-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 20,
+          "text": "DOC-GLB-2019\nPage 20 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 21,
+      "text": "ACCOUNT 5100 — MATERIALS CONSUMED (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-12-10\nVendor bill #13\n49,639,178\n49,639,178 Dr\n2020-01-22\nVendor bill #41\n8,758,556\n58,397,734 Dr\nTOTALS\n58,397,734\n0\n58,397,734 DR\nDOC-GLB-2019\nPage 21 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p21-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 21,
+          "text": "ACCOUNT 5100 — MATERIALS CONSUMED (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 363.4985656738281,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p21-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 21,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 469.13568115234375,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p21-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 21,
+          "text": "2019-12-10\nVendor bill #13\n49,639,178\n49,639,178 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 501.6252746582031,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p21-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 21,
+          "text": "2020-01-22\nVendor bill #41\n8,758,556\n58,397,734 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 501.6252746582031,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p21-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 21,
+          "text": "TOTALS\n58,397,734\n0\n58,397,734 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2591094970703,
+            "x1": 501.6252746582031,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p21-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 21,
+          "text": "DOC-GLB-2019\nPage 21 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 22,
+      "text": "ACCOUNT 5110 — SUBCONTRACTING CHARGES (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-12-25\nVendor bill #24\n16,849,143\n16,849,143 Dr\n2020-01-08\nVendor bill #40\n27,791,007\n44,640,150 Dr\nTOTALS\n44,640,150\n0\n44,640,150 DR\nDOC-GLB-2019\nPage 22 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p22-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 22,
+          "text": "ACCOUNT 5110 — SUBCONTRACTING CHARGES (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 391.0358581542969,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p22-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 22,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 469.13568115234375,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p22-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 22,
+          "text": "2019-12-25\nVendor bill #24\n16,849,143\n16,849,143 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 501.6252746582031,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p22-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 22,
+          "text": "2020-01-08\nVendor bill #40\n27,791,007\n44,640,150 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 501.6252746582031,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p22-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 22,
+          "text": "TOTALS\n44,640,150\n0\n44,640,150 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2591094970703,
+            "x1": 501.6252746582031,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p22-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 22,
+          "text": "DOC-GLB-2019\nPage 22 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 23,
+      "text": "ACCOUNT 5120 — EQUIPMENT HIRE CHARGES (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2020-02-05\nVendor bill #27\n15,071,944\n15,071,944 Dr\n2020-02-23\nVendor bill #44\n1,954,535\n17,026,479 Dr\nTOTALS\n17,026,479\n0\n17,026,479 DR\nDOC-GLB-2019\nPage 23 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p23-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 23,
+          "text": "ACCOUNT 5120 — EQUIPMENT HIRE CHARGES (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 391.0358581542969,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p23-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 23,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 469.13568115234375,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p23-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 23,
+          "text": "2020-02-05\nVendor bill #27\n15,071,944\n15,071,944 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 501.6252746582031,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p23-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 23,
+          "text": "2020-02-23\nVendor bill #44\n1,954,535\n17,026,479 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 501.6252746582031,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p23-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 23,
+          "text": "TOTALS\n17,026,479\n0\n17,026,479 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2591094970703,
+            "x1": 501.6252746582031,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p23-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 23,
+          "text": "DOC-GLB-2019\nPage 23 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 24,
+      "text": "ACCOUNT 5130 — SITE SERVICES (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-08-14\nVendor bill #11\n30,271,994\n30,271,994 Dr\n2020-01-23\nVendor bill #6\n47,009,796\n77,281,790 Dr\nTOTALS\n77,281,790\n0\n77,281,790 DR\nDOC-GLB-2019\nPage 24 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p24-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 24,
+          "text": "ACCOUNT 5130 — SITE SERVICES (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 329.076904296875,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p24-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 24,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 469.13568115234375,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p24-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 24,
+          "text": "2019-08-14\nVendor bill #11\n30,271,994\n30,271,994 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 501.6252746582031,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p24-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 24,
+          "text": "2020-01-23\nVendor bill #6\n47,009,796\n77,281,790 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9806365966797,
+            "x1": 501.6252746582031,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p24-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 24,
+          "text": "TOTALS\n77,281,790\n0\n77,281,790 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 170.2591094970703,
+            "x1": 501.6252746582031,
+            "y1": 180.4843292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p24-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 24,
+          "text": "DOC-GLB-2019\nPage 24 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 25,
+      "text": "ACCOUNT 5140 — SPECIALIST WORKS (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-11-10\nVendor bill #34\n1,872,446\n1,872,446 Dr\nTOTALS\n1,872,446\n0\n1,872,446 DR\nDOC-GLB-2019\nPage 25 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p25-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 25,
+          "text": "ACCOUNT 5140 — SPECIALIST WORKS (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 349.7298889160156,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p25-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 25,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 472.9909362792969,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p25-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 25,
+          "text": "2019-11-10\nVendor bill #34\n1,872,446\n1,872,446 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 500.0655822753906,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p25-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 25,
+          "text": "TOTALS\n1,872,446\n0\n1,872,446 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9716033935547,
+            "x1": 500.0655822753906,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p25-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 25,
+          "text": "DOC-GLB-2019\nPage 25 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 26,
+      "text": "ACCOUNT 5200 — SALARIES & SITE OVERHEADS (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2019-04-28\nMonthly salaries & site overheads\n(201904)\n802,761\n802,761 Dr\n2019-05-28\nMonthly salaries & site overheads\n(201905)\n802,761\n1,605,522\nDr\n2019-06-28\nMonthly salaries & site overheads\n(201906)\n802,761\n2,408,283\nDr\n2019-07-28\nMonthly salaries & site overheads\n(201907)\n802,761\n3,211,044\nDr\n2019-08-28\nMonthly salaries & site overheads\n(201908)\n802,761\n4,013,805\nDr\n2019-09-28\nMonthly salaries & site overheads\n(201909)\n802,761\n4,816,566\nDr\n2019-10-28\nMonthly salaries & site overheads\n(201910)\n802,761\n5,619,327\nDr\n2019-11-28\nMonthly salaries & site overheads\n(201911)\n802,761\n6,422,088\nDr\n2019-12-28\nMonthly salaries & site overheads\n(201912)\n802,761\n7,224,849\nDr\n2020-01-28\nMonthly salaries & site overheads\n(201901)\n802,761\n8,027,610\nDr\n2020-02-28\nMonthly salaries & site overheads\n(201902)\n802,761\n8,830,371\nDr\n2020-03-28\nMonthly salaries & site overheads\n(201903)\n802,772\n9,633,143\nDr\nTOTALS\n9,633,143\n0\n9,633,143\nDR\nDOC-GLB-2019\nPage 26 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p26-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "ACCOUNT 5200 — SALARIES & SITE OVERHEADS (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 411.68878173828125,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 496.021240234375,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-04-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 318.4603576660156,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201904)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 143.2306365966797,
+            "x1": 183.0870361328125,
+            "y1": 153.4468231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n802,761 Dr",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 129.69314575195312,
+            "x1": 512.2659912109375,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-05-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 163.5181427001953,
+            "x1": 318.4603576660156,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b7",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201905)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 177.05564880371094,
+            "x1": 183.0870361328125,
+            "y1": 187.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b8",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n1,605,522",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 163.5181427001953,
+            "x1": 506.8511047363281,
+            "y1": 173.7343292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b9",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 177.05564880371094,
+            "x1": 468.9465637207031,
+            "y1": 187.27183532714844
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b10",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-06-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 197.3431396484375,
+            "x1": 318.4603576660156,
+            "y1": 207.559326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b11",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201906)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 210.8806610107422,
+            "x1": 183.0870361328125,
+            "y1": 221.0968475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b12",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n2,408,283",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 197.3431396484375,
+            "x1": 506.8511047363281,
+            "y1": 207.559326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b13",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 210.8806610107422,
+            "x1": 468.9465637207031,
+            "y1": 221.0968475341797
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b14",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-07-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 231.1681365966797,
+            "x1": 318.4603576660156,
+            "y1": 241.3843231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b15",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201907)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 244.7056427001953,
+            "x1": 183.0870361328125,
+            "y1": 254.9218292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b16",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n3,211,044",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 231.1681365966797,
+            "x1": 506.8511047363281,
+            "y1": 241.3843231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b17",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 244.7056427001953,
+            "x1": 468.9465637207031,
+            "y1": 254.9218292236328
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b18",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-08-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 264.9931335449219,
+            "x1": 318.4603576660156,
+            "y1": 275.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b19",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201908)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 278.5306396484375,
+            "x1": 183.0870361328125,
+            "y1": 288.746826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b20",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n4,013,805",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 264.9931335449219,
+            "x1": 506.8511047363281,
+            "y1": 275.2093200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b21",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 278.5306396484375,
+            "x1": 468.9465637207031,
+            "y1": 288.746826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b22",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-09-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 298.8181457519531,
+            "x1": 318.4603576660156,
+            "y1": 309.0343322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b23",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201909)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 312.3556213378906,
+            "x1": 183.0870361328125,
+            "y1": 322.5718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b24",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n4,816,566",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 298.8181457519531,
+            "x1": 506.8511047363281,
+            "y1": 309.0343322753906
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b25",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 312.3556213378906,
+            "x1": 468.9465637207031,
+            "y1": 322.5718078613281
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b26",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-10-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 332.64312744140625,
+            "x1": 318.4603576660156,
+            "y1": 342.85931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b27",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201910)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 346.1806335449219,
+            "x1": 183.0870361328125,
+            "y1": 356.3968200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b28",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n5,619,327",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 332.64312744140625,
+            "x1": 506.8511047363281,
+            "y1": 342.85931396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b29",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 346.1806335449219,
+            "x1": 468.9465637207031,
+            "y1": 356.3968200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b30",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-11-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 366.4681396484375,
+            "x1": 318.4603576660156,
+            "y1": 376.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b31",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201911)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 380.005615234375,
+            "x1": 183.0870361328125,
+            "y1": 390.2218017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b32",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n6,422,088",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 366.4681396484375,
+            "x1": 506.8511047363281,
+            "y1": 376.684326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b33",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 380.005615234375,
+            "x1": 468.9465637207031,
+            "y1": 390.2218017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b34",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2019-12-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 400.29315185546875,
+            "x1": 318.4603576660156,
+            "y1": 410.50933837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b35",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201912)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 413.83062744140625,
+            "x1": 183.0870361328125,
+            "y1": 424.04681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b36",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n7,224,849",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 400.29315185546875,
+            "x1": 506.8511047363281,
+            "y1": 410.50933837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b37",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 413.83062744140625,
+            "x1": 468.9465637207031,
+            "y1": 424.04681396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b38",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2020-01-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 434.1181335449219,
+            "x1": 318.4603576660156,
+            "y1": 444.3343200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b39",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201901)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 447.6556396484375,
+            "x1": 183.0870361328125,
+            "y1": 457.871826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b40",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n8,027,610",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 434.1181335449219,
+            "x1": 506.8511047363281,
+            "y1": 444.3343200683594
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b41",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 447.6556396484375,
+            "x1": 468.9465637207031,
+            "y1": 457.871826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b42",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2020-02-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 467.943115234375,
+            "x1": 318.4603576660156,
+            "y1": 478.1593017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b43",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201902)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 481.48065185546875,
+            "x1": 183.0870361328125,
+            "y1": 491.69683837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b44",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,761\n8,830,371",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 467.943115234375,
+            "x1": 506.8511047363281,
+            "y1": 478.1593017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b45",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 481.48065185546875,
+            "x1": 468.9465637207031,
+            "y1": 491.69683837890625
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b46",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "2020-03-28\nMonthly salaries & site overheads",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 501.76812744140625,
+            "x1": 318.4603576660156,
+            "y1": 511.98431396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b47",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "(201903)",
+          "coordinates": {
+            "x0": 139.76748657226562,
+            "y0": 515.3056030273438,
+            "x1": 183.0870361328125,
+            "y1": 525.5217895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b48",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "802,772\n9,633,143",
+          "coordinates": {
+            "x0": 354.3837585449219,
+            "y0": 501.76812744140625,
+            "x1": 506.8511047363281,
+            "y1": 511.98431396484375
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b49",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "Dr",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 515.3056030273438,
+            "x1": 468.9465637207031,
+            "y1": 525.5217895507812
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b50",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "TOTALS\n9,633,143\n0\n9,633,143",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 535.5841064453125,
+            "x1": 506.8511047363281,
+            "y1": 545.809326171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b51",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "DR",
+          "coordinates": {
+            "x0": 458.11669921875,
+            "y0": 549.12158203125,
+            "x1": 468.9465637207031,
+            "y1": 559.3468017578125
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p26-b52",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 26,
+          "text": "DOC-GLB-2019\nPage 26 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    },
+    {
+      "page_number": 27,
+      "text": "ACCOUNT 5300 — DEPRECIATION EXPENSE (EXPENSE)\nDATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE\n2020-03-31\nAnnual depreciation FY2019\n488,390,000\n488,390,000 Dr\nTOTALS\n488,390,000\n0\n488,390,000 DR\nAccounts Officer\nAuthorised Signatory, National Infrastructure Corp. Ltd.\nDOC-GLB-2019\nPage 27 of 27\n",
+      "blocks": [
+        {
+          "block_id": "DOC-GLB-2019-p27-b1",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 27,
+          "text": "ACCOUNT 5300 — DEPRECIATION EXPENSE (EXPENSE)",
+          "coordinates": {
+            "x0": 68.3622055053711,
+            "y0": 80.35799407958984,
+            "x1": 377.2672119140625,
+            "y1": 91.65950012207031
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p27-b2",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 27,
+          "text": "DATE\nVOUCHER / NARRATION\nDEBIT\nCREDIT\nBALANCE",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 109.3966064453125,
+            "x1": 474.958251953125,
+            "y1": 119.621826171875
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p27-b3",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 27,
+          "text": "2020-03-31\nAnnual depreciation FY2019\n488,390,000\n488,390,000 Dr",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 129.69314575195312,
+            "x1": 512.8627319335938,
+            "y1": 139.90933227539062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p27-b4",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 27,
+          "text": "TOTALS\n488,390,000\n0\n488,390,000 DR",
+          "coordinates": {
+            "x0": 74.3622055053711,
+            "y0": 149.9716033935547,
+            "x1": 512.8627319335938,
+            "y1": 160.1968231201172
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p27-b5",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 27,
+          "text": "Accounts Officer\nAuthorised Signatory, National Infrastructure Corp. Ltd.",
+          "coordinates": {
+            "x0": 96.64541625976562,
+            "y0": 203.11123657226562,
+            "x1": 526.8883666992188,
+            "y1": 212.35903930664062
+          },
+          "image_path": null,
+          "metadata": {}
+        },
+        {
+          "block_id": "DOC-GLB-2019-p27-b6",
+          "document_id": "DOC-GLB-2019",
+          "page_number": 27,
+          "text": "DOC-GLB-2019\nPage 27 of 27",
+          "coordinates": {
+            "x0": 62.362205505371094,
+            "y0": 797.6779174804688,
+            "x1": 532.9056396484375,
+            "y1": 806.7333374023438
+          },
+          "image_path": null,
+          "metadata": {}
+        }
+      ],
+      "image_path": null,
+      "embedded_image_paths": []
+    }
+  ]
+}

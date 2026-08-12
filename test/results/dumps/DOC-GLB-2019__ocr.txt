@@ -1,4 +1,0 @@
-GENERAL LEDGER – FISCAL YEAR 2019-20
-Volume: GL/2019
-154 posted lines : system-generated
-balances (Dr positive). Narrations reference the originating voucher.

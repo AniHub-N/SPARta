@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "mention_text": "17",
+      "entity_type": "Number",
+      "confidence": 0.8,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "2022-12-31",
+      "entity_type": "Date",
+      "confidence": 1.0,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "8",
+      "entity_type": "Number",
+      "confidence": 0.8,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "RCC kerb & channel",
+      "entity_type": "Construction Item",
+      "confidence": 0.95,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "18764.638",
+      "entity_type": "Quantity Value",
+      "confidence": 0.95,
+      "source_ref": "E5"
+    },
+    {
+      "mention_text": "10358080",
+      "entity_type": "Monetary Value",
+      "confidence": 0.95,
+      "source_ref": "E6"
+    },
+    {
+      "mention_text": "TOTAL",
+      "entity_type": "Label",
+      "confidence": 0.9,
+      "source_ref": "E7"
+    },
+    {
+      "mention_text": "=SUM(F2:F91)",
+      "entity_type": "Formula",
+      "confidence": 1.0,
+      "source_ref": "E12"
+    },
+    {
+      "mention_text": "Bill of Quantities and measurement register",
+      "entity_type": "Document",
+      "confidence": 0.95,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "contract 74",
+      "entity_type": "Contract",
+      "confidence": 0.95,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "National Infrastructure Corp. Ltd.",
+      "entity_type": "Organization",
+      "confidence": 0.95,
+      "source_ref": "E14"
+    },
+    {
+      "mention_text": "measurement book",
+      "entity_type": "Document",
+      "confidence": 0.9,
+      "source_ref": "E15"
+    },
+    {
+      "mention_text": "Quantities",
+      "entity_type": "Measurement Data",
+      "confidence": 0.8,
+      "source_ref": "E15"
+    },
+    {
+      "mention_text": "measurement total",
+      "entity_type": "Total Amount",
+      "confidence": 0.9,
+      "source_ref": "E16"
+    },
+    {
+      "mention_text": "running-account bills",
+      "entity_type": "Document",
+      "confidence": 0.9,
+      "source_ref": "E16"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "Bill of Quantities and measurement register",
+      "predicate": "describes",
+      "object_mention_text": "contract 74",
+      "confidence": 0.9,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Quantities",
+      "predicate": "recorded_in",
+      "object_mention_text": "measurement book",
+      "confidence": 0.9,
+      "source_ref": "E15"
+    },
+    {
+      "subject_mention_text": "measurement total",
+      "predicate": "reconciles_to",
+      "object_mention_text": "running-account bills",
+      "confidence": 0.9,
+      "source_ref": "E16"
+    }
+  ],
+  "attributes": [
+    {
+      "subject_mention_text": "contract 74",
+      "predicate": "contract_number",
+      "value": "74",
+      "value_type": "text",
+      "confidence": 0.9,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "National Infrastructure Corp. Ltd.",
+      "predicate": "role",
+      "value": "Agency",
+      "value_type": "text",
+      "confidence": 0.9,
+      "source_ref": "E14"
+    },
+    {
+      "subject_mention_text": "Quantities",
+      "predicate": "measurement_method",
+      "value": "measured jointly",
+      "value_type": "text",
+      "confidence": 0.9,
+      "source_ref": "E15"
+    }
+  ]
+}

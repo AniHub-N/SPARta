@@ -1,0 +1,4906 @@
+{
+  "document_id": "BOQ_and_Measurements_Contract_79",
+  "filename": "BOQ_and_Measurements_Contract_79.xlsx",
+  "document_type": "xlsx",
+  "source_path": "C:\\Users\\aniru\\SPARta\\test\\BOQ_and_Measurements_Contract_79.xlsx",
+  "metadata": {
+    "filename": "BOQ_and_Measurements_Contract_79.xlsx",
+    "document_type": "xlsx",
+    "size_bytes": 9373
+  },
+  "sheets": [
+    {
+      "workbook_id": "BOQ_and_Measurements_Contract_79",
+      "sheet_name": "BOQ",
+      "cells": [
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A1",
+          "value": "Item No",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B1",
+          "value": "Description",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C1",
+          "value": "Unit",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D1",
+          "value": "Quantity",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E1",
+          "value": "Rate (INR)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F1",
+          "value": "Amount (INR)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A2",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B2",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C2",
+          "value": "cum",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D2",
+          "value": 425225.025,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E2",
+          "value": 203,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F2",
+          "value": 86320680,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A3",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B3",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C3",
+          "value": "cum",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D3",
+          "value": 79399.42,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E3",
+          "value": 1504,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F3",
+          "value": 119416727,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A4",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B4",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C4",
+          "value": "cum",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D4",
+          "value": 43037.244,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E4",
+          "value": 1534,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F4",
+          "value": 66019133,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A5",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B5",
+          "value": "Dense bituminous macadam (DBM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C5",
+          "value": "MT",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D5",
+          "value": 18308.476,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E5",
+          "value": 6673,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F5",
+          "value": 122172462,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A6",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B6",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C6",
+          "value": "MT",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D6",
+          "value": 16503.504,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E6",
+          "value": 6491,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F6",
+          "value": 107124245,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A7",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B7",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C7",
+          "value": "cum",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D7",
+          "value": 24424.27,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E7",
+          "value": 8197,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F7",
+          "value": 200205745,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "A8",
+          "value": "TOTAL",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "B8",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "C8",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "D8",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "E8",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "BOQ",
+          "cell_address": "F8",
+          "value": "=SUM(F2:F7)",
+          "formula": "=SUM(F2:F7)",
+          "note": null,
+          "metadata": {
+            "data_type": "f",
+            "number_format": "#,##0.00"
+          }
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "workbook_id": "BOQ_and_Measurements_Contract_79",
+      "sheet_name": "Measurements",
+      "cells": [
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A1",
+          "value": "RA No",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B1",
+          "value": "Measured On",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C1",
+          "value": "Item No",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D1",
+          "value": "Description",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E1",
+          "value": "Qty Measured",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F1",
+          "value": "Amount (INR)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A2",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B2",
+          "value": "2023-12-13T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C2",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D2",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E2",
+          "value": 8299.819,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F2",
+          "value": 12482928,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A3",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B3",
+          "value": "2023-12-13T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C3",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D3",
+          "value": "Dense bituminous macadam (DBM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E3",
+          "value": 3237.004,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F3",
+          "value": 21600527,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A4",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B4",
+          "value": "2023-12-13T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C4",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D4",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E4",
+          "value": 1952.723,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F4",
+          "value": 16006473,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A5",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B5",
+          "value": "2024-01-11T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C5",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D5",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E5",
+          "value": 69779.335,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F5",
+          "value": 14165205,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A6",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B6",
+          "value": "2024-01-11T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C6",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D6",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E6",
+          "value": 10801.186,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F6",
+          "value": 16244984,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A7",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B7",
+          "value": "2024-01-11T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C7",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D7",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E7",
+          "value": 7148.683,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F7",
+          "value": 10966079,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A8",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B8",
+          "value": "2024-01-11T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C8",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D8",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E8",
+          "value": 1342.422,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F8",
+          "value": 8713660,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A9",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B9",
+          "value": "2024-02-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C9",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D9",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E9",
+          "value": 60135.227,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F9",
+          "value": 12207451,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A10",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B10",
+          "value": "2024-02-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C10",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D10",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E10",
+          "value": 6284.858,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F10",
+          "value": 9452427,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A11",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B11",
+          "value": "2024-02-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C11",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D11",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E11",
+          "value": 5914.166,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F11",
+          "value": 9072331,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A12",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B12",
+          "value": "2024-02-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C12",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D12",
+          "value": "Dense bituminous macadam (DBM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E12",
+          "value": 1458.483,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F12",
+          "value": 9732455,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A13",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B13",
+          "value": "2024-02-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C13",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D13",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E13",
+          "value": 1482.863,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F13",
+          "value": 9625264,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A14",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B14",
+          "value": "2024-03-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C14",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D14",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E14",
+          "value": 43442.68,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F14",
+          "value": 8818864,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A15",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B15",
+          "value": "2024-03-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C15",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D15",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E15",
+          "value": 6250.09,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F15",
+          "value": 9400135,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A16",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B16",
+          "value": "2024-03-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C16",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D16",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E16",
+          "value": 5783.141,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F16",
+          "value": 8871339,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A17",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B17",
+          "value": "2024-03-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C17",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D17",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E17",
+          "value": 1363.804,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F17",
+          "value": 8852452,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A18",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B18",
+          "value": "2024-03-09T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C18",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D18",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E18",
+          "value": 1725.892,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F18",
+          "value": 14147138,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A19",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B19",
+          "value": "2024-04-07T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C19",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D19",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E19",
+          "value": 74405.232,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F19",
+          "value": 15104262,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A20",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B20",
+          "value": "2024-04-07T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C20",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D20",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E20",
+          "value": 11257.243,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F20",
+          "value": 16930893,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A21",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B21",
+          "value": "2024-04-07T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C21",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D21",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E21",
+          "value": 2202.607,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F21",
+          "value": 18054773,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A22",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B22",
+          "value": "2024-05-06T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C22",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D22",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E22",
+          "value": 72164.483,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F22",
+          "value": 14649390,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A23",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B23",
+          "value": "2024-05-06T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C23",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D23",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E23",
+          "value": 2462.544,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F23",
+          "value": 15984370,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A24",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B24",
+          "value": "2024-05-06T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C24",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D24",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E24",
+          "value": 2373.572,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F24",
+          "value": 19456168,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A25",
+          "value": 7,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B25",
+          "value": "2024-06-04T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C25",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D25",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E25",
+          "value": 73471.207,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F25",
+          "value": 14914655,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A26",
+          "value": 7,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B26",
+          "value": "2024-06-04T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C26",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D26",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E26",
+          "value": 2859.286,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F26",
+          "value": 4300366,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A27",
+          "value": 7,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B27",
+          "value": "2024-06-04T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C27",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D27",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E27",
+          "value": 8721.361,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F27",
+          "value": 13378568,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A28",
+          "value": 7,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B28",
+          "value": "2024-06-04T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C28",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D28",
+          "value": "Dense bituminous macadam (DBM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E28",
+          "value": 968.677,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F28",
+          "value": 6463980,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A29",
+          "value": 7,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B29",
+          "value": "2024-06-04T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C29",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D29",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E29",
+          "value": 1345.902,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F29",
+          "value": 11032359,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A30",
+          "value": 8,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B30",
+          "value": "2024-07-03T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C30",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D30",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E30",
+          "value": 14738.398,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F30",
+          "value": 22166550,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A31",
+          "value": 8,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B31",
+          "value": "2024-07-03T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C31",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D31",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E31",
+          "value": 8067.965,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F31",
+          "value": 12376258,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A32",
+          "value": 8,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B32",
+          "value": "2024-07-03T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C32",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D32",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E32",
+          "value": 1896.684,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F32",
+          "value": 15547120,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A33",
+          "value": 9,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B33",
+          "value": "2024-08-01T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C33",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D33",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E33",
+          "value": 75754.369,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F33",
+          "value": 15378137,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A34",
+          "value": 9,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B34",
+          "value": "2024-08-01T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C34",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D34",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E34",
+          "value": 7189.02,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F34",
+          "value": 10812286,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A35",
+          "value": 9,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B35",
+          "value": "2024-08-01T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C35",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D35",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E35",
+          "value": 2304.004,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F35",
+          "value": 14955290,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A36",
+          "value": 9,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B36",
+          "value": "2024-08-01T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C36",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D36",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E36",
+          "value": 1091.157,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F36",
+          "value": 8944215,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A37",
+          "value": 10,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B37",
+          "value": "2024-08-30T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C37",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D37",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E37",
+          "value": 65784.305,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F37",
+          "value": 13354214,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A38",
+          "value": 10,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B38",
+          "value": "2024-08-30T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C38",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D38",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E38",
+          "value": 6394.243,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F38",
+          "value": 9616941,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A39",
+          "value": 10,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B39",
+          "value": "2024-08-30T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C39",
+          "value": 4,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D39",
+          "value": "Dense bituminous macadam (DBM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E39",
+          "value": 1454.876,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F39",
+          "value": 9708385,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A40",
+          "value": 10,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B40",
+          "value": "2024-08-30T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C40",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D40",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E40",
+          "value": 1509.302,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F40",
+          "value": 9796877,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A41",
+          "value": 10,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B41",
+          "value": "2024-08-30T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C41",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D41",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E41",
+          "value": 928.817,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F41",
+          "value": 7613511,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A42",
+          "value": 11,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B42",
+          "value": "2024-09-28T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C42",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D42",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E42",
+          "value": 62526.227,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F42",
+          "value": 12692824,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A43",
+          "value": 11,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B43",
+          "value": "2024-09-28T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C43",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D43",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E43",
+          "value": 2364.557,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F43",
+          "value": 3556293,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A44",
+          "value": 11,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B44",
+          "value": "2024-09-28T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C44",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D44",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E44",
+          "value": 7553.523,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F44",
+          "value": 11587104,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A45",
+          "value": 11,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B45",
+          "value": "2024-09-28T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C45",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D45",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E45",
+          "value": 1835.676,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F45",
+          "value": 11915372,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A46",
+          "value": 11,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B46",
+          "value": "2024-09-28T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C46",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D46",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E46",
+          "value": 1261.234,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F46",
+          "value": 10338335,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A47",
+          "value": 12,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B47",
+          "value": "2024-10-27T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C47",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D47",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E47",
+          "value": 61774.744,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F47",
+          "value": 12540273,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A48",
+          "value": 12,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B48",
+          "value": "2024-10-27T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C48",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D48",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E48",
+          "value": 4177.891,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F48",
+          "value": 6283548,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A49",
+          "value": 12,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B49",
+          "value": "2024-10-27T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C49",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D49",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E49",
+          "value": 7643.534,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F49",
+          "value": 11725181,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A50",
+          "value": 12,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B50",
+          "value": "2024-10-27T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C50",
+          "value": 5,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D50",
+          "value": "Bituminous concrete (BC)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E50",
+          "value": 1345.144,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F50",
+          "value": 8731331,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A51",
+          "value": 12,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B51",
+          "value": "2024-10-27T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C51",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D51",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E51",
+          "value": 1318.726,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F51",
+          "value": 10809595,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A52",
+          "value": 13,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B52",
+          "value": "2024-11-25T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C52",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D52",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E52",
+          "value": 116280.818,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F52",
+          "value": 23605006,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A53",
+          "value": 13,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B53",
+          "value": "2024-11-25T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C53",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D53",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E53",
+          "value": 9138.735,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F53",
+          "value": 14018820,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A54",
+          "value": 13,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B54",
+          "value": "2024-11-25T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C54",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D54",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E54",
+          "value": 1520.813,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F54",
+          "value": 12466102,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A55",
+          "value": 14,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B55",
+          "value": "2024-12-24T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C55",
+          "value": 1,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D55",
+          "value": "Earthwork in excavation & embankment",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E55",
+          "value": 46183.064,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F55",
+          "value": 9375162,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A56",
+          "value": 14,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B56",
+          "value": "2024-12-24T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C56",
+          "value": 2,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D56",
+          "value": "Granular sub-base (GSB)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E56",
+          "value": 13084.51,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F56",
+          "value": 19679103,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A57",
+          "value": 14,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B57",
+          "value": "2024-12-24T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C57",
+          "value": 3,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D57",
+          "value": "Wet mix macadam (WMM)",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E57",
+          "value": 9786.445,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F57",
+          "value": 15012407,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A58",
+          "value": 14,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B58",
+          "value": "2024-12-24T00:00:00",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "d",
+            "number_format": "yyyy-mm-dd"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C58",
+          "value": 6,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D58",
+          "value": "RCC M30 for structures",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E58",
+          "value": 734.812,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F58",
+          "value": 6023256,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "#,##0.00"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "A59",
+          "value": "TOTAL",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "B59",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "C59",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "D59",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "E59",
+          "value": null,
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "n",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Measurements",
+          "cell_address": "F59",
+          "value": "=SUM(F2:F58)",
+          "formula": "=SUM(F2:F58)",
+          "note": null,
+          "metadata": {
+            "data_type": "f",
+            "number_format": "#,##0.00"
+          }
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "workbook_id": "BOQ_and_Measurements_Contract_79",
+      "sheet_name": "Notes",
+      "cells": [
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Notes",
+          "cell_address": "A1",
+          "value": "Bill of Quantities and measurement register — contract 79.",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Notes",
+          "cell_address": "A2",
+          "value": "Agency: National Infrastructure Corp. Ltd..",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Notes",
+          "cell_address": "A3",
+          "value": "Quantities are as measured jointly and recorded in the measurement book.",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        },
+        {
+          "workbook_id": "BOQ_and_Measurements_Contract_79",
+          "sheet_name": "Notes",
+          "cell_address": "A4",
+          "value": "The measurement total reconciles to the running-account bills raised.",
+          "formula": null,
+          "note": null,
+          "metadata": {
+            "data_type": "s",
+            "number_format": "General"
+          }
+        }
+      ],
+      "metadata": {}
+    }
+  ]
+}

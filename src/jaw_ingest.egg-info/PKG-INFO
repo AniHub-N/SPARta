@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: jaw-ingest
+Version: 0.1.0
+Summary: JAW corpus ingestion package for PDF and XLSX evidence extraction.
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.0
+Requires-Dist: PyMuPDF>=1.22
+Requires-Dist: openpyxl>=3.0
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: rapidfuzz>=3.14.5
+Requires-Dist: duckdb>=1.5.5
+Requires-Dist: networkx<4,>=3.4.2
+Requires-Dist: qdrant-client>=1.19.0
+Requires-Dist: mcp>=2.0.0
+Requires-Dist: sentence-transformers>=5.7.0
+Requires-Dist: torch>=2.13.0
+Requires-Dist: transformers>=5.15.0
+Requires-Dist: docling>=2.119.0
+Requires-Dist: httpx>=0.27.0
+
+# JAW Ingestion
+
+A production-quality ingestion layer for the JAW document corpus.
+
+Features:
+- PDF ingestion via PyMuPDF
+- XLSX ingestion via openpyxl
+- Canonical evidence representation with typed Pydantic models
+- Deterministic money/date/number normalization utilities
+- Structured logging and environment-based configuration
+- File caching to avoid repeated reprocessing
+- CLI entry point for batch ingestion
+
+## Install
+
+```bash
+python -m pip install -e .
+```
+
+## Usage
+
+```bash
+jaw-ingest ingest --source /path/to/corpus --output /path/to/output.json
+```
+
+## Project structure
+
+- `src/jaw_ingest`: ingestion package
+- `tests`: unit tests for extraction, normalization, and caching

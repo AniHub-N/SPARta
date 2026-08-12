@@ -1,0 +1,280 @@
+{
+  "entities": [
+    {
+      "mention_text": "116",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "WTP Augmentation — Tamil Nadu Pkg-9",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "mention_text": "Mahanadi Steel Corporation",
+      "entity_type": "Organization",
+      "confidence": 1,
+      "source_ref": "E5"
+    },
+    {
+      "mention_text": "water treatment",
+      "entity_type": "WorkType",
+      "confidence": 1,
+      "source_ref": "E7"
+    },
+    {
+      "mention_text": "117",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E12"
+    },
+    {
+      "mention_text": "Residential Quarters — Odisha Pkg-4",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "Peninsular Petroleum Corporation",
+      "entity_type": "Organization",
+      "confidence": 1,
+      "source_ref": "E14"
+    },
+    {
+      "mention_text": "buildings",
+      "entity_type": "WorkType",
+      "confidence": 1,
+      "source_ref": "E16"
+    },
+    {
+      "mention_text": "118",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "mention_text": "National Expressway Development Authority",
+      "entity_type": "Organization",
+      "confidence": 1,
+      "source_ref": "E21"
+    },
+    {
+      "mention_text": "industrial epc",
+      "entity_type": "WorkType",
+      "confidence": 1,
+      "source_ref": "E23"
+    },
+    {
+      "mention_text": "119",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E26"
+    },
+    {
+      "mention_text": "Road Widening — West Bengal Pkg-14",
+      "entity_type": "Project",
+      "confidence": 1,
+      "source_ref": "E27"
+    },
+    {
+      "mention_text": "Trishakti Power Generation Corporation",
+      "entity_type": "Organization",
+      "confidence": 1,
+      "source_ref": "E28"
+    },
+    {
+      "mention_text": "roads",
+      "entity_type": "WorkType",
+      "confidence": 1,
+      "source_ref": "E30"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "WTP Augmentation — Tamil Nadu Pkg-9",
+      "predicate": "has_client",
+      "object_mention_text": "Mahanadi Steel Corporation",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "subject_mention_text": "WTP Augmentation — Tamil Nadu Pkg-9",
+      "predicate": "is_of_type",
+      "object_mention_text": "water treatment",
+      "confidence": 1,
+      "source_ref": "E4"
+    },
+    {
+      "subject_mention_text": "Residential Quarters — Odisha Pkg-4",
+      "predicate": "has_client",
+      "object_mention_text": "Peninsular Petroleum Corporation",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Residential Quarters — Odisha Pkg-4",
+      "predicate": "is_of_type",
+      "object_mention_text": "buildings",
+      "confidence": 1,
+      "source_ref": "E13"
+    },
+    {
+      "subject_mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "predicate": "has_client",
+      "object_mention_text": "National Expressway Development Authority",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "predicate": "is_of_type",
+      "object_mention_text": "industrial epc",
+      "confidence": 1,
+      "source_ref": "E20"
+    },
+    {
+      "subject_mention_text": "Road Widening — West Bengal Pkg-14",
+      "predicate": "has_client",
+      "object_mention_text": "Trishakti Power Generation Corporation",
+      "confidence": 1,
+      "source_ref": "E27"
+    },
+    {
+      "subject_mention_text": "Road Widening — West Bengal Pkg-14",
+      "predicate": "is_of_type",
+      "object_mention_text": "roads",
+      "confidence": 1,
+      "source_ref": "E27"
+    }
+  ],
+  "attributes": [
+    {
+      "subject_mention_text": "WTP Augmentation — Tamil Nadu Pkg-9",
+      "predicate": "id",
+      "value": "116",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E3"
+    },
+    {
+      "subject_mention_text": "WTP Augmentation — Tamil Nadu Pkg-9",
+      "predicate": "value",
+      "value": "12.13 Cr",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E1"
+    },
+    {
+      "subject_mention_text": "WTP Augmentation — Tamil Nadu Pkg-9",
+      "predicate": "date",
+      "value": "June 23, 2017",
+      "value_type": "date",
+      "confidence": 1,
+      "source_ref": "E2"
+    },
+    {
+      "subject_mention_text": "Residential Quarters — Odisha Pkg-4",
+      "predicate": "id",
+      "value": "117",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E12"
+    },
+    {
+      "subject_mention_text": "Residential Quarters — Odisha Pkg-4",
+      "predicate": "value",
+      "value": "11.32 Cr",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E10"
+    },
+    {
+      "subject_mention_text": "Residential Quarters — Odisha Pkg-4",
+      "predicate": "currency",
+      "value": "INR",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E9"
+    },
+    {
+      "subject_mention_text": "Residential Quarters — Odisha Pkg-4",
+      "predicate": "date",
+      "value": "April 17, 2024",
+      "value_type": "date",
+      "confidence": 1,
+      "source_ref": "E11"
+    },
+    {
+      "subject_mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "predicate": "id",
+      "value": "118",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E19"
+    },
+    {
+      "subject_mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "predicate": "value",
+      "value": "11.23 Cr",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E17"
+    },
+    {
+      "subject_mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "predicate": "currency",
+      "value": "INR",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E16"
+    },
+    {
+      "subject_mention_text": "Process Piping Package — Uttar Pradesh Pkg-40",
+      "predicate": "date",
+      "value": "May 17, 2023",
+      "value_type": "date",
+      "confidence": 1,
+      "source_ref": "E18"
+    },
+    {
+      "subject_mention_text": "Road Widening — West Bengal Pkg-14",
+      "predicate": "id",
+      "value": "119",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E26"
+    },
+    {
+      "subject_mention_text": "Road Widening — West Bengal Pkg-14",
+      "predicate": "value",
+      "value": "10.13 Cr",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E24"
+    },
+    {
+      "subject_mention_text": "Road Widening — West Bengal Pkg-14",
+      "predicate": "currency",
+      "value": "INR",
+      "value_type": "text",
+      "confidence": 1,
+      "source_ref": "E23"
+    },
+    {
+      "subject_mention_text": "Road Widening — West Bengal Pkg-14",
+      "predicate": "date",
+      "value": "July 17, 2014",
+      "value_type": "date",
+      "confidence": 1,
+      "source_ref": "E25"
+    }
+  ]
+}

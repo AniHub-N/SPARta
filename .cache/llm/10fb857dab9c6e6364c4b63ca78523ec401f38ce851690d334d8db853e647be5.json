@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "mention_text": "Co.",
+      "entity_type": "Company",
+      "confidence": 1.0,
+      "source_ref": "E1"
+    },
+    {
+      "mention_text": "bridges",
+      "entity_type": "Project_Type",
+      "confidence": 1.0,
+      "source_ref": "E2"
+    },
+    {
+      "mention_text": "flyovers",
+      "entity_type": "Project_Type",
+      "confidence": 1.0,
+      "source_ref": "E3"
+    },
+    {
+      "mention_text": "127 Rural Road Upgradation",
+      "entity_type": "Project",
+      "confidence": 1.0,
+      "source_ref": "E8"
+    },
+    {
+      "mention_text": "Jharkhand Pkg-153",
+      "entity_type": "Project_Package",
+      "confidence": 1.0,
+      "source_ref": "E9"
+    },
+    {
+      "mention_text": "roads",
+      "entity_type": "Asset_Type",
+      "confidence": 1.0,
+      "source_ref": "E12"
+    },
+    {
+      "mention_text": "maintenance",
+      "entity_type": "Service_Type",
+      "confidence": 1.0,
+      "source_ref": "E13"
+    },
+    {
+      "mention_text": "128 Pipeline Laying",
+      "entity_type": "Project",
+      "confidence": 1.0,
+      "source_ref": "E18"
+    },
+    {
+      "mention_text": "Jharkhand Pkg-131",
+      "entity_type": "Project_Package",
+      "confidence": 1.0,
+      "source_ref": "E19"
+    },
+    {
+      "mention_text": "Jal Nigam, Jharkhand",
+      "entity_type": "Organization",
+      "confidence": 1.0,
+      "source_ref": "E20"
+    },
+    {
+      "mention_text": "water supply",
+      "entity_type": "Service_Type",
+      "confidence": 1.0,
+      "source_ref": "E20"
+    },
+    {
+      "mention_text": "129 Community Centre",
+      "entity_type": "Project",
+      "confidence": 1.0,
+      "source_ref": "E24"
+    },
+    {
+      "mention_text": "Jharkhand Pkg-133",
+      "entity_type": "Project_Package",
+      "confidence": 1.0,
+      "source_ref": "E25"
+    },
+    {
+      "mention_text": "buildings",
+      "entity_type": "Asset_Type",
+      "confidence": 1.0,
+      "source_ref": "E29"
+    }
+  ],
+  "relationships": [
+    {
+      "subject_mention_text": "Jal Nigam, Jharkhand",
+      "predicate": "provides",
+      "object_mention_text": "water supply",
+      "confidence": 1.0,
+      "source_ref": "E20"
+    }
+  ],
+  "attributes": []
+}

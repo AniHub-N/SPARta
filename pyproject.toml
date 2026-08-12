@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jaw-ingest"
+version = "0.1.0"
+description = "JAW corpus ingestion package for PDF and XLSX evidence extraction."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "pydantic>=2.0",
+  "PyMuPDF>=1.22",
+  "openpyxl>=3.0",
+  "python-dotenv>=1.0",
+  "rapidfuzz>=3.14.5",
+  "duckdb>=1.5.5",
+  "networkx>=3.4.2,<4",
+  "qdrant-client>=1.19.0",
+  "mcp>=2.0.0",
+  "sentence-transformers>=5.7.0",
+  "torch>=2.13.0",
+  "transformers>=5.15.0",
+  "docling>=2.119.0",
+  "httpx>=0.27.0"
+]
+
+[project.scripts]
+jaw-ingest = "jaw_ingest.cli:main"
+jaw-evidence = "jaw_ingest.evidence_cli:main"
+jaw-query = "jaw_ingest.query_cli:main"
+jaw-world-model = "jaw_ingest.world_model_cli:main"
+jaw-submit = "jaw_ingest.submit_cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["jaw_ingest"]
