@@ -2,4 +2,5 @@
 jaw-evidence = jaw_ingest.evidence_cli:main
 jaw-ingest = jaw_ingest.cli:main
 jaw-query = jaw_ingest.query_cli:main
+jaw-submit = jaw_ingest.submit_cli:main
 jaw-world-model = jaw_ingest.world_model_cli:main

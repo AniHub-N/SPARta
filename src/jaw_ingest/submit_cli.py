@@ -21,6 +21,8 @@ import argparse
 import csv
 import json
 import sys
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from .answer_coercion import coerce_numeric_answer, format_submission_value
@@ -56,6 +58,7 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--all", action="store_true", help="[--eager only] Process the entire evidence corpus, ignoring --evidence-limit.")
     parser.add_argument("--batch-size", type=int, default=30, help="Fragments per document per extraction call, both for --eager and for DISCOVER's targeted extraction (default: 30). Pass 1 to disable batching.")
     parser.add_argument("--discover-limit", type=int, default=15, help="[lazy mode] Default cap on documents a single DISCOVER call pulls in - bounds cost per hop. The planner may request a different limit per call.")
+    parser.add_argument("--concurrency", type=int, default=4, help="Number of questions to evaluate concurrently (default: 4). Pass 1 for serial execution.")
     parser.add_argument("--question-limit", type=int, default=None, help="Only answer the first N questions - for a cheap dry run before spending on all of them.")
     parser.add_argument("--cache-dir", type=Path, default=Path(".cache/llm"))
     parser.add_argument("--no-cache", action="store_true")
@@ -146,7 +149,7 @@ def main(argv: list[str] | None = None) -> int:
             f"{args.duckdb_path} / {args.qdrant_location} if a matching persisted index already "
             "exists there). World model starts EMPTY and grows on demand via DISCOVER as each "
             f"question's hops need specific documents (discover_limit={args.discover_limit}, "
-            f"batch_size={batch_size}).\n"
+            f"batch_size={batch_size}, concurrency={args.concurrency}).\n"
         )
     else:
         print(f"[--eager] Building world model up front (evidence_limit={evidence_limit}, batch_size={batch_size}) - this is built ONCE and reused for all {len(questions)} questions.\n")
@@ -169,30 +172,57 @@ def main(argv: list[str] | None = None) -> int:
     planner = QueryPlanner(effective_provider)
     engine = QueryEngine(dispatcher, planner, max_iterations=args.max_iterations, answer_provider=effective_provider)
 
-    rows: list[tuple[str, str]] = []
-    unresolved = 0
-    for index, question in enumerate(questions, start=1):
+    rows: list[tuple[str, str]] = [("", "0")] * len(questions)
+    unresolved_count = 0
+    print_lock = threading.Lock()
+
+    def _process_question(item: tuple[int, dict]) -> tuple[int, str, str, bool]:
+        index, question = item
         qid = question.get("qid") or question.get("question_id") or f"Q{index}"
         answer_type = question.get("answer_type", "")
         question_text = question.get("question", "")
-        print(f"[{index}/{len(questions)}] {qid} ({answer_type}): {question_text[:80]}")
+
+        with print_lock:
+            print(f"[{index}/{len(questions)}] {qid} ({answer_type}): {question_text[:80]}")
 
         result = engine.run(question_text)
         numeric = coerce_numeric_answer(result.final_answer.answer, answer_type)
 
         if numeric is None:
-            unresolved += 1
-            print(f"    -> UNRESOLVED (status={result.final_answer.status}); writing 0 as a placeholder.")
-            rows.append((qid, "0"))
+            formatted = "0"
+            is_unresolved = True
+            with print_lock:
+                print(f"  [{qid}] -> UNRESOLVED (status={result.final_answer.status}); writing 0 as a placeholder.")
         else:
             formatted = format_submission_value(numeric, answer_type)
-            print(f"    -> {formatted}  (status={result.final_answer.status}, confidence={result.final_answer.confidence:.2f})")
-            rows.append((qid, formatted))
-        print(
-            f"    world model now: {len(system.world_model.canonical_entities)} entities, "
-            f"{len(system.world_model.relationships)} relationships, "
-            f"{system.world_model.extracted_document_count} documents extracted so far"
-        )
+            is_unresolved = False
+            with print_lock:
+                print(f"  [{qid}] -> {formatted}  (status={result.final_answer.status}, confidence={result.final_answer.confidence:.2f})")
+
+        with print_lock:
+            print(
+                f"    [world model status] {len(system.world_model.canonical_entities)} entities, "
+                f"{len(system.world_model.relationships)} relationships, "
+                f"{system.world_model.extracted_document_count} documents extracted so far"
+            )
+
+        return index, qid, formatted, is_unresolved
+
+    indexed_questions = list(enumerate(questions, start=1))
+
+    if args.concurrency <= 1 or len(questions) <= 1:
+        for item in indexed_questions:
+            idx, qid, formatted, is_unresolved = _process_question(item)
+            rows[idx - 1] = (qid, formatted)
+            if is_unresolved:
+                unresolved_count += 1
+    else:
+        with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
+            results = executor.map(_process_question, indexed_questions)
+            for idx, qid, formatted, is_unresolved in results:
+                rows[idx - 1] = (qid, formatted)
+                if is_unresolved:
+                    unresolved_count += 1
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", encoding="utf-8", newline="") as handle:
@@ -200,8 +230,9 @@ def main(argv: list[str] | None = None) -> int:
         writer.writerow(["question_id", "answer"])
         writer.writerows(rows)
 
-    print(f"\nWrote {len(rows)} rows to {args.output} ({unresolved} unresolved -> placeholder 0).")
+    print(f"\nWrote {len(rows)} rows to {args.output} ({unresolved_count} unresolved -> placeholder 0).")
     return 0
+
 
 
 if __name__ == "__main__":

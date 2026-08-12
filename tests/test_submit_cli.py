@@ -20,6 +20,7 @@ def test_parse_args_defaults(tmp_path: Path) -> None:
     assert args.question_limit is None
     assert args.eager is False  # lazy, DISCOVER-driven extraction is the default
     assert args.discover_limit == 15
+    assert args.concurrency == 4
 
 
 def test_parse_args_eager_flag(tmp_path: Path) -> None:
@@ -28,8 +29,9 @@ def test_parse_args_eager_flag(tmp_path: Path) -> None:
 
 
 def test_parse_args_discover_limit_overridable(tmp_path: Path) -> None:
-    args = _parse_args(["--questions", str(tmp_path / "q.json"), "--discover-limit", "5"])
+    args = _parse_args(["--questions", str(tmp_path / "q.json"), "--discover-limit", "5", "--concurrency", "2"])
     assert args.discover_limit == 5
+    assert args.concurrency == 2
 
 
 def test_load_questions_real_shape_with_questions_key(tmp_path: Path) -> None:

@@ -172,14 +172,32 @@ class OpenAICompatibleProvider:
             "response_format": {"type": "json_object"},
         }
 
-    def _post(self, payload: dict[str, Any], max_retries: int = 2) -> httpx.Response:
+    def _post(self, payload: dict[str, Any], max_retries: int = 10) -> httpx.Response:
         client = self._client or httpx.Client(timeout=self.timeout)
         owns_client = self._client is None
         try:
             last_exc: Exception | None = None
             for attempt in range(max_retries + 1):
                 try:
-                    return client.post(f"{self.base_url}/chat/completions", json=payload, headers=self._headers())
+                    res = client.post(f"{self.base_url}/chat/completions", json=payload, headers=self._headers())
+                    if res.status_code == 429 and attempt < max_retries:
+                        wait_seconds = 30.0
+                        try:
+                            msg = res.json().get("error", {}).get("message", "")
+                            match = re.search(r"retry in (\d+(?:\.\d+)?)s", msg, re.IGNORECASE)
+                            if match:
+                                wait_seconds = float(match.group(1)) + 2.0
+                        except Exception:
+                            pass
+                        logger.warning(
+                            "LLM request hit HTTP 429 Rate Limit (attempt %d/%d); sleeping %.1fs before retrying...",
+                            attempt + 1,
+                            max_retries + 1,
+                            wait_seconds,
+                        )
+                        time.sleep(wait_seconds)
+                        continue
+                    return res
                 except (httpx.TimeoutException, httpx.ConnectError) as exc:
                     # Transient - retry with a short backoff. This is what makes batched
                     # extraction calls over a real corpus survive occasional slow
@@ -187,7 +205,7 @@ class OpenAICompatibleProvider:
                     # first hiccup.
                     last_exc = exc
                     if attempt < max_retries:
-                        wait_seconds = 1.5 * (attempt + 1)
+                        wait_seconds = 2.0 * (attempt + 1)
                         logger.warning(
                             "LLM request attempt %d/%d timed out/failed to connect (%s); retrying in %.1fs.",
                             attempt + 1,
