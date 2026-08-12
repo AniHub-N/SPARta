@@ -532,6 +532,17 @@ class HybridRetriever:
 
 
 class DoclingAdapter:
+    """Optional coverage cross-check against docling. NOT the primary extractor - PyMuPDF
+    (extraction.py) is, and it stays authoritative.
+
+    Caveat when reading compare_text_coverage() numbers: ~half of this corpus's completion
+    certificates embed the value font with no usable character map. Any extractor built on
+    pdfminer - docling's text backend included - silently drops that text, so docling will
+    show low coverage on exactly those documents. That is a docling/pdfminer limitation, not
+    missing data: PyMuPDF recovers the text via its own font fallback. Do not "fix" low
+    coverage by switching the primary path away from PyMuPDF.
+    """
+
     def __init__(self) -> None:
         # Import lazily and be tolerant in test environments where docling
         # isn't installed. Tests should still be able to run core pipeline

@@ -81,6 +81,11 @@ def normalize_money(value: Any) -> NormalizationResult:
 
     cleaned = raw.replace("\u00A0", " ").replace("\u202F", " ").strip()
     cleaned = re.sub(r"Rs\.?\s*|INR\s*|Rupees?\s*|₹\s*", "", cleaned, flags=re.IGNORECASE)
+    # Indian invoices/certs end amounts with "/-" (or "/=") meaning "only", e.g.
+    # "INR 19,32,99,999/-". Strip that suffix or the trailing slash reaches _parse_decimal
+    # and raises. 92 documents in this corpus use this form, and it carries the exact,
+    # un-rounded figure (the crore/lakh rendering beside it is rounded), so it must parse.
+    cleaned = re.sub(r"\s*/[-=]?\s*$", "", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned)
 
     multiplier = Decimal("1")

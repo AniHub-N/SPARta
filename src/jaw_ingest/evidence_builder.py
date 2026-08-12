@@ -334,10 +334,17 @@ class EvidenceBuilder:
     def _build_candidate_facts(self, document_payload: dict[str, Any], evidence_items: list[Evidence]) -> list[Fact]:
         candidate_facts: list[Fact] = []
         for evidence in evidence_items:
-            predicate = self._predicate_for_evidence(document_payload, evidence)
-            if predicate is None:
-                continue
-            fact = self._build_fact(evidence, predicate)
+            if evidence.source_type == "pdf":
+                detected = self._pdf_predicate_and_value(document_payload, evidence)
+                if detected is None:
+                    continue
+                predicate, value = detected
+                fact = self._build_fact(evidence, predicate, raw_value_override=value)
+            else:
+                predicate = self._predicate_for_evidence(document_payload, evidence)
+                if predicate is None:
+                    continue
+                fact = self._build_fact(evidence, predicate)
             if fact is not None:
                 candidate_facts.append(fact)
         return candidate_facts
@@ -346,7 +353,8 @@ class EvidenceBuilder:
         if evidence.source_type == "xlsx":
             return self._predicate_for_xlsx_evidence(evidence)
         if evidence.source_type == "pdf":
-            return self._predicate_for_pdf_evidence(document_payload, evidence)
+            detected = self._pdf_predicate_and_value(document_payload, evidence)
+            return detected[0] if detected else None
         return None
 
     def _predicate_for_xlsx_evidence(self, evidence: Evidence) -> str | None:
@@ -373,27 +381,55 @@ class EvidenceBuilder:
             return predicate
         return None
 
-    def _predicate_for_pdf_evidence(self, document_payload: dict[str, Any], evidence: Evidence) -> str | None:
-        raw_text = str(evidence.content.raw_value or "").strip()
-        page = next(
-            (page for page in document_payload.get("pages", []) if page.get("page_number") == evidence.location.page_number),
-            None,
-        )
+    def _pdf_predicate_and_value(self, document_payload: dict[str, Any], evidence: Evidence) -> tuple[str, str] | None:
+        """Recover (predicate, value) from a PDF block.
 
-        if page is not None and raw_text:
-            escaped_value = re.escape(raw_text)
-            match = re.search(rf"(?P<label>[^\n:]+):\s*{escaped_value}", str(page.get("text", "")), flags=re.IGNORECASE)
-            if match:
-                predicate = self._predicate_from_header(match.group("label"))
-                if predicate is not None:
-                    return predicate
+        Two-column certificate rows arrive from PyMuPDF's "blocks" mode as a single string
+        with the column gap collapsed to one space - "Contract Value (Original) INR 33.38
+        Cr" - so there is neither a colon nor a multi-space to split on. We recover the
+        boundary by scanning word-prefixes left to right and accepting the first split whose
+        leading words map to a known predicate (via _predicate_from_header) AND whose
+        remainder type-matches that predicate (via _predicate_matches_value). The
+        type-match guard is what keeps prose blocks ("...at a gross executed value of Rs.
+        7466.00 Lakh...") from producing spurious facts: their remainder won't cleanly
+        normalize. The explicit "label: value" form is still handled first.
+        """
+        raw_text = str(evidence.content.raw_value or "").strip()
+        if not raw_text:
+            return None
+        raw_text = re.sub(r"\s+", " ", raw_text)
 
         if ":" in raw_text:
             label, _, value = raw_text.partition(":")
-            if value.strip():
+            value = value.strip()
+            if value:
                 predicate = self._predicate_from_header(label)
-                if predicate is not None:
-                    return predicate
+                if predicate is not None and self._predicate_matches_value(predicate, value):
+                    return (predicate, value)
+
+        words = raw_text.split(" ")
+        for split in range(1, min(len(words), 8)):
+            label = " ".join(words[:split])
+            value = " ".join(words[split:]).strip()
+            if not value:
+                continue
+            predicate = self._predicate_from_header(label)
+            if predicate is not None and self._predicate_matches_value(predicate, value):
+                return (predicate, value)
+
+        # Value-only block: the label lives elsewhere on the page (e.g. a two-column
+        # layout PyMuPDF split into separate blocks). Recover it from the page text as
+        # "<label>: <this value>", then the whole block IS the value.
+        page = next(
+            (p for p in document_payload.get("pages", []) if p.get("page_number") == evidence.location.page_number),
+            None,
+        )
+        if page is not None:
+            match = re.search(rf"(?P<label>[^\n:]+):\s*{re.escape(raw_text)}", str(page.get("text", "")), flags=re.IGNORECASE)
+            if match:
+                predicate = self._predicate_from_header(match.group("label"))
+                if predicate is not None and self._predicate_matches_value(predicate, raw_text):
+                    return (predicate, raw_text)
         return None
 
     def _predicate_from_header(self, header_text: str) -> str | None:
@@ -465,10 +501,17 @@ class EvidenceBuilder:
             result = result * 26 + (ord(char) - ord("A") + 1)
         return result
 
-    def _build_fact(self, evidence: Evidence, predicate: str) -> Fact | None:
-        raw_value = evidence.content.raw_value
-        if raw_value is None:
-            raw_value = evidence.content.text or ""
+    def _build_fact(self, evidence: Evidence, predicate: str, raw_value_override: Any | None = None) -> Fact | None:
+        # For PDF blocks the caller passes just the value portion it split off the
+        # "label value" row, so the fact normalizes "INR 33.38 Cr" rather than the whole
+        # "Contract Value (Original) INR 33.38 Cr" block (which would fail to normalize).
+        # Provenance still points at the full block via evidence_id.
+        if raw_value_override is not None:
+            raw_value = raw_value_override
+        else:
+            raw_value = evidence.content.raw_value
+            if raw_value is None:
+                raw_value = evidence.content.text or ""
 
         normalization_method = "infer_normalization"
         normalized_value = None

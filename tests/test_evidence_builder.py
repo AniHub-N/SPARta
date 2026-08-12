@@ -66,6 +66,73 @@ def test_evidence_builder_preserves_pdf_block_provenance(tmp_path: Path) -> None
     assert fact["normalized_value"] == "333800000"
 
 
+def test_evidence_builder_splits_tabular_pdf_row(tmp_path: Path) -> None:
+    # A two-column certificate row arrives from PyMuPDF "blocks" mode as one string with
+    # the column gap collapsed to a single space, no colon. The builder must split the
+    # label off and normalize only the value.
+    input_data = {
+        "success": [
+            {
+                "document_id": "cert",
+                "filename": "cert.pdf",
+                "document_type": "pdf",
+                "source_path": str(tmp_path / "cert.pdf"),
+                "metadata": {"size_bytes": 0},
+                "pages": [
+                    {
+                        "page_number": 1,
+                        "text": "Contract Value (Original) INR 33.38 Cr\nCompletion Date 2011-02-06",
+                        "blocks": [
+                            {
+                                "block_id": "cert-p1-b1",
+                                "document_id": "cert",
+                                "page_number": 1,
+                                "text": "Contract Value (Original) INR 33.38 Cr",
+                                "coordinates": {"x0": 0.0, "y0": 0.0, "x1": 10.0, "y1": 20.0},
+                                "image_path": None,
+                                "metadata": {},
+                            },
+                            {
+                                "block_id": "cert-p1-b2",
+                                "document_id": "cert",
+                                "page_number": 1,
+                                "text": "Completion Date 2011-02-06",
+                                "coordinates": {"x0": 0.0, "y0": 25.0, "x1": 10.0, "y1": 45.0},
+                                "image_path": None,
+                                "metadata": {},
+                            },
+                            {
+                                "block_id": "cert-p1-b3",
+                                "document_id": "cert",
+                                "page_number": 1,
+                                "text": "This is to certify that the work has been completed.",
+                                "coordinates": {"x0": 0.0, "y0": 50.0, "x1": 10.0, "y1": 70.0},
+                                "image_path": None,
+                                "metadata": {},
+                            },
+                        ],
+                        "image_path": None,
+                        "embedded_image_paths": [],
+                    }
+                ],
+            }
+        ],
+        "failures": [],
+    }
+    input_file = tmp_path / "results.json"
+    input_file.write_text(json.dumps(input_data), encoding="utf-8")
+    output_dir = tmp_path / "evidence_out"
+    report = EvidenceBuilder(input_file, output_dir, force=True).build()
+
+    # the two labelled rows become facts; the prose block does not
+    assert report.facts_created == 2
+    facts = [json.loads(line) for line in (output_dir / "facts.jsonl").read_text(encoding="utf-8").splitlines()]
+    by_pred = {f["predicate"]: f for f in facts}
+    assert by_pred["contract_value"]["normalized_value"] == "333800000"
+    assert by_pred["contract_value"]["raw_value"] == "INR 33.38 Cr"
+    assert by_pred["date"]["normalized_value"] == "2011-02-06"
+
+
 def test_evidence_builder_preserves_xlsx_cell_formula(tmp_path: Path) -> None:
     input_data = {
         "success": [

@@ -22,6 +22,15 @@ def test_normalize_money_variants() -> None:
     assert normalize_money("33,38,00,000").normalized_value == Decimal("333800000")
 
 
+def test_normalize_money_indian_only_suffix() -> None:
+    # "/-" (and "/=") mean "only" and trail the amount on 92 corpus documents. This form
+    # carries the exact, un-rounded figure, so it must parse rather than raise.
+    assert normalize_money("INR 19,32,99,999/-").normalized_value == Decimal("193299999")
+    assert normalize_money("Rs. 65.46 Lakh/-").normalized_value == Decimal("6546000")
+    assert normalize_money("INR 11,32,00,000/-").normalized_value == Decimal("113200000")
+    assert normalize_money("INR 100/-").normalized_value == Decimal("100")
+
+
 def test_normalize_percentage() -> None:
     assert normalize_percentage("33.33%").normalized_value == Decimal("33.33")
     assert normalize_percentage("33.33 %").normalized_value == Decimal("33.33")

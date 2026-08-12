@@ -27,9 +27,17 @@ dependencies = [
   "sentence-transformers>=5.7.0",
   "torch>=2.13.0",
   "transformers>=5.15.0",
-  "docling>=2.119.0",
   "httpx>=0.27.0"
 ]
+
+# docling is an OPTIONAL coverage cross-check, not the primary extractor (PyMuPDF is),
+# and DoclingAdapter degrades to a no-op when it is absent. It is kept out of the core
+# dependencies because docling==2.119.0 pins transformers<5.9, which is mutually
+# unsatisfiable with the transformers>=5.15.0 the retrieval stack needs - having it in
+# `dependencies` made `pip install -e .` fail outright. Install with `.[docling]` only if
+# you specifically want to run the coverage comparison.
+[project.optional-dependencies]
+docling = ["docling>=2.119.0"]
 
 [project.scripts]
 jaw-ingest = "jaw_ingest.cli:main"
